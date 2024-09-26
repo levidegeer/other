@@ -1,0 +1,884 @@
+# QUESTION 1
+# during school holidays, you volunteer to explain some basic programming concepts to younger siblings.
+# you want to introduce the concept of data types in python. you create the following three code segments:
+
+# code segment 1
+# x1 = "20"
+# y1 = 3
+# a = x1 * y1
+# print(type(a))
+
+# code segment 2
+# x2 = 6
+# y2 = 4
+# b = x2 / y2
+# print(type(b))
+
+# code segment 3
+# x3 = 2.5
+# y3 = 1
+# c = x3 / y3
+# print(type(c))
+
+# after executing code segment 1, the data type of variable a is str.
+# Answer = yes
+# after executing code segment 2, the data type of variable b is float.
+# Answer = yes
+# after executing code segment 3, the data type of variable c is int.
+# Answer = no
+
+
+# QUESTION 2
+# you are writing code that generates a random integer with a minimum value of 5 and a maximum value of 11.
+# which two functions should you use? each correct answer presents a complete solution
+
+# random.randrange(5, 12, 1)
+# random.randrange(5, 11, 1)
+# random.randint(5, 11)
+# random.randint(5, 12)
+
+# Answer = random.randrange(5, 12, 1) , random.randint(5, 11)
+
+
+# QUESTION 3
+# You are creating a function that manipulates a number. The function has the following requirements:
+# - A float is passed into the function
+# - The function must take the absolute value of the float
+# - Any decimal points after the integer must be removed
+# Which two math functions should you use? Each correct answer is part of the solution.
+
+# math.fabs(x)
+# math.ceil(x)
+# math.floor(x)
+# math.frexp(x)
+# math.fmod(x)
+
+# Answer = math.fabs(x) , math.floor(x)
+
+
+# QUESTION 4
+# You develop a Python application for your company.
+# You have the following code. Line numbers are included for reference only
+
+# 01 def main(a, b, c, d):
+# 02     value = a + b * c - d
+# 03     return value
+
+# Which operation is evaluated first?
+# Answer = b * c
+# Which operation is evaluated second?
+# Answer = addition
+# Which expression is the equivalent?
+# Answer = (a + (b * c)) - d
+
+
+# QUESTION 5
+# What is the expected output of the following snippet?
+
+# a = 0
+# b = a ** 0
+# if b < a + 1:
+#      c = 1
+# elif b == 1:
+#      c = 2
+# else:
+#      c = 3
+# print(a + b + c)
+
+# Answer = 3
+
+
+# QUESTION 6
+# Select TRUE or FALSE for each statement
+
+# A try statement can have one or more except clauses.
+# TRUE
+# A try statement can have a finally clause without an except clause
+# TRUE
+# A try statement can have a finally clause and an except clause
+# TRUE
+# A try statement can have more than one finally clause.
+# FALSE
+
+
+# QUESTION 7
+# You are designing a decision structure to convert a student’s numeric grade to a letter grade. The program must assign a letter grade as specified in the following table:
+
+# Percentage range	Letter Grade
+#  90 through 100	 A
+#  80 through 89	 B
+#  70 through 79	 C
+#  65 through 69	 D
+#  0 through 64	     F
+
+# For example, if the user enters a 90, the output should be, “Your letter grade is A”. Likewise, if a user enters an 89, the output should be “Your letter grade is B”.
+
+# Letter Grade Converter
+# grade = int(input("Enter a numeric grade "))
+# Answer = if grade >= 90:
+#        letter_grade = "A"
+# Answer = elif grade >= 80:
+#        letter_grade = 'B'
+# Answer = elif grade >= 70:
+#        letter_grade = 'C'
+# Answer = elif grade >= 65:
+#        letter_grade = 'D'
+# Answer = elif grade > 0:
+#        letter_grade = 'F'
+# print(letter_grade)
+
+
+# QUESTION 8
+# The ABC company is converting an existing application to Python.
+# You are creating documentation that will be used by several interns who are working on the team.
+# You need to ensure that arithmetic expressions are coded correctly.
+# What is the correct order of operations for the six classes of operations ordered from first to last in order of precedence?
+
+# To answer, move all operations from the
+# list of operations to the answer area and arrange them in the correct order.
+
+# Answer =
+# 1 : Parenthesis
+# 2 : Exponents
+# 3 : Multiplication and Division
+# 4 : Addition and Subtraction
+# 5 : Unary positive, negative, not
+# 6 : And
+
+
+# QUESTION 9
+# You find errors while evaluating the following code. Line numbers are included for reference only.
+
+# 01 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# 02 index = 0
+# 03 while (index < 10)
+# 04     print(numbers[index])
+# 05
+# 06     if numbers(index) = 6
+# 07         break
+# 08     else :
+# 09         index += 1
+
+# You need to correct the code at line 03 and line 06.
+
+# Which code segment should you use at line 03?
+# Answer = while (index < 10) :
+# Which code segment should you use at line 06?
+# Answer = if numbers[index] == 6 :
+
+
+# QUESTION 10
+# You are writing a Python program that evaluates an arithmetic formula.
+# The formula is described as b equals a multiplied by negative one, then raised to the second power, where a is the value that will be input and b is the result.
+# You create the following code segment. Line numbers are included for reference only.
+
+# 01 a = eval(input("Enter a number for the equation: "))
+# 02 b =
+#
+# You need to ensure that the result is correct.
+# How should you complete the code on line 02?
+
+# Answer = (a)**2
+
+
+# QUESTION 11
+# You are writing a function that works with files.
+# You need to ensure that the function returns None if the file does not exist. If the file does exist, the function must return the first line.
+# You write the following code:
+#
+# import os
+# def get_first_line(filename, mode):
+
+# In which order should you arrange the code segments to complete the function?
+
+# 1 : if os.path.isfile(filename):
+# 2 : with open(filename, 'r') as file:
+# 3 : return file.readline()
+# 4 : else:
+# 5 : return None
+
+
+# QUESTION 12
+# For the client's application development, we need to generate a list of 7 random integers between 1 and 7 (inclusive).
+# Which of the following code snippets should be used to meet the requirement?
+
+# Answer =
+# import random
+# randints=[random.randint(1,7) for i in range(1,8)]
+
+
+# QUESTION 13
+# The ABC company has hired you as an intern on the coding team that creates e-commerce applications.
+# You must write a script that asks the user for a value. The value must be used as a whole number in a calculation, even if the user enters a decimal value.
+# You need to write the code to meet the requirements.
+# Which code segment should you use?
+
+# answer = totalItems = float(input(“How many items would you like?”))
+
+
+# QUESTION 14
+# What is the expected output of the following snippet?
+
+# i = 250
+# while len(str(i)) > 72:
+#      i *= 2
+# else:
+#      i //= 2
+# print(i)
+
+# Answer = 125
+
+
+# QUESTION 15
+# You work for a company that distributes media for all ages.
+# You are writing a function that assigns a rating based on a user's age.
+# The function must meet the following requirements:
+
+# Anyone 18 years old or older receives a rating of "A"
+# Anyone 13 or older, but younger than 18, receives a rating of "T"
+# Anyone 12 years old or younger receives a rating of "C"
+# If the age is unknown, the rating is set to "C"
+# You need to complete the code to meet the requirements.
+
+# Answer =
+# def get_rating(age):
+#     rating = ""
+#     if age == None:
+#         rating = "C"
+#     elif age < 13:
+#         rating = "C"
+#     elif age < 18:
+#         rating = "T"
+#     else:
+#         rating = "A"
+#     return rating
+
+
+# QUESTION 16
+# Evaluate the following Python arithmetic expression:
+
+# (3 * (1 + 2) ** 2 - (2 ** 2) * 3)
+
+# What is the result?
+# Answer = 15
+
+
+# QUESTION 17
+# The ABC Video company needs a way to determine the cost that a customer will pay for renting a DVD.
+# The cost is dependent on the time of day the DVD is returned.
+# However, there are also special rates on Thursdays and Sundays.
+# The fee structure is shown in the following list:
+# The cost is $1.59 per night.
+# If the DVD is returned after 8 PM, the customer will be charged an extra day.
+# If the video is rented on a Sunday, the customer gets 30% off for as long as they keep the video.
+# If the video is rented on a Thursday, the customer gets 50% off for as long as they keep the video.
+# You need to finish writing the code to meet the requirements.
+
+# Answer =
+# ontime = input(" Was the video returned before 8 pm? y or n ").lower()
+# days_rented = int(input("How many days was the video rented?"))
+# day_rented = input("What day was the video rented?").capitalize()
+# cost_per_day = 1.59
+
+# if ontime == "n" :
+#     days_rented +=1
+# if day_rented == "Sunday":
+#     total = (days_rented * cost_per_day) * .7
+# elif day_rented == "Thursday":
+#     total = (days_rented * cost_per_day) * .5
+# else:
+#     total = days_rented * cost_per_day
+# print("cost of the dvd rental is : $", total)
+
+
+# QUESTION 18
+# You develop a Python application for your school.
+# You need to read and write data to a text file. If the file does not exist, it must be created. If the file has content, the content must be removed.
+# Which code should you use?
+
+# open(“local_data”, “r+”)
+# open(“local_data”, “r”)
+# open(“local_data”, “w+”)
+# open(“local_data”, “w”)
+
+# Answer = open(“local_data”, “w”)
+
+
+# QUESTION 19
+# You are developing a Python application for an online product distribution company.
+# You need the program to iterate through a list of products and escape when a target product ID is found.
+#  To answer, select the appropriate code segments in the answer area.
+
+# productIDList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# index = 0
+# while (index < 10 ):
+#     print(productIDList[index])
+#     if productIDList[index] == 6:
+#         break
+#     else:
+#         index += 1
+
+# QUESTION 20
+# You are developing a Python application for your company.
+# You write the following code
+
+# numList = [1,2,3,4,5]
+# alphaList = ["a", "b", "c", "d", "e"]
+# print(numList is alphaList)
+# print(numList == alphaList)
+# numList = alphaList
+# print(numList is alphaList)
+# print(numList == alphaList)
+
+# Answer = True
+# Answer = True
+# Answer = False
+# Answer = False
+
+
+# QUESTION 21
+# You are creating a Python script to evaluate input and check for upper and lower case.
+# Out of these 6 code segments, which 4 segments should you use to develop the solution?
+
+# Answer = name = input("Enter your name: ")
+# Answer = if name.lower() == name: print(name, "is all lower case.")
+# Answer = elif name.upper() == name: print(name, "is all upper case.")
+# Answer = else: print(name, 'is mixed case.')
+
+
+# QUESTION 22
+# The ABC company is creating a program that allows customers to log the number of miles biked. The program will send messages based on how many miles the
+# customer logs.
+# You create the following Python code. Line numbers are included for reference only.
+
+# 01
+# 02     name = input("What is your name? ")
+# 03     return name
+# 04
+# 05     calories = miles * calories_per_mile
+# 06     return calories
+# 07 distance = int(input("How many miles did you bike this week? "))
+# 08 burn_rate = 50
+# 09 biker = get_name()
+# 10 calories_burned = calc_calories(distance, burn_rate)
+# 11 print(biker, ", you burned about", calories_burned, "calories.")
+
+# You need to define the two required functions.
+# Which code segments should you use for line 01 and line 04? Each correct answer presents part of the solution?
+
+# Answer = 04 def calc_calories(miles, calories_per_mile):
+# Answer = 01 def get_name():
+
+
+# QUESTION 23
+# You are creating a Python program that shows a congratulation message to employees on their service anniversary.
+# You need to calculate the number of years of service and print a congratulatory message.
+# You have written the following code. Line numbers are included for reference only.
+
+# 01 start = input("How old were you on your start date?")
+# 02 end = input("How old are you today?")
+# 03
+
+# Which code should you use at line 03?
+
+# print(“Congratulations on ” + str(end - start)) + “ years of service!”
+# print(“Congratulations on ” + int(end - start) + “ years of service!”
+# print(“Congratulations on ” + (int(end)-int(start)) + “ years of service!”
+# print(“Congratulations on ” + str(int(end)-int(start)) + “ years of service!”
+
+# Answer = print(“Congratulations on ” + str(int(end)-int(start)) + “ years of service!”)
+
+
+# QUESTION 24
+# The following expression
+
+# 2 ** 3 ** 2 ** 1
+
+# is:
+# equal to 16
+# invalid
+# equal to 512
+# equal to 64
+# equal to 16.0
+# equal to 128.0
+
+# Answer = equal to 512
+
+
+# QUESTION 25
+# The ABC organics company needs a simple program that their call center will use to enter survey data for a new coffee variety.
+# The program must accept input and return the average rating based on a five-star scale. The output must be rounded to two decimal places.
+# You need to complete the code to meet the requirements.
+# How should you complete the code? To answer, select the appropriate code segments in the answer area.
+
+# sum = count = done = 0
+# average = 0.0
+# while (done != -1)
+#         rating = float(input("Enter next rating (1-5) or -1 for done "))
+#         if rating == -1:
+#             break
+#         sum += rating
+#         count += 1
+# average = float(sum/count)
+# print("The average star rating for the NetVerZleep coffee is: " + format(average, '.2f'))
+
+
+# QUESTION 26
+# Match the data type to the type operations.
+
+# type(+1E10) # Answer = float
+# type(5.0) # Answer = float
+# type("True") # Answer = str
+# type(False) # Answer = bool
+
+
+# QUESTION 27
+# You are developing a Python application for an online game.
+# You need to create a function that meets the following criteria:
+
+#  -  The function is named update_score
+#  -  The function receives the current score and a value
+#  -  The function adds the value to the current score
+#  -  The function returns the new score
+
+# How should you complete the code? To answer, select the appropriate code segments in the answer area.
+
+# Answer =
+# def update_score(current, value):
+#     current += value
+#     return current
+
+
+# QUESTION 28
+# You create a function to calculate the power of a number by using Python.
+# You need to ensure that the function is documented with comments.
+# You create the following code. Line numbers are included for reference only
+
+# 01 # The calc_power function calculates exponents
+# 02 # x is the base
+# 03 # y is the exponent
+# 04 # The value of x raised to y power is returned
+# 05 def calc_power(x, y):
+# 06     comment = "#Return the value"
+# 07     return x ** y # raise x to the y power
+
+# For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+# Lines 01 through 04 will be ignored for syntax checking # Answer = Yes
+# The pound sign (#) is optional for lines 02 and 03 # Answer = No
+#  The string in line 06 will be interpreted as a comment # Answer = No
+
+
+# QUESTION 29
+# What is the value type returned after executing the following snippet?
+
+# x = 0
+# y = 2
+# z = len("Python")
+# x = y > z
+# print(x)
+
+# Answer = bool
+
+
+# QUESTION 30
+# You are writing an application that uses the sqrt function. The program must reference the function using the name squareRoot. You need to import the function.
+# Which code segment should you use?
+
+# Answer = from math import sqrt as squareRoot
+
+
+# QUESTION 31
+# You develop a Python application for your company.
+# You want to add notes to your code so other team members will understand it.
+# What should you do?
+
+# Answer = Place the notes after the # sign on any line
+
+
+# QUESTION 32
+# You are writing a Python program. The program collects customer data and stores it in a database.
+# The program handles a wide variety of data.
+# You need to ensure that the program handles the data correctly so that it can be stored in the database correctly.
+# Match the data type to the code segment.
+# Each data type may be used once, more than once, or not at all
+
+# age = 2 # Answer = int
+# minor = False # Answer = bool
+# name = "Contoso" # Answer = str
+# weight = 123.5 # Answer = float
+# zip = "81000" # Answer = str
+
+
+# QUESTION 33
+# You are coding a math utility by using Python.
+# You are writing a function to compute roots.
+# The function must meet the following requirements:
+
+# If a is non-negative, return a ** (1 / b)
+# If a is negative and even, return "Result is an imaginary number"
+# If a is negative and odd, return -(-a) ** (1 / b)
+
+# How should you complete the code?
+
+# Answer =
+# def safe_root(a, b):
+#     if a >= 0:
+#         answer = a ** (1 / b)
+#     else:
+#         if a % 2 == 0:
+#                   answer = "Result is an imaginary number"
+#         else:
+#                  answer = -(-a) ** (1 / b)
+#     return answer
+
+
+# QUESTION 34
+# You develop a Python application for your company.
+# You need to accept input from the user and print that information to the user screen.
+# You have started with the following code. Line numbers are included for reference only
+
+# 01 print("what is your name?")
+# 02
+# 03 print(name)
+
+# Which code should you write at line 02?
+# name = input()
+# input(“name”)
+# input(name)
+# name = input
+
+# Answer = name = input()
+
+
+# QUESTION 35
+# You are an intern for ABC electric cars company. You must create a function that calculates the average velocity of their vehicles on a 1320 foot (1/4 mile) track.
+# The output must be as precise as possible.
+# How should you complete the code?
+
+# Answer =
+# distance = float(input("Enter the distance traveled in feet: "))
+# distance_miles = distance/ 5280    #convert to miles
+# time = float(input("Enter the time elapsed in seconds: "))
+# time_hours = time/3600     #convert to hours
+# velocity = distance_miles/time_hours
+# print("The average velocity is :", velocity, "miles/hour.")
+
+
+# QUESTION 36
+# The ABC company is building a basketball court for its employees to improve company morale. You are creating a Python program that employees can use to keep track of their average score.
+# The program must allow users to enter their name and current scores. The program will output the user name and the user’s average score. The output must meet the following requirements:
+#  -  The user name must be left-aligned.
+#  - If the user name has fewer than 20 characters, additional space must be added to the right.
+#  - The average score must have three places to the left of the decimal point and one place to the right of the decimal (XXX.X).
+
+# Answer =
+# name = input("What is your name? ")
+# score = 0
+# count = 0
+# sum1 = 0
+# while(score != -1):
+#     score = int(input("Enter your scores: (-1 to end)"))
+#     if score == -1:
+#         break
+#     sum1 += score
+#     count += 1
+#     average = sum1 / count
+#     print("%-20s, your average score is %4.1f"%(name, average))
+
+
+# QUESTION 37
+# Follow the code:
+
+# import math
+# l =[str(round(math.pi)) for i in range (1, 6)]
+# print(l)
+
+# Which of the following is the correct output?
+
+#  ['3', '3', '3', '3', '3', '3']
+#  ['1', '2', '3', '4', '5']
+#  ['1', '2', '3', '4', '5', '6']
+#  ['3', '3', '3', '3', '3']
+
+# Answer = ['3', '3', '3', '3', '3']
+
+
+# QUESTION 38
+# The ABC company needs a way to find the count of particular letters in their publications to ensure that there is a good balance. It seems that there have been complaints about overuse of the letter e.
+# You need to create a function to meet the requirements.
+# To answer, select the appropriate code segments in the answer area.
+
+# Answer =
+# # Function accepts a list of words from a file,
+# # and letter to search for.
+# # Returns count of a particular letter in that list.
+# def count_letter(letter, word_list):
+#     count = 0
+#     for word in word_list:
+#        if letter in word:
+#            count +=1
+#        return count
+# word_list = []
+# # word_list is populated from a file. Code not shown
+# letter = input("Which letter would you like to count? ")
+# letter_count = count_letter(letter, word_list)
+# print("There are: ", letter_count, " instances of " + letter)
+
+
+# QUESTION 39
+# What snippet would you insert in the line indicated below:
+
+# n = 0
+# while n < 4:
+#       n += 1
+#       print(n, end="  ")
+
+# to print the following string to the monitor after the loop finishes its execution:
+# 1 2 3 4
+
+# print(n, sep="  ")
+# print(n)
+# print(n, end="  ")
+# print(n, "  ")
+
+# Answer = print(n, end="  ")
+
+
+# QUESTION 40
+# You create the following program to locate a conference room and display the room name. Line numbers are included for reference only.
+
+# 01 rooms = {1: 'Foyer', 2: 'Conference Room'}
+# 02 room = input('Enter the room number: ')
+# 03 if not room in rooms:
+# 04     print('Room does not exist.')
+# 05 else:
+# 06     print("The room name is " + rooms[room])
+
+# Colleagues report that the program sometimes produces incorrect results.
+# You need to troubleshoot the program. Use the drop-down menus to select the answer choice that answers each question based on the information presented in
+# the code segment.
+
+# Which two data types are stored in the rooms list at line 01?
+# Answer = int: str
+# What is the data type of room at line 02?
+# Answer = str
+# Why does line 03 fail to find the rooms?
+# Answer = Mismatched data types
+
+
+# QUESTION 41
+# Which line can be used instead of the comment to cause the snippet to produce the following expected output? (Select all that apply)
+# Code:
+
+# z, y, x = 2, 1, 0
+# x, z = z, y
+# y = y - z
+# # put line here
+# print(x, y, z)
+
+# Expected output:
+# 0, 1, 2
+
+# Answer = z, y, x = x, z, y
+# Answer = x, y, z = y, z, x
+
+
+# QUESTION 42
+# You are building a Python program that displays all of the prime numbers from 2 to 100.
+# How should you complete the code?
+
+# Answer =
+# p = 2
+# while p <= 100:
+#     is_prime = True
+#     for i in range(2, p):
+#         if p % i == 0:
+#             is_prime = False
+#             break
+#     if is_prime == True:
+#         print(p)
+#     p = p + 1
+
+
+# QUESTION 43
+# For the following Python code:
+
+# import random
+# print(int(random.random() * 5))
+
+# Which of the following options is correct?
+
+# It will print 5
+# It will print a random float value from 1 to 5
+# It will print a random int value from 1 to 5
+# It will print a random float value from 0 to 5
+# It will print a random int value from 0 to 5
+
+# Answer = It will print a random int value from 0 to 5
+
+
+# QUESTION 44
+# You are writing a Python program to automate inventory. Your first task is to read a file of inventory transactions. The file contains sales from the previous day, including the item id, price, and quantity.
+# The following shows a sample of data from the file:
+
+# 10, 200, 5
+# 20, 100, 1
+
+# The code must meet the following requirements:
+
+# Each line of the file must be read and printed
+# If a blank line is encountered, it must be ignored
+# When all lines have been read, the file must be closed
+# You create the following code. Line numbers are included for reference only.
+
+# 01 inventory = open("inventory.txt", 'r')
+# 02 eof = False
+# 03 while eof == False;
+# 04     line = inventory.readline()
+# 05
+# 06
+# 07             print(line)
+# 08     else:
+# 09         print("End of file")
+# 10         eof = True
+# 11         inventory.close()
+
+# Which two lines of code should be selected for lines 05 and 06?
+
+# 05  if line != '':
+# 06      if line != '\n':
+
+# 05  if line != '\n':
+# 06      if line != "":
+
+# 05  if line != '':
+# 06      if line != "":
+
+# 05  if line != '\n':
+# 06      if line != None:
+
+# Answer =
+# if line != '':
+#   if line != '\n':
+
+
+# QUESTION 45
+# This question requires that you evaluate the underlined text to determine if it is correct.
+# You write the following code:
+
+# import sys
+# try:
+#     file_in = open('in.txt', 'r')
+#     file_out = open('out.txt', 'w+')  # file DNE but 'w+' will create one
+# except IOError:
+#     print('cannot open', file_name)  # file_name DNE
+# else:
+#     i = 1
+#     for line in file_in:
+#         print(line.rstrip())
+#         file_out.write("line " + str(i) + ": " + line)
+#         i = i + 1
+#     file_in.close()
+#     file_out.close()
+
+# The out.txt file does not exist. You run the code. The code will execute without error.
+# Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+# The code will generate a syntax error
+# No change is needed
+# The code runs, but generates a logic error
+# The code will generate a runtime error
+
+# Answer = The code will generate a runtime error
+
+
+# QUESTION 46
+# You are creating a function that reads a data file and prints each line of the file.
+# You write the following code. Line numbers are included for reference only.
+
+# 01 import os
+# 02 def read_file(file):
+# 03     line = None
+# 04     if os.path.isfile(file):
+# 05         data = open(file, 'r')
+# 06     while line != '':
+# 07         line = data.readline()
+# 08         print(line)
+
+# The code attempts to read the file even if the file does not exist.
+# You need to correct the code.
+# Which three lines have indentation problems? Each correct answer presents part of the solution.
+
+# Line 01
+# Line 02
+# Line 03
+# Line 04
+# Line 05
+# Line 06
+# Line 07
+# Line 08
+
+# Answer = Line 06 , Line 07 , Line 08
+
+
+# QUESTION 47
+# You are writing a Python program to validate employee numbers.
+# The employee number must have the format ddd-dd-dddd and consist only of numbers and dashes.
+# The program must print True if the format is correct and print False if the format is incorrect.
+# How should you complete the code?
+
+# Answer =
+# employee_number = ""
+# parts = ""
+# while employee_number != " ":
+#     valid = False
+#     employee_number = input("Enter employee number (ddd-dd-dddd) : ")
+#     parts = employee_number.split('-')
+#     if len(parts) == 3:
+#         if len(parts[0]) == 3 and len(parts[1]) == 2 and len(parts[2]) == 4:
+#             if parts[0].isdigit() and parts[1].isdigit() and parts[2].isdigit():
+#                 valid = True
+#     print(valid)
+
+
+# QUESTION 48
+# You are writing a Python program to perform arithmetic operations.
+# You create the following code:
+
+# a = 11
+# b = 4
+
+# What is the result of each arithmetic expression?
+
+# print(a // b)
+# Answer = 2
+# print(a / b)
+# Answer = 2.75
+# print(a % b)
+# Answer = 3
+
+
+# QUESTION 49
+# If you want to build a string that reads:
+
+# Peter's sister's name's "Anna"
+
+# which of the following literals would you use? (Select all that apply)
+
+# "Peter's sister's name's "Anna""
+# 'Peter\'s sister\'s name\'s \"Anna\"'
+# 'Peter's sister's name's "Anna"'
+# "Peter's sister's name's \"Anna\""
+
+# Answer = 'Peter\'s sister\'s name\'s \"Anna\"' , "Peter's sister's name's \"Anna\""
+
+
+# QUESTION 50
+# You develop a Python application for your company.
+# A list named employees contains 200 employee names, the last five being company management. You need to slice the list to display all employees excluding management.
+# Which two code segments should you use? Each correct answer presents a complete solution.
+
+# Answer =
+# employees [0:-5]
+# employees [:-5]
