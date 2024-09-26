@@ -1,0 +1,549 @@
+# QUESTION 1
+import math
+from random import randint
+
+
+# print(type(a))
+# print(type(b))
+# print(type(c))
+
+
+# QUESTION 2
+
+# The following for loops show that the functions output the correct range
+# import random
+
+# for x in range(1000):
+#     random.randrange(5, 12, 1)
+
+# for x in range(1000):
+#     random.randint(5, 11)
+
+
+# QUESTION 3
+
+# import math
+# flt = -3.5
+# x = math.fabs(flt) # Takes the absolute value of the float
+# x = math.floor(x) # Removes the decimal points after the integer
+# print(x)
+
+
+# QUESTION 4
+
+# def main(a, b, c, d):
+#     value = a + b * c - d
+#     print(value)
+# main(3, 4, 5, 6) # With these values the result should be 17 if the multiplication is executed first, the addition second, and the subtraction third.
+
+# def main(a, b, c, d):
+#     value = (a + (b * c)) - d # If this expression is equivalent then it should also print 17
+#     print(value)
+# main(3, 4, 5, 6)
+
+
+# QUESTION 5
+# When run the following code prints 3
+
+# a = 0
+# b = a ** 0
+# if b < a + 1:
+#      c = 1
+# elif b == 1:
+#      c = 2
+# else:
+#      c = 3
+# print(a + b + c)
+
+
+# QUESTION 6
+
+# variable = 5
+# try:
+#     print(variable)
+# except NameError:
+#     print("A NameError has occurred")
+# except:
+#     print("Something else went wrong")
+
+# try:
+#     print(variable)
+# finally:
+#     print("Nothing went wrong")
+
+# try:
+#   print(variable)
+# except:
+#   print("Something went wrong")
+# finally:
+#   print("The 'try except' is finished")
+
+# You are unable to have multiple finally clauses within the same try statement
+# try:
+#     print(variable)
+# except:
+#   print("Something went wrong")
+# finally:
+#   print("The 'try except' is finished")
+# finally:
+# print("test")
+
+
+# QUESTION 7
+
+# Letter Grade Converter
+# grade = int(input("Enter a numeric grade "))
+# if grade >= 90:
+#        letter_grade = "A"
+# elif grade >= 80:
+#        letter_grade = 'B'
+# elif grade >= 70:
+#        letter_grade = 'C'
+# elif grade >= 65:
+#        letter_grade = 'D'
+# else:
+#        letter_grade = 'F'
+# print(letter_grade)
+# The previous code performs the required function asked by the question
+
+
+# QUESTION 8
+# Python follows PEMDAS
+
+
+# QUESTION 9
+
+# numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# index = 0
+# while (index < 10):
+#      print(numbers[index])
+#
+#      if numbers[index] == 6 :
+#          break
+#      else :
+#          index += 1
+# The previous code now works as intended
+
+
+# QUESTION 10
+
+# a = eval(input("Enter a number for the equation: "))
+# b = (a)**2
+
+
+# QUESTION 11
+
+# import os
+# def get_first_line(filename, mode):
+#     if os.path.isfile(filename):
+#         with open(filename, 'r') as file:
+#             return file.readline()
+#     else:
+#         return None
+# print(get_first_line("test.txt", "r"))
+
+
+# QUESTION 12
+
+# import random
+# randints = [random.randint(1,7) for i in range(1,8)]
+# print(randints)
+
+
+# QUESTION 13
+
+# totalItems = float(input("How many items would you like?"))
+# totalItems = int(totalItems)
+# print(totalItems)
+
+
+# QUESTION 14
+
+# i = 250
+# while len(str(i)) > 72:
+#      i *= 2
+# else:
+#      i //= 2
+# print(i)
+
+
+# QUESTION 15
+
+# def get_rating(age):
+#     rating = ""
+#     if age == None:
+#         rating = "C"
+#     elif age < 13:
+#         rating = "C"
+#     elif age < 18:
+#         rating = "T"
+#     else:
+#         rating = "A"
+#     return rating
+# x = randint(0, 21)
+# print(x)
+# print(get_rating(x))
+
+
+# QUESTION 16
+
+# x = (3 * (1 + 2) ** 2 - (2 ** 2) * 3)
+# print(x)
+
+# QUESTION 17
+
+# ontime = input(" Was the video returned before 8 pm? y or n ").lower()
+# days_rented = int(input("How many days was the video rented?"))
+# day_rented = input("What day was the video rented?").capitalize()
+# cost_per_day = 1.59
+# if ontime == "n" :
+#     days_rented +=1
+# if day_rented == "Sunday":
+#     total = (days_rented * cost_per_day) * .7
+# elif day_rented == "Thursday":
+#     total = (days_rented * cost_per_day) * .5
+# else:
+#     total = days_rented * cost_per_day
+# print("cost of the dvd rental is : $", total)
+
+
+# QUESTION 18
+
+# open("test.txt", "w")
+
+
+# QUESTION 19
+
+# productIDList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# index = 0
+# while (index < 10 ):
+#     print(productIDList[index])
+#     if productIDList[index] == 6:
+#         break
+#     else:
+#         index += 1
+
+
+# QUESTION 20
+
+# numList = [1,2,3,4,5]
+# alphaList = ["a", "b", "c", "d", "e"]
+# print(numList is alphaList)
+# print(numList == alphaList)
+# numList = alphaList
+# print(numList is alphaList)
+# print(numList == alphaList)
+
+
+# QUESTION 21
+
+# name = input("Enter your name: ")
+# if name.lower() == name: print(name, "is all lower case.")
+# elif name.upper() == name: print(name, "is all upper case.")
+# else: print(name, 'is mixed case.')
+
+
+# QUESTION 22
+
+# def get_name():
+#     name = input("What is your name? ")
+#     return name
+# def calc_calories(miles, calories_per_mile):
+#     calories = miles * calories_per_mile
+#     return calories
+# distance = int(input("How many miles did you bike this week? "))
+# burn_rate = 50
+# biker = get_name()
+# calories_burned = calc_calories(distance, burn_rate)
+# print(biker, ", you burned about", calories_burned, "calories.")
+
+
+# QUESTION 23
+
+# start = input("How old were you on your start date?")
+# end = input("How old are you today?")
+# print("Congratulations on " + str(int(end)-int(start)) + " years of service!")
+
+
+# QUESTION 24
+
+# x = 2 ** 3 ** 2 ** 1
+# print(x)
+
+
+# QUESTION 25
+
+# sum = count = done = 0
+# average = 0.0
+# while (done != -1):
+#         rating = float(input("Enter next rating (1-5) or -1 for done "))
+#         if rating == -1:
+#             break
+#         sum += rating
+#         count += 1
+# average = float(sum/count)
+# print("The average star rating for the NetVerZleep coffee is: " + format(average, '.2f'))
+
+
+# QUESTION 26
+
+# print(type(+1E10))
+
+
+# QUESTION 27
+
+# def update_score(current, value):
+#     current += value
+#     return current
+# print(update_score(5, 3))
+
+
+# QUESTION 28
+
+# # The calc_power function calculates exponents
+# # x is the base
+# # y is the exponent
+# # The value of x raised to y power is returned
+# def calc_power(x, y):
+#     comment = "#Return the value"
+#     return x ** y # raise x to the y power
+
+
+# QUESTION 29
+
+# x = 0
+# y = 2
+# z = len("Python")
+# x = y > z
+# print(type(x))
+
+
+# QUESTION 30
+
+# from math import sqrt as squareRoot
+# x = math.sqrt(9)
+# print(x)
+
+
+# QUESTION 31
+
+# This is a comment
+
+
+# QUESTION 32
+
+# age = 2
+# minor = False
+# name = "Contoso"
+# weight = 123.5
+# zip = "81000"
+# print(type(age))
+# print(type(minor))
+# print(type(name))
+# print(type(weight))
+# print(type(zip))
+
+
+# QUESTION 33
+
+# def safe_root(a, b):
+#     if a >= 0:
+#         answer = a ** (1 / b)
+#     else:
+#         if a % 2 == 0:
+#                   answer = "Result is an imaginary number"
+#         else:
+#                  answer = -(-a) ** (1 / b)
+#     return answer
+# print(safe_root(-3, 4))
+
+
+# QUESTION 34
+
+# print("what is your name?")
+# name = input()
+# print(name)
+
+
+# QUESTION 35
+
+# distance = float(input("Enter the distance traveled in feet: "))
+# distance_miles = distance/ 5280    #convert to miles
+# time = float(input("Enter the time elapsed in seconds: "))
+# time_hours = time/3600     #convert to hours
+# velocity = distance_miles/time_hours
+# print("The average velocity is :", velocity, "miles/hour.")
+
+
+# QUESTION 36
+
+# name = input("What is your name? ")
+# score = 0
+# count = 0
+# sum1 = 0
+# while(score != -1):
+#     score = int(input("Enter your scores: (-1 to end)"))
+#     if score == -1:
+#         break
+#     sum1 += score
+#     count += 1
+#     average = sum1 / count
+#     print("%-20s, your average score is %4.1f"%(name, average))
+
+
+# QUESTION 37
+
+# import math
+# l =[str(round(math.pi)) for i in range (1, 6)]
+# print(l)
+
+
+# QUESTION 38
+
+# def count_letter(letter, word_list):
+#     count = 0
+#     for word in word_list:
+#        if letter in word:
+#            count +=1
+#        return count
+# word_list = ["test"]
+# letter = input("Which letter would you like to count? ")
+# letter_count = count_letter(letter, word_list)
+# print("There are: ", letter_count, " instances of " + letter)
+
+
+# QUESTION 39
+
+# n = 0
+# while n < 4:
+#       n += 1
+#       print(n, end="  ")
+
+
+# QUESTION 40
+
+# rooms = {1: 'Foyer', 2: 'Conference Room'}
+# print(type(rooms[1]))
+# print(type(rooms[2]))
+# room = int(input('Enter the room number: '))
+# if not room in rooms:
+#     print('Room does not exist.')
+# else:
+#     print("The room name is " + rooms[room])
+
+
+# QUESTION 41
+
+# z, y, x = 2, 1, 0
+# x, z = z, y
+# y = y - z
+# z, y, x = x, z, y
+# print(x, y, z)
+
+
+# QUESTION 42
+
+# p = 2
+# while p <= 100:
+#     is_prime = True
+#     for i in range(2, p):
+#         if p % i == 0:
+#             is_prime = False
+#             break
+#     if is_prime == True:
+#         print(p)
+#     p = p + 1
+
+
+# QUESTION 43
+
+# import random
+# for x in range(1000):
+#     print(int(random.random() * 5))
+
+
+# QUESTION 44
+
+# inventory = open("test.txt", 'r')
+# eof = False
+# while eof == False:
+#     line = inventory.readline()
+#     if line != '':
+#         if line != '\n':
+#             print(line)
+#     else:
+#         print("End of file")
+#         eof = True
+#         inventory.close()
+
+
+# QUESTION 45
+
+# import sys
+# try:
+#     file_in = open('in.txt', 'r')
+#     file_out = open('out.txt', 'w+')  # file DNE but 'w+' will create one
+# except IOError:
+#     print('cannot open', file_name)  # file_name DNE
+# else:
+#     i = 1
+#     for line in file_in:
+#         print(line.rstrip())
+#         file_out.write("line " + str(i) + ": " + line)
+#         i = i + 1
+#     file_in.close()
+#     file_out.close()
+
+
+# QUESTION 46
+
+# import os
+# def read_file(file):
+#     line = None
+#     if os.path.isfile(file):
+#         data = open(file, 'r')
+#         while line != '':
+#             line = data.readline()
+#             print(line)
+# read_file("test.txt")
+
+
+# QUESTION 47
+
+# employee_number = ""
+# parts = ""
+# while employee_number != " ":
+#     valid = False
+#     employee_number = input("Enter employee number (ddd-dd-dddd) : ")
+#     parts = employee_number.split('-')
+#     if len(parts) == 3:
+#         if len(parts[0]) == 3 and len(parts[1]) == 2 and len(parts[2]) == 4:
+#             if parts[0].isdigit() and parts[1].isdigit() and parts[2].isdigit():
+#                 valid = True
+#     print(valid)
+
+
+# QUESTION 48
+
+# a = 11
+# b = 4
+
+# print(a // b)
+# print(a / b)
+# print(a % b)
+
+
+# QUESTION 49
+
+# b = 'Peter\'s sister\'s name\'s \"Anna\"'
+# d = "Peter's sister's name's \"Anna\""
+
+# print(b)
+# print(d)
+
+# QUESTION 50
+
+# employees = ["a b" , "c d" , "e f" , "g h" , "i j" , "k l" , "m n" , "o p" , "q r" , "s t" , "u v" , "w x" , "y z"]
+# print(employees [0:-5])
+# print(employees [:-5])
+
