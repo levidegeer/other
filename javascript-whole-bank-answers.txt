@@ -1,0 +1,109 @@
+Question 1
+You are creating a web page that tests a user’s ability to accurately type text. The validation should be case-insensitive.
+How should you complete the code? To answer, drag appropriate functions to the correct locations. Each function may be used once, more than once, or not at all.
+
+Answer= 
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function validate() {
+        var input = document.getElementById("tester2").value;
+        var text = document.getElementById("userText").innerHTML;
+        if (input.toLowerCase() == text.toLowerCase()) {
+          alert("Success");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <p id="userText">When in the course of human events...</p>
+    <input type="input" id="tester2">
+    <button onclick="validate()">Validate</button>
+  </body>
+</html>
+
+
+Question 2
+You are using JavaScript to create a calculator.
+
+You create the following HTML. Line numbers are included for reference only.
+
+ 
+
+     <form id = "calculator">
+      <input type = "text" id = "a"/>
+      <input type = "text" id = "b"/>
+      <input type = "text" id = "result"/>
+      <input type = "button" onclick = "add()" value = "+"/>
+     </form>
+ 
+
+You must create a function named add() that adds the values in the a and b input elements and displays the result in the result input element. You define the following function in JavaScript:
+
+function add() {
+
+}
+ 
+You need to complete the body of the function.
+Which three code segments should you use to develop the solution?
+
+Answer=
+function add() {
+    var a = eval(document.getElementById("a").value);
+    var b = eval(document.getElementById("b").value);
+    document.getElementById("result").value = a + b;
+}
+
+
+Question 3
+You need to evaluate the following code segment.
+
+01     var n;
+02     console.log(typeof n);
+03     var a = "3.4";
+04     console.log(typeof a);
+05     var textArray = ["Welcome back", "Incorrect answer", "Enter a name"];
+06     console.log(typeof textArray);
+07     var c = 2.4;
+08     console.log(typeof c);
+09     var tag = null;
+10     console.log(typeof tag);
+
+Use the drop-down menus to select the answer choice that answers each question based on the information presented
+in the code segment.
+
+What does the console.log function on line 02 write to the console?     
+Answer = undefined
+What does the console.log function on line 04 write to the console?     
+Answer = string
+What does the console.log function on line 06 write to the console?     
+Answer = object
+What does the console.log function on line 08 write to the console?     
+Answer = number
+What does the console.log function on line 10 write to the console?     
+Answer = object
+
+
+Question 4
+You are writing a function that calculates the remainder for integer division.
+The function receives two parameters, a and b, and must return the remainder that is left over when the integer a is divided by the integer b.
+You create the following code. Line numbers are for reference only
+
+01     function remainder(a, b) {
+02     
+03    
+04     }
+
+You want to complete the function for lines 02 and 03.
+Which two sets of code segments should you use? Each correct answer presents a complete solution. (Choose two.) 
+
+Answer=
+a = a % b;
+return a
+
+a % b;
+return a
+
+
+Question 5

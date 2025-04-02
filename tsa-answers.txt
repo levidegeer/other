@@ -1,0 +1,975 @@
+Question 1
+Which software development methodology follows a linear and sequential approach, often with clearly defined stages?
+
+Agile
+Waterfall
+Spiral
+Scrum
+
+Answer = Waterfall
+
+
+Question 2
+What type of error occurs when the code is grammatically correct and running smoothly, but does not convey the intended meaning of the program?
+
+Logic Error
+Runtime Error
+Semantic Error
+Syntax Error
+
+Answer = TSA:Semantic Error, Actual:Logic Error
+
+
+Question 3
+Which of the following is the correct hexadecimal representation for the binary number 110011?
+
+66
+CC
+33
+99
+
+Answer = 33
+
+
+Question 4
+What is the main benefit of cloud computing?
+
+Cost-efficiency
+Local infrastructure management
+Physical presence requirement
+Scalability and flexibility
+
+Answer = Scalability and flexibility
+
+
+Question 5
+What is SQL injection?
+
+A security vulnerability caused by inserting malicious SQL code through user input
+A technique for securely executing SQL queries with user input
+A process of cleaning and validating user input against SQL syntax
+A method for preventing unauthorized access to databases
+
+Answer = A security vulnerability caused by inserting malicious SQL code through user input
+
+
+Question 6
+x = 7
+if (x % 2 == 0):
+    print("Even")
+elif (x % 3 == 0):
+    print("Multiple of 3")
+else:
+    print("Neither")
+
+What is the output to the above code?
+
+Even
+Neither
+Error: Invalid operator
+Multiple of 3
+
+Answer = Neither
+
+
+Question 7
+Why is it essential to understand the requirements for constructing new objects?
+
+To complicate code readability
+To reduce the risk of errors and unexpected behavior
+To minimize documentation usage
+To introduce inconsistencies in code
+
+Answer = To reduce the risk of errors and unexpected behavior
+
+
+Question 8
+What is the term for delivering media content in real-time without downloading it?
+
+Content Delivery Networks (CDNs)
+Relational databases
+Streaming services
+File hosting
+
+Answer = Streaming services
+
+
+Question 9
+What is the purpose of order of operation in software programming?
+
+how many mathematical operations are required
+which mathematical operation to perform first
+which mathematical operations are valid
+which mathematical operation are NOT valid
+
+Answer = which mathematical operation to perform first
+
+
+Question 10
+Which of the following are an example of multi-factor authentication?
+
+Asking for a code sent to a phone number
+Answering a security question
+Solving a Captcha puzzle
+Asking for the password to be entered twice
+
+Answer = Asking for a code sent to a phone number
+
+
+Question 11
+What is the purpose of error recovery in handling runtime errors?
+
+To  teach the program to automatically fix runtime errors
+To prevent the occurrence of runtime errors
+To provide alternative paths or fallback actions when runtime errors occur
+To display error messages to the user
+
+Answer = To provide alternative paths or fallback actions when runtime errors occur
+
+
+Question 12
+How can software defects contribute to security vulnerabilities?
+
+By ensuring the confidentiality, integrity, and availability of software systems
+By improving the performance and usability of software systems
+By facilitating easier integration with other software components
+By introducing coding errors or design flaws that can be exploited by attackers
+
+Answer = By introducing coding errors or design flaws that can be exploited by attackers
+
+
+Question 13
+How can version control systems be useful in documentation?
+
+They track changes and provide a revision history
+They eliminate the need for documentation
+They can automatically generate documentation
+They restrict access to documentation files
+
+Answer = They track changes and provide a revision history
+
+
+Question 14
+The phase in the SDLC (system design life cycle) where the system is monitored, maintained, and updated is called:
+
+Testing
+Implementation
+Maintenance
+Planning
+
+Answer = Maintenance
+
+
+Question 15
+Which strategy involves utilizing online resources and collaborating with colleagues to find solutions?
+
+Test assumptions
+Debugging techniques
+Research and collaborate
+Divide and conquer
+
+Answer = Research and collaborate
+
+
+Question 16
+What is the purpose of recognizing patterns in loop variables within nested loops?
+
+To create infinite loops
+To simplify the code
+To introduce random variables
+To make the code more complex
+
+Answer = To simplify the code
+
+
+Question 17
+The documentation for a class states that the constructor requires two parameters: name and age. Which of the following statements is true?
+
+The documentation is incomplete because it does not specify the data types of the parameters.
+The documentation does not provide any information about the parameter requirements.
+The parameters name and age are optional.
+The parameters name and age are required.
+
+Answer = The parameters name and age are required.
+
+
+Question 18
+What is the purpose of default parameters in functions?
+
+To provide values if no explicit argument is provided
+To prevent any changes to parameter values
+To ensure that parameters are of a specific data type
+To force all parameters to be mandatory
+
+Answer = To provide values if no explicit argument is provided
+
+
+Question 19
+What does image transformation involve in graphics development?
+
+Creating image animations
+Adjusting image positions, scaling, or rotation
+Manipulating image colors
+Changing image file formats
+
+Answer = Adjusting image positions, scaling, or rotation
+
+
+Question 20
+What is the primary advantage of binary search over linear search?
+
+Binary search works with unsorted data.
+Binary search uses less memory.
+Binary search is faster for large datasets.
+Binary search is simpler to implement.
+
+Answer = Binary search is faster for large datasets.
+
+
+Question 21
+Which of the following statements is true about interfaces?
+
+An interface can have private methods.
+An interface can define constants.
+An interface can have constructors.
+An interface can have instance variables.
+
+Answer = An interface can define constants.
+
+
+Question 22
+What are language standards and style guides?
+
+Best practices recommended by the programming community
+Guidelines enforced by code editors
+Guidelines set by individual developers
+Standards enforced by government regulatory bodies
+
+Answer = Best practices recommended by the programming community
+
+
+Question 23
+Which sorting algorithm is known for its divide-and-conquer approach, splitting the array into smaller subarrays?
+
+Bubble sort
+Selection sort
+Linear search
+Merge sort
+
+Answer = Merge sort
+
+
+Question 24
+Which data type should be used to store a person's email address?
+
+string
+float
+boolean
+integer
+
+Answer = string
+
+
+Question 25
+Which phase of the SDLC (system design life cycle) involves gathering information about the current system and its problems?
+
+Development
+Design
+Maintenance
+Analysis
+
+Answer = Analysis
+
+
+Question 26
+What is the purpose of the checkout/switch command in Git?
+
+To navigate between different branches or commit states
+To submit pull requests for contributions
+To revert the code to a previous state
+To create a personal copy of a repository
+
+Answer = To navigate between different branches or commit states
+
+
+Question 27
+How would you represent the number 15 using only zeroes and ones?
+
+1111
+0011
+1100
+0110
+
+Answer = 1111
+
+
+Question 28
+What is the primary factor contributing to platform independence in interpreted code?
+
+The presence of a compiler
+Real-time code translation
+The use of standalone executables
+The interpreter handling platform-specific details
+
+Answer = The interpreter handling platform-specific details
+
+
+Question 29
+What is the primary reason to avoid writing your own function when a standard library function exists for the task?
+
+To ensure that your code is faster
+To avoid errors
+To avoid reinventing the wheel and use well-tested solutions
+To improve the aesthetics of your code
+
+Answer = To avoid reinventing the wheel and use well-tested solutions
+
+
+Question 30
+What is the purpose of FERPA?
+
+To protect sensitive patient health information
+To regulate the sharing of cyber threat information
+To ensure the privacy of student education records
+To protect the online privacy of children
+
+Answer = To ensure the privacy of student education records
+
+
+Question 31
+If a = 5 and b = 3, what is the value of the expression "a % b"
+
+0
+1
+3
+2
+
+Answer = 2
+
+
+Question 32
+Which of the following best describes the concept of space complexity?
+
+It calculates the efficiency of data compression techniques.
+It measures the physical size of the data stored.
+It determines the number of operations needed to manipulate data
+It quantifies the time complexity of an algorithm.
+
+Answer = It determines the number of operations needed to manipulate data
+
+
+Question 33
+What are the 5 Project Management phases in order?
+
+Initiation,Planning,Execution,Monitoring and Controlling,Closing
+Execution,Initiation,Monitoring and Controlling,Closing,Planning
+Closing,Execution,Initiation,Monitoring and Controlling,Planning
+Monitoring and Controlling,Planning,Closing,Execution,Initiation
+
+Answer = Initiation,Planning,Execution,Monitoring and Controlling,Closing
+
+
+Question 34
+Which of the following correctly arranges the units of storage in increasing order of size?
+
+Bit, Byte, Kilobyte, Megabyte, Terabyte, Gigabyte
+Bit, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte
+Kilobyte, Byte, Bit, Megabyte, Terabyte, Gigabyte
+Byte, Bit, Terabyte, Kilobyte, Megabyte, Gigabyte
+
+Answer = Bit, Byte, Kilobyte, Megabyte, Gigabyte, Terabyte
+
+
+Question 35
+What is the appropriate data type for storing a person's address?
+
+integer
+boolean
+string
+character
+
+Answer = string
+
+
+Question 36
+x = "false" declares what data type?
+
+boolean
+integer
+string
+double
+
+Answer = string
+
+
+Question 37
+If you are writing a program to determine if a number is even, which of the following data types would allow a true response to be reported when the number is even?
+
+string
+boolean
+double
+numeric
+
+Answer = boolean
+
+
+Question 38
+Which accessibility feature is important for users with visual disabilities to navigate and understand web content?
+
+Captions for multimedia content
+Logical tab order
+Consistent navigation structure across all pages
+Audio descriptions for multimedia content
+
+Answer = Audio descriptions for multimedia content
+
+
+Question 39
+To ensure that your text appears exactly as intended when executing your program, in what container should it be encapsulated?
+
+Angle braces
+Curly braces
+Quotation marks
+Square brackets
+
+Answer = Quotation marks
+
+
+Question 40
+What does input validation involve in software development?
+
+Generating unique hash values for data integrity checks
+Verifying and validating user input to prevent malicious input
+Encrypting sensitive data during transmission
+Ensuring software has the latest updates and patches
+
+Answer = Verifying and validating user input to prevent malicious input
+
+
+Question 41
+int product = 1;
+for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= i; j++) {
+        product *= i * j;
+    }
+}
+System.out.println(product);
+What will be the output of the above code?
+
+25
+4320
+1296
+144
+
+Answer = 1296
+
+
+Question 42
+What is the primary purpose of self-documenting code?
+
+To make the code shorter
+To eliminate the need for documentation
+To generate user-level documentation
+To improve code readability and understanding
+
+Answer = To improve code readability and understanding
+
+
+Question 43
+Which of the following is NOT a valid data type?
+
+Float
+Variable
+String
+Boolean
+
+Answer = Variable
+
+
+Question 44
+Which regulation aims to enhance cybersecurity by allowing the sharing of cyber threat information between private companies and the government?
+
+FERPA
+COPPA
+HIPAA
+CISPA
+
+Answer = CISPA
+
+
+Question 45
+What is the primary purpose of a class in object-oriented programming?
+
+To control the flow of a program.
+To encapsulate unrelated functions.
+To define the data and behavior of an object.
+To store variables and perform calculations.
+
+Answer = To define the data and behavior of an object.
+
+
+Question 46
+public class Circle {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+    
+    public double calculateArea() {
+        return Math.PI * radius * radius;
+    }
+}
+What is the access modifier used for the radius variable in the code snippet?
+
+return
+private
+this
+public
+
+Answer = private
+
+
+Question 47
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def calculate_area(self):
+        return self.width * self.height
+What is the purpose of the code snippet?
+
+Accessing the width and height attributes of a rectangle object
+Defining a user-defined class named Rectangle with an area calculation method
+Defining a function to calculate the area of a rectangle
+Initializing the width and height of a rectangle object
+
+Answer = Defining a user-defined class named Rectangle with an area calculation method
+
+
+Question 48
+What is the main difference between interpreted and compiled code?
+
+Interpreted code is platform-specific, while compiled code is portable.
+Interpreted code requires compilation before execution, while compiled code does not.
+Interpreted code is executed line by line, while compiled code is executed as a whole.
+Interpreted code runs faster than compiled code.
+
+Answer = Interpreted code is executed line by line, while compiled code is executed as a whole.
+
+
+Question 49
+Which statement accurately defines instance variables in object-oriented programming?
+
+Instance variables are accessed using the class name.
+Instance variables are shared among all instances of a class.
+Instance variables are initialized at the class level.
+Instance variables are unique to each instance of a class and store specific data.
+
+Answer = Instance variables are unique to each instance of a class and store specific data.
+
+
+Question 50
+What does O(n^2) complexity indicate in the context of data manipulation?
+
+Linear time complexity.
+Quadratic time complexity.
+Constant time complexity.
+Exponential time complexity.
+
+Answer = Quadratic time complexity.
+
+
+Question 51
+What is the value of the expression (4 + 2) * 3 % 2?
+
+7.5
+4
+6
+0
+
+Answer = 0
+
+
+Question 52
+If x = 5 and y = 2, what is the value of the expression "x ** y"?
+
+25
+8
+10
+7
+
+Answer = 25
+
+
+Question 53
+sum = 0
+for i in range(1, 4):
+    for j in range(i, 4):
+        sum += i + j
+print(sum)
+
+What will be the output of the above code?
+
+16
+24
+10
+15
+
+Answer = 24
+
+
+Question 54
+What does the == symbol in programming mean?
+
+division
+assignment
+equal
+subtraction
+
+Answer = equal
+
+
+Question 55
+In Big-O notation, what does O(n^2) represent?
+
+Quadratic time complexity.
+Constant time complexity.
+Linear time complexity.
+Logarithmic time complexity.
+
+Answer = Quadratic time complexity.
+
+
+Question 56
+What is the recommended approach to identify errors in code by breaking it down into smaller parts and testing each part individually?
+
+Use a debugger
+Print statements
+Code review
+Divide and conquer
+
+Answer = Divide and conquer
+
+
+Question 57
+Which process involves systematically executing test cases using automated tools to detect errors?
+
+Collaborative Debugging
+Code Review
+Profiling
+Automated Testing
+
+Answer = Automated Testing
+
+
+Question 58
+What is the purpose of method overriding in inheritance?
+
+Hiding methods from the superclass
+Creating new methods in the subclass
+Preventing inheritance from the superclass
+Providing a specific implementation in the subclass
+
+Answer = Providing a specific implementation in the subclass
+
+
+Question 59
+Which term describes the operations involved in reading data from and writing data to files in a program?
+
+File Input/output (I/O)
+Data formatting
+Input validation
+Error handling
+
+Answer = File Input/output (I/O)
+
+
+Question 60
+What does the "Fair Use" doctrine in copyright law allow?
+
+Unlimited use of copyrighted material
+Limited use of copyrighted material without permission for specific purposes
+Public domain distribution of copyrighted material
+Complete ownership of copyrighted material
+
+Answer = Limited use of copyrighted material without permission for specific purposes
+
+
+Question 61
+What is the purpose of alternative text for images in web accessibility?
+
+To enhance search engine optimization
+To prevent image theft
+To improve website performance
+To provide a description for screen reader users
+
+Answer = To provide a description for screen reader users
+
+
+Question 62
+Which of the following Boolean expressions are equivalent to the expression num <=15
+
+NOT num=15
+NOT num<15
+num<15 AND num=15
+num<15 OR num=15
+
+Answer = num<15 OR num=15
+
+
+Question 63
+What is one key difference between an abstract class and an interface?
+
+Abstract classes cannot be instantiated on their own.
+Abstract classes can have concrete methods.
+Abstract classes cannot have abstract methods.
+Interfaces can have instance variables
+
+Answer = Abstract classes can have concrete methods.
+
+
+Question 64
+Which of the following is a potential issue when using floating-point numbers in arithmetic operations?
+
+Loss of precision due to rounding errors
+Difficulty in representing fractional numbers
+Inability to perform arithmetic operations
+Limited range of representable values
+
+Answer = Loss of precision due to rounding errors
+
+
+Question 65
+What is a constructor in object-oriented programming languages responsible for?
+
+Destroying objects
+Controlling object inheritance
+Managing object lifecycles
+Initializing newly created objects
+
+Answer = Initializing newly created objects
+
+
+Question 66
+Regular updates and bug fixes contribute to an app’s success by:
+
+Increasing the app's download size
+Reducing user engagement and feedback
+Building user trust and maintaining functionality over time
+Releasing a completely new app version
+
+Answer = Building user trust and maintaining functionality over time
+
+
+Question 67
+How can you protect yourself from phishing attacks?
+
+Disabling security features on your devices
+Verifying the legitimacy of emails and websites
+Sharing personal information through email
+Clicking on links without verifying their source
+
+Answer = Verifying the legitimacy of emails and websites
+
+
+Question 68
+Which of the following best describes the relationship between a class and an object?
+
+A class is an instance of an object.
+An object is an implementation of a class.
+An object is a blueprint for creating a class.
+A class is a subset of an object.
+
+Answer = An object is an implementation of a class.
+
+
+Question 69
+Given the following lines of code: 
+
+x = 10
+y = 3
+result = x // y + 2
+
+What is the value of 'result'
+
+4
+5.33333
+5
+3.0
+
+Answer = 5
+
+
+Question 70
+Which of the following expressions is evaluated first in this expression, 4 + 8 / 2 * 3 - 5, according to the precedence of operations?
+
+Subtraction
+Multiplication
+Division
+Addition
+
+Answer = Division
+
+
+Question 71
+What is the purpose of hashing in software development?
+
+To authenticate users during the login process
+To encrypt sensitive data during transmission
+To convert data into a fixed-length string of characters
+To ensure secure communication between software components
+
+Answer = To convert data into a fixed-length string of characters
+
+
+Question 72
+Which regulation protects the privacy and personal data of European Union residents?
+
+PCI DSS
+COPPA
+GDPR
+HIPAA
+
+Answer = GDPR
+
+
+Question 73
+Which one of these units are larger than a gigabyte?
+
+Kilobyte
+Terabyte
+Nibble
+Megabyte
+
+Answer = Terabyte
+
+
+Question 74
+What is a “paywall” in app monetization?
+
+A type of ad format used in apps.
+A strategy to remove ads from free apps.
+A tool for managing app subscriptions.
+A feature that blocks access to certain content unless payment is made.
+
+Answer = A feature that blocks access to certain content unless payment is made.
+
+
+Question 75
+What role does a build system play in continuous integration and deployment?
+
+Ensuring code quality through automated testing and code analysis
+Enforcing version control policies and branching strategies
+Monitoring server performance and optimizing resource utilization
+Managing project documentation and generating API references
+
+Answer = Ensuring code quality through automated testing and code analysis
+
+
+Question 76
+In the context of web APIs, what does REST stand for?
+
+Remote Execution and Service Transfer
+Rapid Elastic Service Transfer
+Representational State Transfer
+Responsive State Transfer
+
+Answer = Representational State Transfer
+
+
+Question 77
+Which of the following best describes data sanitization?
+
+Converting user input to a different data type
+Ensuring user input is free from malicious code or special characters
+Removing leading or trailing whitespaces from user input
+Encrypting user input for secure storage
+
+Answer = Ensuring user input is free from malicious code or special characters
+
+
+Question 78
+What is the primary purpose of a two-dimensional array?
+
+To store multiple elements of different types
+To perform mathematical operations on numeric data
+To represent a matrix-like structure with rows and columns
+To iterate over a single-dimensional array
+
+Answer = To represent a matrix-like structure with rows and columns
+
+
+Question 79
+What is a good approach to a message that looks like phishing?
+
+Do not reply or press any links.
+Reply to the message
+Press the link they sent
+Fill out all the info they ask for
+
+Answer = Do not reply or press any links.
+
+
+Question 80
+In programming, a constant is a variable that remains unchanged throughout the program or its execution.
+How can you identify that a variable is designated as a constant?
+
+There variable will be declared using snake_case notation.
+The variable will be declared using camelCase notation.
+The variable will be declared using all capital letters.
+There will be a comment to the right side of the variable declartion.
+
+Answer = The variable will be declared using all capital letters.
+
+
+Question 81
+What is the objective of "phishing"?
+
+To allow only open-source code to be taken
+To hack into a users personal account
+To trick someone into divulging secure and/or personal information
+To allow network users to openly exchange information
+
+Answer = To trick someone into divulging secure and/or personal information
+
+
+Question 82
+What is the value of the expression "x += 5" if x is initially 10?
+
+10
+5
+15
+20
+
+Answer = 15
+
+
+Question 83
+While x is not equal to 1
+    Do some tasks
+End While
+When do you get OUT of this loop?
+
+When x is larger than 1
+When x is assigned -1
+When x  is assigned 1
+When x is larger than 0
+
+Answer = When x  is assigned 1
+
+
+Question 84
+What role does a build system play in managing project dependencies?
+
+Resolving conflicts between different versions of software libraries
+Analyzing runtime behavior and memory usage of software applications
+Enforcing coding conventions and style guidelines
+Ensuring secure communication between client and server components
+
+
+Answer = Resolving conflicts between different versions of software libraries
+
+
+Question 85
