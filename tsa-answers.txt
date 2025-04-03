@@ -973,3 +973,180 @@ Answer = Resolving conflicts between different versions of software libraries
 
 
 Question 85
+What is the purpose of a reference variable in object-oriented programming?
+
+To execute methods in a class
+To store the memory address of an object
+To define a class
+To access static members in a class
+
+Answer = To store the memory address of an object
+
+
+Question 86
+How is object instantiation different from class declaration?
+
+Object instantiation creates instances of a class, while class declaration defines the structure and behavior of the class.
+Object instantiation combines multiple classes into one, while class declaration creates instances of the class.
+Object instantiation and class declaration are the same concepts.
+Object instantiation is the process of creating a new class, while class declaration defines the properties and methods.
+
+Answer = Object instantiation creates instances of a class, while class declaration defines the structure and behavior of the class.
+
+
+Question 87
+What is one reason encapsulation is important in object-oriented programming?
+
+Exposes all internal details of an object.
+Protects an object’s internal state (data)
+Deletes objects from memory
+Creates instances of a class
+
+Answer = Protects an object’s internal state (data)
+
+
+Question 88
+Which of the following is a common interpreted programming language?
+
+Rust
+Python
+C
+C++
+
+Answer = Python
+
+
+Question 89
+What is the purpose of test-driven development (TDD)?
+
+To ensure the program meets all the specified requirements
+To provide a detailed user manual for the program
+To automate the testing process for the program
+To focus on writing tests before writing the actual code
+
+Answer = To focus on writing tests before writing the actual code
+
+
+Question 90
+What is the primary purpose of shader programming in graphics development?
+
+Creating responsive graphics
+Optimizing graphics performance
+Manipulating graphics at a pixel level for advanced visual effects
+Manipulating image colors
+
+Answer = Manipulating graphics at a pixel level for advanced visual effects
+
+
+Question 91
+Why is visualizing important before writing code?
+
+It aids in understanding the problem and planning the solution.
+It helps improve typing speed and accuracy.
+It allows programmers to skip the planning phase.
+It speeds up the code execution process.
+
+Answer = It aids in understanding the problem and planning the solution.
+
+
+Question 92
+What is the role of try-catch blocks in error handling?
+
+They have no impact on error handling
+They ensure error-free code execution
+They handle exceptions in a controlled manner
+They provide a user-friendly display of error messages
+
+Answer = They handle exceptions in a controlled manner
+
+
+Question 93
+Which of the following is NOT a benefit of Encapsulation:
+
+Security via controlling access to an object’s attributes
+The ability to change the internal implementation without affecting the external code
+Code reusability through method overloading and overriding
+Modularity that makes the code easier to manage and maintain
+
+Answer = Code reusability through method overloading and overriding
+
+
+Question 94
+Which of the following is not an internet connection type?
+
+Smartphone
+Bluetooth
+DSL
+Fiber-optic
+
+Answer = Bluetooth
+
+
+Question 95
+Which naming convention is commonly used for Python variables and functions?
+
+snake_case
+PascalCase
+camelCase
+kebab-case
+
+Answer = snake_case
+
+
+Question 96
+What potential challenges may arise when decomposing a large programming problem?
+
+Eliminating the need for documentation and testing
+Ensuring that different components work well together and communicate properly.
+Determining the optimal programming language to be used
+Managing the project budget effectively
+
+Answer = Ensuring that different components work well together and communicate properly.
+
+
+Question 97
+Match the decimal number on the LEFT to the equivalent hexadecimal representation on the RIGHT
+
+29
+Answer = 1B
+58
+Answer = 38
+128
+Answer = 80
+255
+Answer = FF
+
+
+Question 98
+Which of the following is a recommended practice for using whitespace in code?
+
+Use excessive whitespace to make the code look longer
+Utilize whitespace effectively to enhance code readability
+Avoid using whitespace as it adds unnecessary characters
+Randomly add whitespace for aesthetic purposes
+
+Answer = Utilize whitespace effectively to enhance code readability
+
+
+Question 99
+In which data structure can keys be of any data type?
+
+
+Queue
+Array
+Linked list
+Hash map
+
+Answer = Hash map
+
+
+Question 100
+Determine the highest precedence of operations in this example 10 + 12 * 5 % 3 - 2.
+
+Addition
+Subtraction
+Multiplication
+Modulo
+
+Answer = Multiplication
+
