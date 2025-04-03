@@ -107,3 +107,622 @@ return a
 
 
 Question 5
+Evaluate the code:
+
+function change(student, course) {
+  student = "JavaScript Student";
+  course.name = "JavaScript";
+  course.grade = 100;
+}
+var sampleCourse = { name: "HTML", grade: 90 };
+var sampleStudent = "HTML Student";
+change(sampleStudent, sampleCourse);
+
+You need to determine the values of sampleStudent, sampleCourse.name,  and sampleCourse.grade that are output by the console.log()
+What are the final values for these three variables?
+
+Answer =
+sampleStudent = HTML Student
+sampleCourse.name = JavaScript
+sampleCourse.grade = 100
+
+
+Question 6
+A javascript array is initalized as follows:
+var array = [20, 40, 60, 80];
+You write the following code to manipulate the array :
+
+array.shift();
+array.pop();
+array.push(10);
+array.unshift(100);
+
+You need to determine the contents of the array.
+Which four elements does the array contain in the sequence?
+To answer, move the appropriate elements from the list of elements to the answer area and arrange them in the correct order. 
+
+Answer =
+[100, 40, 60, 10]
+
+
+Question 7
+For each of the following statements, select Yes if the statement is true. Otherwise, select No. 
+
+External JavaScript files can be cached.     
+Answer = YES
+Internal JavaScript can be placed between the <head> tags.     
+Answer = YES
+Placing your scripts at the bottom of the page lets the browser load the other elements of the page first.     
+Answer = YES
+
+
+Question 8
+You are designing a function that allows you to perform unit tests on other functions in a library. You will invoke each library function by using the eval JavaScript function.
+If an exception occurs when invoking  a function, you want to display a message box with the following message: The function does not exist.
+How should you complete the code? 
+
+Answer =
+function unitTest(expression) {
+  try {
+    eval(expression);
+    } 
+catch (err) {
+  alert("That function does not exist.");
+  }
+}
+
+
+Question 9
+Variable x has a value of 5. Variable y has a value of 7.
+For each of the following expressions, select True if the statement evaluates to true. Otherwise, select False.
+
+x > 7 && y > 6;       
+False
+x == 6 || y == 6;     
+False
+x !== y               
+True
+!(x == y);            
+True
+
+
+Question 10
+You are creating a web page that allows customers to choose how hot their spice is. If they choose spicy, a warning should be displayed.
+You create the following form. Line numbers are included for reference only
+
+     <form name = "orderForm" action = "#" method = "post">
+      <select name = "heatIndex" required>
+        <option>Mild</option>
+        <option>Medium</option>
+        <option>Spicy</option>
+      </select>
+      <button onclick="checkWarning()">Order</button>
+     </form>
+
+You create the following JavaScript code to display the warning.
+
+function checkWarning() {
+  var option = document.forms.orderForm["heatIndex"].value;
+  if (option == "Spicy") {
+    alert("Spicy food! Good Luck!");
+  }
+}
+ 
+When you choose spicy and click Order, the wanning fails to display. You need to solve this problem.
+What should you do?
+
+Change the html from <button onclick="checkWarning()">Order</button> to <button onclick="checkWarning">Order</button>
+Change  var option = document.forms.orderForm["heatIndex"]; to  var option = document.forms.orderForm["heatIndex"].value;
+Change the html from <button onclick="checkWarning()">Order</button> to <button onchange="checkWarning()">Order</button>
+Change the script from  var option = document.forms.orderForm["heatIndex"]; to  var option.value = document.forms.orderForm["heatIndex"];
+
+Answer = Change  var option = document.forms.orderForm["heatIndex"]; to  var option = document.forms.orderForm["heatIndex"].value;
+
+
+Question 11
+Evaluate the following code.
+
+let n = 50;
+let c = n + 5;
+let a = n % 2;
+let d = c / 11;
+n = d % 2;
+console.log(n, c, a, d);
+ 
+What is the value of each variable sent to the console?
+
+Answer = 
+n = 1
+c = 55
+a = 0
+d = 5
+
+
+Question 12
+You are evaluating a colleague's code to ensure it meets best practices.
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.  
+
+Answer = 
+The characters // are used to mark a single line as a comment.     
+YES
+totalscore is in the correct format according to standard naming conventions for JavaScript.     
+YES
+~score can be used as a variable name.     
+NO
+switch can be used as a variable name.     
+NO
+
+
+Question 13
+For each of the following segments, select Yes if the statement is true. Otherwise, select No.
+
+When using a GET request with a form, the data length is restricted.     
+YES
+Only GET requests should be used when handling sensitive form data.     
+NO
+Form POST requests are cached.
+NO
+POST requests will always remain in browser history.
+NO
+
+
+Question 14
+You are writing an engineering application. You need to create a function that will round numbers to 3 or more decimal places.
+You need to create a function that receives the following two parameters:
+-> The value parameter is the number to be formatted
+-> The digits parameter is the number of digits to display
+The function must return the value with the number of digits specified.
+Which function should you use?
+
+function significance(value, digits) {
+  return value.toFixed(digits);
+}
+function significance(value, digits) {
+  return value.toPrecision(digits);
+}
+function significance(value, digits) {
+  return value.toString(digits);
+}
+function significance(value, digits) {
+  return value.valueOf(digits);
+}
+
+Answer =
+function significance(value, digits) {
+  return value.toFixed(digits);
+}
+
+
+Question 15
+<<< Defective Code - this problem was probably corrected or deprecated >>>
+You are writing a JavaScript program for Contoso Suites that will output HTML. You need to output each room type on a new line using the correct method. You create the following code for the function.
+
+01   <!DOCTYPE html>
+02   <html>
+03   <body>
+04     <p id="para"><br></p>
+05     <script>      
+06         var line = document.getElementById("para");
+07         var rooms = ["Single", "Double", "Triple", "Suite"];
+08         var i = 0;      
+09         for (i = 0; i < rooms.length; i++) {
+10           
+11         }        
+12     </script>
+13   </body>
+14   </html>
+
+You need to insert the correct code at Line 10. Which line should you use?
+
+document.getElementById("para").innerHTML += i + rooms + line.innerHTML;
+document.getElementById("body").innerHTML = rooms[i] + line.innerHTML;
+document.getElementById("para").innerHTML += rooms[i] + line.innerHTML;
+document.getElementById("body").innerHTML += rooms + i;
+
+Answer = document.getElementById("para").innerHTML += rooms[i] + line.innerHTML;
+
+
+Question 16
+You have the following form:
+
+<form action="http://localhost:35132/Account/FormTest" method="get">
+    <input type="text" name="first" value="">
+    <input type="text" name="last" value="">
+    <button type="submit">Submit</button>
+</form>
+
+A user fills out the form with 'John' in the first name and 'Doe' in the last name.
+Which URL will the form submit?
+
+http://localhost:35132/Account/FormTest
+http://localhost:35132/Account/FormTest#first=John?last=Doe
+http://localhost:35132/Account/FormTest?firstName=John&lastName=Doe
+http://localhost:35132/Account/FormTest?first=John&last=Doe
+
+Answer = http://localhost:35132/Account/FormTest?first=John&last=Doe
+
+
+Question 17
+You are creating a JavaScript program for an accounting system. You create the following code. Line numbers are included for reference only.
+
+01    var firstName = "Jo";
+02    var lastName = "Berry";
+03    var while = Date.now();
+04    var color = "Red";
+05    var break = 'No';
+
+You evaluate the code to ensure that it follows JavaScript best practices. Which lines should you change?  
+
+01
+02
+03
+04
+05
+
+Answer = 03, 05
+
+
+Question 18
+You are developing an application that relies on cookies. You need to design the page so that when a user opens the page and cookies are enabled, a cookie is submitted to indicate the last time the user visited the site. The page needs to check for cookies.
+Which event should you use?
+
+onchange
+onclick
+onload
+onselect
+
+Answer = onload
+
+
+Question 19
+You are using the pushState() function in the history object as follows:
+history.pushState(stateObject, "My Page", "test.html");
+The stateObject is 1 MB in size. You need to retain information needed by the user as long as the window is open. What should you do?
+
+Use sessionStorage instead
+Use localStorage instead.
+Throw an InternalError.
+Use the pushState() function as is.
+
+Answer = Use sessionStorage instead
+
+
+Question 20
+You are creating a dynamic HTML page by using JavaScript. Your page has an image of the sun.
+-> When the user’s mouse pointer moves across the image of the sun, the image should change to the image of the moon.
+-> When the user’s mouse pointer is no longer over the image should change back to the image of the sun. You need to write the code for the image swap.
+Which two events must you program for?
+
+onmosedown
+onmouseover
+onmouseout
+onmouseenter
+onmouseup
+
+Answer = onmouseover, onmouseout
+
+
+Question 21
+This question requires that you evaluate the underlined text to determine if it is correct. You review the following JavaScript code:
+
+var x = 15;
+x %= 5;
+
+When this code executes, the value of x is 0
+Review the underlined text.
+If it makes the statement correct, select “No change is needed”.  If the statement is incorrect, select the answer choice that makes the statement correct.
+
+No change is needed
+The value of x is 3
+The value of x is 5
+The value of x is undefined
+
+Answer = No change is needed
+
+
+Question 22
+You are designing a web page that contains a list of animals. The web page includes a script that outputs animals from a list.
+You create the following HTML to test the script:
+
+     <p><u>Animals</u></p>
+     <ul>
+       <li>Dog</li>
+       <li><b>Cat</b></li>
+       <li>Lion</li>
+     </ul>
+     <p>Click the button to display the animals. </p>
+     <button onclick="showlist()">Show List</button>
+     <div id="list"></div>
+
+You need to create a function that will display the list of animals, including any formatting, in the div element.
+How should you complete the code?
+
+Answer =
+function showlist() {
+  var list = document.getElementsByTagName("ul");
+  for (var i = 0; i < list.length; i++) {
+    document.getElementById("list").innerHTML += list[i].textContent;
+  }
+}
+
+
+Question 23
+You are designing a web page with a script that must dynamically change the content of a paragraph element to display the value returned by the function randomQuote().
+You have created the following code. Line numbers are included for reference only.
+
+01    <!DOCTYPE html>
+02    <html>
+03      <body>
+04          <p id="tester" onclick="changeText()">Click to change the content.</p>
+05          <input type="button" value="Change Text" onclick="changeText()" onclick="console.log('button clicked');"/>
+06          <script>
+07            function changeText() {
+08              
+09            }
+10          </script>
+11      </body>
+12    </html>
+
+Which code segment should you use at line 08?
+
+Answer = 
+document.getElementById("tester").title = randomQuote();
+document.getElementById("tester").script = randomQuote();
+document.getElementById("tester").innerHTML = randomQuote();
+document.getElementById("tester").value = randomQuote();
+
+
+Question 24
+You are creating a web page with a script. The script will insert the window’s location inside the page’s input element.
+How should you complete the code?
+
+<!DOCTYPE html>
+<html>
+  <body>
+      <input id="url" type="input"/>
+      <script>
+        document.getElementById("url").value = window.location.href;
+      </script>
+  </body>
+</html>
+
+
+Question 25
+You are designing a web page that contains a blue button.
+->  When the button is pressed, it should call a function that displays the message ‘Welcome!’.
+->  When the cursor hovers over the button, the button should turn red.
+->  When the cursor leaves the button, the button should revert back to its original color of blue.
+You want to complete the markup using the appropriate HTML events. How should you complete the markup?
+
+Answer =
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function showRed() {
+         var changer = document.getElementById("changer");
+         changer.style.backgroundColor = "red";
+      }
+      function showBlue() {
+         var changer = document.getElementById("changer");
+         changer.style.backgroundColor = "blue";
+      }
+      function notify() {
+         alert("Welcome!");
+      }
+    </script>
+  </head>
+  <body>
+     <input id="changer" type="button" onclick="notify();" onmouseover="showRed();" onmouseout="showBlue();" value="Click Me" style="background-color: blue; color: white"/>
+  </body>
+</html>
+
+
+Question 26
+You are creating a function that does safe division.
+The function has the following requirements:
+-> The function receives two parameters for the numerator and denominator.
+-> If the denominator is zero, the function must return false.
+-> If the denominator is not zero, the function must return true.
+You write the following code. Line numbers are included for reference only. 
+
+01   function isSafeDivide(numerator, denominator) {
+02      if (denominator = 0) {
+03            return false;
+04      } else {
+05           return true;
+06      }
+07      }
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+The function will always return false:    
+Yes
+The operator at line 02 should be != :    
+No
+
+
+Question 27
+You are creating a calendar application. You need to ensure that the code works correctly for all months of the year.
+How should you complete the code?
+
+var daysInMonth;
+var month;
+month = new Date().getMonth();
+    
+Answer =
+switch (month) {
+    case 1:
+        daysInMonth = 28; // for February, ignore Leap Years
+        break;
+    case 3:
+    case 5:
+    case 8:
+    case 10:
+        daysInMonth = 30;
+        break;
+}
+
+
+Question 28
+You are creating a function named countdown. The function accepts a single parameter, start, and displays a countdown from that number down to zero in increments of one.
+How should you complete the code?
+
+Answer =
+function countdown(start) {
+     for (var i = start;i >= 0;--i) {
+          console.log(i);
+     }
+}
+
+
+Question 29
+You are using JavaScript to write a safe root math utility that has the following requirements:
+Given the function safeRoot(a, b):
+-> If the radicand (a) is non-negative, return Math.pow (a, 1/b);
+-> Otherwise,If the index (b) is divisible by 2, then return text indicating the result is imaginary.
+-> Otherwise return -Math.pow (-a, 1/b)
+How should you complete the code?  
+
+Answer =
+function safeRoot(a, b) {
+  if (a >= 0) {
+    return Math.pow(a, 1 / b);
+  if (b % 2 == 0) {
+    return "Result is an imaginary number";
+} else {
+    return -Math.pow(-a, 1 / b);
+}
+}
+}
+
+
+Question 30
+Your instructor has asked you to implement code that would display a two-dimensional array of any size inside a <div> tag.
+You write the following code: 
+You need to complete the code.
+Which four segments should you use to develop the solution?
+To answer, move the appropriate code segments from the list of
+code segments to the answer area and arrange them in the correct order.
+
+Answer =
+for (var k = 0; k < board[0].length; k++) {
+  for (var i = 0; i < board.length; i++) {
+    div.innerHTML = div.innerHTML + board[i][j] + " ";
+  }
+  div.innerHTML = div.innerHTML + "<br>";
+}
+
+
+Question 31
+You need to write a loop that will traverse the length of an array to find the value orange. If an array element value is null, the code should immediately go to the next element. When the value is found, the loop should exit.
+How should you complete the code? To answer, drag appropriate keywords to the correct locations. Each keyword may be used once, more than once, or not at all. 
+
+Answer =
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function doWork() {
+        var list = [
+          "apple",
+          "pear",
+          null,
+          "apple",
+          "banana",
+          "orange",
+          null,
+          "grape",
+          "kiwi",
+        ];
+        for (var i = 0; i < list.length; i++) {
+          if (list[i] === null) {
+            continue;
+          }
+          if (list[i] === "orange") {
+            alert("found");
+            break; 
+          }
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" value="test" onclick="doWork()">
+  </body>
+</html>
+
+
+Question 32
+The ABC company oers a mid-week discount of 10% on Wednesdays.
+You need to write a JavaScript function that meets the following requirements:
+-> Accepts the day of the week as a string
+-> Returns the appropriate discount
+You create the following code. Line numbers are included for reference only.
+You must complete the code at lines 03, 04, and 07.
+How should you complete the code?
+
+Answer =
+01  function getDiscount(day) {
+02     var discount = 0;
+03     switch (day) {
+04         switch "Wednesday"
+05               discount = 0.1;
+06               break;
+07         case default:
+08               discount = 0;
+09               break;
+10   }
+11     return discount;
+12 }
+
+
+Question 33
+You are using JavaScript to create a function that calculates admission price.
+The function must meet the following requirements:
+-> The function accepts the age of the customer as a parameter
+-> A customer who is less than 5 years old gets in free
+-> A customer who is 65 years old or older gets in free
+-> A customer who is 5 years old to 17 years old, pays $10 USD
+-> All other customers pay $20 USD
+How should you complete the code?
+
+Answer =
+function ticketPrice(age) {
+  var price = 20;
+  if (age < 5 || age >= 65) {
+    price = 0;
+  }
+  if (age >= 5 || age < 18) {
+    price = 10;
+  }
+  return price;
+}
+
+
+Question 34
+Your instructor has asked you to write a program that uses simple rules to help determine if a person should take the train, drive their car, or ride a bike, depending on the conditions of the weather and the amount of gas in the car's tank.
+The program has the following requirements:
+-> When the temperature is above 65 degrees and it is not raining, the person should be told to ride their bike.
+-> When it is raining, the person should be told to drive their car.
+-> If their car has half a tank of gas or less, they should be told to take the train. 
+How should you complete the code?  
+
+Answer =
+if (temperature > 65 && !raining) 
+  advice = "Ride Bike";
+else if (fuelTank <= 0.5) 
+  advice = "Take Train";
+else 
+  advice = "Drive your car";
+
+
+Question 35
+You are creating JavaScript code that manipulates dates. You want to initialize a Date object with the date January 1, 2017 by using the year, month, and date parameters.
+How should you complete the code?
+
+Answer =
+var date = new Date(2017, 0, 1);
+
+
+Question 36
