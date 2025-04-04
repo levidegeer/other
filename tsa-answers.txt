@@ -1150,3 +1150,521 @@ Modulo
 
 Answer = Multiplication
 
+
+Question 101
+How can input filtering and sanitization libraries assist in input sanitization?
+
+By encrypting user input before processing
+By automating the process of validating and cleaning user input
+By generating secure encryption keys for user input
+By removing all user input to prevent security issues
+
+Answer = By automating the process of validating and cleaning user input
+
+
+Question 102
+What is the purpose of the catch block in exception handling?
+
+To exit the program abruptly
+To throw an exception
+To handle and process a caught exception
+To ignore the caught exception
+
+Answer = To handle and process a caught exception
+
+
+Question 103
+What is the primary use of Remote Desktop Services (RDS)?
+
+Access and control of remote desktops
+Secure remote access to networks
+Virtualized computing resources
+Delivery of software applications
+
+Answer = Access and control of remote desktops
+
+
+Question 104
+The phase in the SDLC (System Design Life Cycle) where requirements are gathered and analyzed is called:
+
+Design
+Analysis
+Development
+Testing
+
+Answer = Analysis
+
+
+Question 105
+What is a user-defined class?
+
+A class used for unit testing purposes
+A class provided by the programming language's standard library
+A class created by the user or developer
+A class with restricted access permissions
+
+Answer = A class created by the user or developer
+
+
+Question 106
+Which of the following is the best description of keylogging?
+
+A software that can track every key typed in a keyboard
+A computer hardware part that holds the key based input
+Expanding the memory space on a computer
+The process of saving more passwords
+
+Answer = A software that can track every key typed in a keyboard
+
+
+Question 107
+"Using simple symbols to represent more complicated information" is a definition for what idea?
+
+Polymorphism
+Encapsulation
+Abstraction
+Inheritance3
+
+Answer = Abstraction
+
+
+Question 108
+When performing arithmetic operations on integers, what is the potential issue to be aware of?
+
+Rounding errors
+Overflow or underflow
+Precision loss
+Type conversion errors
+
+Answer = Overflow or underflow
+
+
+Question 109
+What does the "Extract Method" refactoring technique involve?
+
+Adding comments to the code
+Replacing methods with inline code
+Breaking down long, complex methods into smaller pieces
+Combining multiple methods into one
+
+Answer = Breaking down long, complex methods into smaller pieces
+
+
+Question 110
+Which of the following is an example of O(log n) time complexity?
+
+Bubble sort algorithm
+Linear search algorithm
+Binary search algorithm
+Insertion sort algorithm
+
+Answer = Binary search algorithm
+
+
+Question 111
+for (int i = 0; i <= 10; i += 2) {
+    System.out.print(i + " ");
+}
+
+What will be the output of the above code snippet?
+
+0 2 4 6 8
+0 2 4 6 8 10
+0 1 2 3 4 5 6 7 8 9 10
+1 3 5 7 9
+
+Answer = 0 2 4 6 8 10
+
+
+Question 112
+What kind of inputs should be considered when designing integration tests?
+
+Only valid and expected inputs
+Both valid and invalid inputs, including edge cases and unexpected inputs
+Only invalid inputs to stress-test the system
+Randomly chosen inputs
+
+Answer = Both valid and invalid inputs, including edge cases and unexpected inputs
+
+
+Question 113
+What is the purpose of a constructor in a class?
+
+To provide custom methods for objects.
+To initialize objects when they are created.
+To access private members of a class.
+To destroy objects when they are no longer needed.
+
+Answer = To initialize objects when they are created.
+
+
+Question 114
+What is the best way to increase password security?
+
+Include symbols such as $, *, ! 
+Use the same password across multiple accounts
+Make the password longer and more complex
+Shorter passwords for easy memorization
+
+Answer = Make the password longer and more complex
+
+
+Question 115
+What is the main purpose of inheritance in object-oriented programming?
+
+Method abstraction
+Code reuse and extensibility
+Data encapsulation
+Polymorphism
+
+Answer = Code reuse and extensibility
+
+
+Question 116
+How many bytes are in a kilobyte?
+
+1024
+1000
+1 000 000
+1 048 576
+
+Answer = 1024
+
+
+Question 117
+What does the acronym API stand for in software development?
+
+Application Program Interface
+Automated Programming Interface
+Application Programming Intranet
+Advanced Program Interaction
+
+Answer = Application Program Interface
+
+
+Question 118
+What is the purpose of merging in version control?
+
+Integrating changes from one branch into another
+Keeping changes isolated from the main codebase
+Reviewing code changes made by others
+Creating independent copies of repositories
+
+Answer = Integrating changes from one branch into another
+
+
+Question 119
+Imagine a guest at a restaurant. The waiter comes and takes the guest's order and takes it to the chef to cook the food. Then, the waiter brings the food to the guest's table. In example, which of the following is like an API?
+
+The chef
+The restaurant
+The guest
+The waiter
+
+Answer = The waiter
+
+
+Question 120
+Which security standard is established to protect cardholder data for payment card transactions?
+
+CISPA
+FERPA
+PCI DSS
+COPPA
+
+Answer = PCI DSS
+
+
+Question 121
+What is the primary goal of a search operation in an array?
+
+To sort the array in ascending order
+To determine if the array is sorted.
+To locate a specific element within the array.
+To rearrange the elements in descending order.
+
+Answer = To locate a specific element within the array.
+
+
+Question 122
+In which scenario is a hybrid search algorithm likely to be beneficial?
+
+When the data is consistently distributed
+When the data is well-sorted
+When the data distribution varies
+When the data is small
+
+Answer = When the data distribution varies
+
+
+Question 123
+Which communication interface allows devices to establish a connection by bringing them close together?
+
+Bluetooth
+NFC
+LTE
+Wi-Fi
+
+Answer = NFC
+
+
+Question 124
+What happens if the condition of an iterative loop is never met?
+
+The loop will run 10 times and stop.
+It throws an error.
+It won't run in the first place.
+The loop continues forever.
+
+Answer = The loop continues forever.
+
+
+Question 125
+What is the term used for the process of assigning initial values to an array?
+
+Initialization
+Creation
+Allocation
+Assignment
+
+Answer = Assignment
+
+
+Question 126
+What is a key benefit of using version control systems like Git and Mercurial?
+
+Increased server storage space
+Reversion and Rollback
+Faster internet connection speeds
+Enhanced network security
+
+Answer = Reversion and Rollback
+
+
+Question 127
+x = 6
+y = 3
+result = x > 5 and y < 2
+What is the value of "result" in the above code?
+
+Error: Invalid operation
+True
+False
+Error: Undefined variable
+
+Answer = False
+
+
+Question 128
+Which technique allows us to embed variable values directly into a string for output formatting?
+
+Date and time formatting
+String interpolation
+Numeric formatting
+HTML escaping
+
+Answer = String interpolation
+
+
+Question 129
+What are graphics methods in the context of software development?
+
+File formats for saving images
+Data structures for storing images
+Programming functions for drawing and manipulating graphical elements
+Communication protocols for graphics rendering
+
+Answer = Programming functions for drawing and manipulating graphical elements
+
+
+Question 130
+In a two-dimensional array, how are elements typically accessed?
+
+Using a single index
+Using a single index, and a column identifier.
+Using two indices, representing row and column positions.
+Using the length of the array.
+
+Answer = Using two indices, representing row and column positions.
+
+
+Question 131
+What does i-- do to the value of i?
+
+multiplies the current value of i by 1
+adds 1 to the current value of i
+multiplies current value of i by 2
+subtracts 1 to the current value of i
+
+Answer = subtracts 1 to the current value of i
+
+
+Question 132
+All of the following are types of data at risk in a "Sensitive Data Exposure" vulnerability EXCEPT ONE.
+Which one of the following is data types are NOT at risk in a 'Sensitive Data Exposure' vulnerability?
+
+Session tokens
+Publicly availabe information
+Internal files
+Personal details
+
+Answer = Publicly availabe information
+
+
+Question 133
+Which strategy is useful for dealing with a complex problem that is difficult to solve as a whole?
+
+Regression Testing
+Decomposition
+Integration
+Abstraction
+
+Answer = Decomposition
+
+
+Question 134
+What programming statement is used to exit a loop prematurely?
+
+Break statement
+Halt statement
+Stop statement
+Terminate statement
+
+Answer = Break statement
+
+
+Question 135
+Which expression is evaluated first in this example,
+2 + 3 * 4 ** 2 % 5,
+according to the precedence of operations?
+
+Modulo, % 
+Exponentiation, ** 
+Addition, +
+Multiplication, *
+
+Answer = Exponentiation, ** 
+
+
+Question 136
+Which of the following best describes interpreted code?
+
+Code that is executed line by line by an interpreter in real-time.
+Code that does not require debugging.
+Code that is platform-independent and executed faster.
+Code that is translated into machine code before execution
+
+Answer = Code that is executed line by line by an interpreter in real-time.
+
+
+Question 137
+Which of the following statements is true about abstract classes?
+
+An abstract class can provide default method implementations.
+An abstract class can be directly implemented by a class.
+An abstract class can be instantiated.
+An abstract class cannot have any abstract methods.
+
+Answer = An abstract class can provide default method implementations.
+
+
+Question 138
+What does the substring method typically do when applied to a string?
+
+Reverses the characters in the string
+Splits the string into multiple substrings based on a specified delimiter
+Extracts a portion of the string based on a specified starting index and length
+Capitalizes the first letter of the string
+
+Answer = Extracts a portion of the string based on a specified starting index and length
+
+
+Question 139
+What does the term "sprint" refers to:
+
+A meeting to discuss progress on the projec
+A phase in the Waterfall methodology
+The final stage of project development
+A time-boxed iteration for completing tasks
+
+Answer = A time-boxed iteration for completing tasks
+
+
+Question 140
+What does LTE stand for in the context of IoT communication?
+
+Low-Transmission Energy
+Localized Technology Environment
+Long-Term Evolution
+Light-Thin Encryption
+
+Answer = Long-Term Evolution
+
+
+Question 141
+Which logic gate is represented by the Boolean expression A or B?
+
+AND gate
+NOT gate
+OR gate
+XOR gate
+
+Answer = OR gate
+
+
+Question 142
+In the expression x >= 5, what does the >= operator signify?
+
+x is greater than or equal to 5
+x is less than 5
+x is greater than 5
+x is equal to 5
+
+Answer = x is greater than or equal to 5
+
+
+Question 143
+What does decomposing a problem into smaller procedures allow developers to do?
+
+Leave the problem-solving to someone else.
+Avoid understanding the problem as a whole.
+Solve each part independently and then combine the solutions to solve the entire problem.
+Ignore the problem's complexities.
+
+Answer = Solve each part independently and then combine the solutions to solve the entire problem.
+
+
+Question 144
+Which U.S. federal law facilitates information sharing and cooperation between private companies and the government concerning cybersecurity threats?
+
+COPPA
+FERPA
+CISPA
+HIPAA
+
+Answer = CISPA
+
+
+Question 145
+What are media queries used for in responsive design?
+
+Controlling image size and resolution
+Enhancing website accessibility for individuals with disabilities
+Implementing interactive animations on web pages
+Applying different styles and layout rules based on device characteristics
+
+Answer = Applying different styles and layout rules based on device characteristics
+
+
+Question 146
+Which remote computing service allows users to access and control a remote desktop environment?
+
+Infrastructure as a Service (IaaS)
+Remote Desktop Services (RDS)
+Virtual Private Network (VPN)
+Software as a Service (SaaS)
+
+Answer = Remote Desktop Services (RDS)
+
+
+Question 147
