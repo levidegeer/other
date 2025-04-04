@@ -726,3 +726,103 @@ var date = new Date(2017, 0, 1);
 
 
 Question 36
+You are planning to use the Math object in a JavaScript application. You write the following code to evaluate various Math functions:
+
+var ceil = Math.ceil(100.5);
+var floor = Math.floor(100.5);
+var round = Math.round(100.5);
+
+Answer =
+ceil = 101
+floor = 100
+round = 101
+
+
+Question 37
+You are writing a JavaScript program for Blue Yonder Airlines. The program stores various information about the airline's flights.
+The program has initialized the following variables: 
+
+01  var flightDestination = "Denver";
+02  var flight = 5;
+03  var roundTrip = 2449.58;
+04  var onTime = true;
+05  var id = flight + flightDestination;
+
+You need to determine the data type of the code segment based on initialization and the assignment of the variables.
+Use the dropdown menus to select the answer choice that answers each question based on the information presented in the code segment.
+
+Answer =
+What is the data type for line 01?  
+String
+What is the data type for line 03?  
+Number
+What is the data type for line 04?  
+Boolean
+
+
+Question 38
+You work as a JavaScript developer for Adventure Works. You are writing a simple script that performs the following actions:
+
+-> Declares and initializes an array
+-> Fills the array with 10 random integers
+-> Adds every other number starting with the first element
+
+How should you complete the code? To answer, select the appropriate code segments in the answer area.
+
+Answer =
+var numbers = [];
+for (var i = 0; i < 10; i++) {
+  numbers.push(Math.round(Math.abs(Math.random() * 10)));
+}
+var sum = 0;
+for (var j = 0; j < 10; j = j + 2) {
+  sum += numbers[j];
+}
+console.log(sum);
+
+
+Question 39
+You are creating a JavaScript function that returns a date the specified number of months in the future of the current date.
+The function must meet the following requirements:
+  - Accept a number that represents the number of months to add or subtract from the current date.
+  - Return the current data adjusted by the number of months passed into the function.
+How should you complete the code? To answer, select the appropriate code segments in the answer area.
+NOTE: Each correct selection is worth one point
+
+Answer =
+function adjustMonth(value) {
+  var date = new Date();
+  var month = date.getMonth();
+  date.setMonth(month + value);
+  return date;
+}
+
+
+Question 40
+You analyze the following code fragment.
+
+"use strict";
+var val1 = 25;
+var val2 = 4;
+function multiply() {
+  return val1 * val2;
+}
+console.log("Global multiply() returns: " + multiply());
+multiply();
+function getProduct() {
+  var val1 = 2;
+  var val2 = 3;
+  function multiply() {
+    return val1 * val2;
+  }
+  console.log("Local multiply() returns: " + multiply());
+  return multiply();
+}
+ 
+Answer =
+The call to Global multiply function returns 100.  
+True
+The call to Local multiply function returns 100.   
+False
+
+
