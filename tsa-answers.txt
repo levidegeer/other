@@ -1668,3 +1668,388 @@ Answer = Remote Desktop Services (RDS)
 
 
 Question 147
+Which learning resources are helpful for improving visualization skills in problem-solving?
+
+Journals and magazines
+Social media platforms
+Music videos
+Books, online tutorials, and YouTube videos
+
+Answer = Books, online tutorials, and YouTube videos
+
+
+Question 148
+Which of the following best explains ownership and use of digital download copies?
+
+The copy can be used according to the license agreement with ownership being transferred only with permission to a second license holder.
+The copy can be used, according to the license agreement, but the originator retains ownership so the license can not be copied, transferred or sold
+The copy can be used, according to the license agreement, sold or copied as long as original receipt and use agreement is also transferred
+The copy can be used, according to the license agreement and the user can make up to 4 additional copies for their own use only
+
+Answer = The copy can be used, according to the license agreement, but the originator retains ownership so the license can not be copied, transferred or sold
+
+
+Question 149
+What is the main purpose of an API in software development?
+
+To simplify the development process by providing pre-built code modules.
+To ensure data security and encryption in software applications.
+To provide a graphical user interface for the end-users.
+To enable integration and interaction between different software systems.
+
+Answer = To enable integration and interaction between different software systems.
+
+
+Question 150
+Which of the following would undermine data integrity and security?
+
+Using symmetrical encryption
+Using a caesar cypher
+Using unapproved software
+Using internet explorer
+
+Answer = Using unapproved software
+
+
+Question 151
+What will be the value of array[2] after executing the following code?
+
+array = [10, 20, 30, 40, 50]
+array[2] = array[0] + array[-1]
+
+9
+30
+60
+29
+
+Answer = 60
+
+
+Question 152
+Which of the following HTTP status codes indicates a successful response from an API request?
+
+302 Found
+404 Not Found
+200 OK
+500 Internal Server Error
+
+Answer = 200 OK
+
+
+Question 153
+When should merging typically take place in version control systems?
+
+After completing a feature or bug fix in a branch
+Only when conflicts arise between branches
+Before creating a new branch
+Whenever a developer wants to experiment with new ideas
+
+Answer = After completing a feature or bug fix in a branch
+
+
+Question 154
+Which data type would be most suitable to store a person's age?
+
+integer
+boolean
+string
+character
+
+Answer = integer
+
+
+Question 155
+What is object instantiation in programming?
+
+Executing a method in a class.
+Creating a specific instance of a class.
+Defining attributes in a class.
+Creating a blueprint for a class.
+
+Answer = Creating a specific instance of a class.
+
+
+Question 156
+Which type of exception is commonly associated with division by zero?
+
+ArrayIndexOutOfBoundsException
+ClassCastException
+ArithmeticException
+NullPointerException
+
+Answer = ArithmeticException
+
+
+Question 157
+In which kind of language does the code needs to be translated into something the computer can understand?
+4.6 Research industry relevant programming languages (i.e., Java, JavaScript, Python, etc.)
+
+Foreign language
+Compiled language
+Interpreted language
+Encrypted language
+
+Answer TSA:Interpreted language, real:Compiled language
+
+
+Question 158
+In the flowcharts, which shape is for the start/stop?
+
+oval
+star
+square
+diamond
+
+Answer = oval
+
+
+Question 159
+Which factor should be considered when decomposing a large programming problem?
+
+The company's overall mission statement
+The logical relationships between procedures
+The budget allocated for each step
+The physical location of the programmers
+
+Answer = The logical relationships between procedures
+
+
+Question 160
+Which of the following is NOT a common type of in-app purchase (IAP)?
+
+Non-consumable features
+User-generated content
+Subscriptions
+Consumable items
+
+Answer = User-generated content
+
+
+Question 161
+Which sorting algorithm is based on the divide-and-conquer strategy?
+
+Selection sort
+Merge sort
+Bubble sort
+Insertion sort
+
+Answer = Merge sort
+
+
+Question 162
+Which type of malware is a piece of code designed to repeat a task over and over again, overwhelming a system?
+
+Adwares
+Bad bots
+Trojans
+Ransomewares
+
+Answer = Bad bots
+
+
+Question 163
+What is NOT a type of inheritance?
+
+Multiple inheritance
+Single inheritance
+Double inheritance
+Multilevel inheritance
+
+Answer = Double inheritance
+
+
+Question 164
+class Student {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    setName(newName) {
+        this.name = newName;
+    }
+    getName() {
+        return this.name;
+    }
+    setAge(newAge) {
+        this.age = newAge;
+    }
+    getAge() {
+        return this.age;
+    }
+}
+const student1 = new Student("John", 20);
+student1.setName("Alice");
+let name = student1.getName();
+
+Which one of the modifier methods in the Student class is being used?
+
+setAge()
+setName()
+getAge()
+getName()
+
+Answer = setName()
+
+
+Question 165
+In a linear search, the number of elements to be searched increases linearly with the size of the array. What is the worst-case time complexity of a linear search?
+
+O(1)
+O(n)
+O(n^2)
+O(log n)
+
+Answer = O(n)
+
+
+Question 166
+Which keyword is used to declare a variable that holds text?
+
+boolean
+float
+string
+integer
+
+Answer = string
+
+
+Question 167
+Which type of error might occur when attempting to divide a number by zero during runtime?
+
+Null Pointer Exception
+Syntax Error
+Type Error
+Divide-by-Zero Error
+
+Answer = Divide-by-Zero Error
+
+
+Question 168
+What is the output of the following code?
+
+let fruits = ["apple", "mango", "grape"];
+console.log(fruits.length);
+
+grape
+3
+["apple", "mango", "grape"]
+5
+
+Answer = 3
+
+
+Question 169
+What does a hash map use to locate the corresponding value for a given key?
+
+Linear search
+Collisions
+Hash function
+Binary search
+
+Answer = Hash function
+
+
+Question 170
+What is the purpose of input validation in data sanitization?
+
+Converting user input to the correct data type
+Removing leading or trailing whitespaces from user input
+Ensuring user input is free from malicious code
+Checking user input against expected formats or patterns
+
+Answer = Checking user input against expected formats or patterns
+
+
+Question 171
+Which sorting algorithm has the worst space efficiency?
+
+Insertion Sort
+Quick Sort
+Merge Sort
+Selection Sort
+
+Answer = Merge Sort
+
+
+Question 172
+What is the advantage of using established libraries and frameworks for output formatting and escaping?
+
+They allow embedding variable values into a string
+They ensure data sanitization and security
+They have built-in methods for output formatting and escaping
+They provide control over the display of numbers
+
+Answer = They have built-in methods for output formatting and escaping
+
+
+Question 173
+All of the following are key ethical concerns related to data handling EXCEPT ONE.
+What one of the following is NOT considered a key ethical concern related to data handling, regardless of software type?
+
+Visual presentation of data
+Data Ownership
+Data Monetization
+Transparency and Accountability
+
+Answer = Visual presentation of data
+
+
+Question 174
+Which operation involves arranging the elements of an array in a specific order based on their values?
+
+Sorting
+Bound checking
+Indexing
+Initialization
+
+Answer = Sorting
+
+
+Question 175
+Which of the following refers to how an algorithm repeats?
+
+variety
+iteration
+selection
+sequencing
+
+Answer = iteration
+
+
+Question 176
+What are digital signatures used for in software development?
+
+To authenticate users during the login process
+To encrypt data at rest
+To securely store passwords in databases
+To ensure the integrity and authenticity of digital documents
+
+Answer = To ensure the integrity and authenticity of digital documents
+
+
+Question 177
+p = false
+k = true
+result = !(p NOR k)
+What is the value of "result" in the above code?
+
+Error
+Undefined
+False
+True
+
+Answer = True
+
+
+Question 178
+Which of the following statements best describes encapsulation in object-oriented programming?
+
+Restricting access to certain members of a class
+Combining data and behavior in a single entity
+Inheriting properties and methods from a base class
+Treating objects of different classes as interchangeable
+
+Answer = Combining data and behavior in a single entity
+
+
+Question 179
