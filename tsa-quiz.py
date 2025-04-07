@@ -829,8 +829,7 @@ What is the output to the above code?""",
     "By encrypting user input before processing",
     "By automating the process of validating and cleaning user input",
     "By generating secure encryption keys for user input",
-    "By removing all user input to prevent security issues"
-  ],
+    "By removing all user input to prevent security issues"],
   "correctAnswer": "By automating the process of validating and cleaning user input"
 },
 {
@@ -840,8 +839,7 @@ What is the output to the above code?""",
     "To exit the program abruptly",
     "To throw an exception",
     "To handle and process a caught exception",
-    "To ignore the caught exception"
-  ],
+    "To ignore the caught exception"],
   "correctAnswer": "To handle and process a caught exception"
 },
 {
@@ -851,8 +849,7 @@ What is the output to the above code?""",
     "Access and control of remote desktops",
     "Secure remote access to networks",
     "Virtualized computing resources",
-    "Delivery of software applications"
-  ],
+    "Delivery of software applications"],
   "correctAnswer": "Access and control of remote desktops"
 },
 {
@@ -868,8 +865,7 @@ What is the output to the above code?""",
     "A class used for unit testing purposes",
     "A class provided by the programming language's standard library",
     "A class created by the user or developer",
-    "A class with restricted access permissions"
-  ],
+    "A class with restricted access permissions"],
   "correctAnswer": "A class created by the user or developer"
 },
 {
@@ -879,8 +875,7 @@ What is the output to the above code?""",
     "A software that can track every key typed in a keyboard",
     "A computer hardware part that holds the key based input",
     "Expanding the memory space on a computer",
-    "The process of saving more passwords"
-  ],
+    "The process of saving more passwords"],
   "correctAnswer": "A software that can track every key typed in a keyboard"
 },
 {
@@ -902,8 +897,7 @@ What is the output to the above code?""",
     "Adding comments to the code",
     "Replacing methods with inline code",
     "Breaking down long, complex methods into smaller pieces",
-    "Combining multiple methods into one"
-  ],
+    "Combining multiple methods into one"],
   "correctAnswer": "Breaking down long, complex methods into smaller pieces"
 },
 {
@@ -913,8 +907,7 @@ What is the output to the above code?""",
     "Bubble sort algorithm",
     "Linear search algorithm",
     "Binary search algorithm",
-    "Insertion sort algorithm"
-  ],
+    "Insertion sort algorithm"],
   "correctAnswer": "Binary search algorithm"
 },
 {
@@ -924,8 +917,7 @@ What is the output to the above code?""",
     "0 2 4 6 8",
     "0 2 4 6 8 10",
     "0 1 2 3 4 5 6 7 8 9 10",
-    "1 3 5 7 9"
-  ],
+    "1 3 5 7 9"],
   "correctAnswer": "0 2 4 6 8 10"
 },
 {
@@ -935,8 +927,7 @@ What is the output to the above code?""",
     "Only valid and expected inputs",
     "Both valid and invalid inputs, including edge cases and unexpected inputs",
     "Only invalid inputs to stress-test the system",
-    "Randomly chosen inputs"
-  ],
+    "Randomly chosen inputs"],
   "correctAnswer": "Both valid and invalid inputs, including edge cases and unexpected inputs"
 },
 {
@@ -946,8 +937,7 @@ What is the output to the above code?""",
     "To provide custom methods for objects.",
     "To initialize objects when they are created.",
     "To access private members of a class.",
-    "To destroy objects when they are no longer needed."
-  ],
+    "To destroy objects when they are no longer needed."],
   "correctAnswer": "To initialize objects when they are created."
 },
 {
@@ -957,8 +947,7 @@ What is the output to the above code?""",
     "Include symbols such as $, *, !",
     "Use the same password across multiple accounts",
     "Make the password longer and more complex",
-    "Shorter passwords for easy memorization"
-  ],
+    "Shorter passwords for easy memorization"],
   "correctAnswer": "Make the password longer and more complex"
 },
 {
@@ -968,8 +957,7 @@ What is the output to the above code?""",
     "Method abstraction",
     "Code reuse and extensibility",
     "Data encapsulation",
-    "Polymorphism"
-  ],
+    "Polymorphism"],
   "correctAnswer": "Code reuse and extensibility"
 },
 {
@@ -985,8 +973,7 @@ What is the output to the above code?""",
     "Application Program Interface",
     "Automated Programming Interface",
     "Application Programming Intranet",
-    "Advanced Program Interaction"
-  ],
+    "Advanced Program Interaction"],
   "correctAnswer": "Application Program Interface"
 },
 {
@@ -996,8 +983,7 @@ What is the output to the above code?""",
     "Integrating changes from one branch into another",
     "Keeping changes isolated from the main codebase",
     "Reviewing code changes made by others",
-    "Creating independent copies of repositories"
-  ],
+    "Creating independent copies of repositories"],
   "correctAnswer": "Integrating changes from one branch into another"
 },
 {
@@ -1019,8 +1005,7 @@ What is the output to the above code?""",
     "To sort the array in ascending order",
     "To determine if the array is sorted.",
     "To locate a specific element within the array.",
-    "To rearrange the elements in descending order."
-  ],
+    "To rearrange the elements in descending order."],
   "correctAnswer": "To locate a specific element within the array."
 },
 {
@@ -1030,8 +1015,7 @@ What is the output to the above code?""",
     "When the data is consistently distributed",
     "When the data is well-sorted",
     "When the data distribution varies",
-    "When the data is small"
-  ],
+    "When the data is small"],
   "correctAnswer": "When the data distribution varies"
 },
 {
@@ -1041,8 +1025,7 @@ What is the output to the above code?""",
     "Bluetooth",
     "NFC",
     "LTE",
-    "Wi-Fi"
-  ],
+    "Wi-Fi"],
   "correctAnswer": "NFC"
 },
 {
@@ -1052,8 +1035,7 @@ What is the output to the above code?""",
     "The loop will run 10 times and stop.",
     "It throws an error.",
     "It won't run in the first place.",
-    "The loop continues forever."
-  ],
+    "The loop continues forever."],
   "correctAnswer": "The loop continues forever."
 },
 {
@@ -1063,8 +1045,7 @@ What is the output to the above code?""",
     "Initialization",
     "Creation",
     "Allocation",
-    "Assignment"
-  ],
+    "Assignment"],
   "correctAnswer": "Assignment"
 },
 {
@@ -1074,8 +1055,7 @@ What is the output to the above code?""",
     "Increased server storage space",
     "Reversion and Rollback",
     "Faster internet connection speeds",
-    "Enhanced network security"
-  ],
+    "Enhanced network security"],
   "correctAnswer": "Reversion and Rollback"
 },
 {
@@ -1085,8 +1065,7 @@ What is the output to the above code?""",
     "Error: Invalid operation",
     "True",
     "False",
-    "Error: Undefined variable"
-  ],
+    "Error: Undefined variable"],
   "correctAnswer": "False"
 },
 {
@@ -1096,8 +1075,7 @@ What is the output to the above code?""",
     "Date and time formatting",
     "String interpolation",
     "Numeric formatting",
-    "HTML escaping"
-  ],
+    "HTML escaping"],
   "correctAnswer": "String interpolation"
 },
 {
@@ -1107,8 +1085,7 @@ What is the output to the above code?""",
     "File formats for saving images",
     "Data structures for storing images",
     "Programming functions for drawing and manipulating graphical elements",
-    "Communication protocols for graphics rendering"
-  ],
+    "Communication protocols for graphics rendering"],
   "correctAnswer": "Programming functions for drawing and manipulating graphical elements"
 },
 {
@@ -1118,8 +1095,7 @@ What is the output to the above code?""",
     "Using a single index",
     "Using a single index, and a column identifier.",
     "Using two indices, representing row and column positions.",
-    "Using the length of the array."
-  ],
+    "Using the length of the array."],
   "correctAnswer": "Using two indices, representing row and column positions."
 },
 {
@@ -1129,8 +1105,7 @@ What is the output to the above code?""",
     "multiplies the current value of i by 1",
     "adds 1 to the current value of i",
     "multiplies current value of i by 2",
-    "subtracts 1 to the current value of i"
-  ],
+    "subtracts 1 to the current value of i"],
   "correctAnswer": "subtracts 1 to the current value of i"
 },
 {
@@ -1140,8 +1115,7 @@ What is the output to the above code?""",
     "Session tokens",
     "Publicly available information",
     "Internal files",
-    "Personal details"
-  ],
+    "Personal details"],
   "correctAnswer": "Publicly available information"
 },
 {
@@ -1151,8 +1125,7 @@ What is the output to the above code?""",
     "Regression Testing",
     "Decomposition",
     "Integration",
-    "Abstraction"
-  ],
+    "Abstraction"],
   "correctAnswer": "Decomposition"
 },
 {
@@ -1162,8 +1135,7 @@ What is the output to the above code?""",
     "Break statement",
     "Halt statement",
     "Stop statement",
-    "Terminate statement"
-  ],
+    "Terminate statement"],
   "correctAnswer": "Break statement"
 },
 {
@@ -1173,8 +1145,7 @@ What is the output to the above code?""",
     "Modulo, %",
     "Exponentiation, **",
     "Addition, +",
-    "Multiplication, *"
-  ],
+    "Multiplication, *"],
   "correctAnswer": "Exponentiation, **"
 },
 {
@@ -1184,8 +1155,7 @@ What is the output to the above code?""",
     "Code that is executed line by line by an interpreter in real-time.",
     "Code that does not require debugging.",
     "Code that is platform-independent and executed faster.",
-    "Code that is translated into machine code before execution"
-  ],
+    "Code that is translated into machine code before execution"],
   "correctAnswer": "Code that is executed line by line by an interpreter in real-time."
 },
 {
@@ -1195,8 +1165,7 @@ What is the output to the above code?""",
     "An abstract class can provide default method implementations.",
     "An abstract class can be directly implemented by a class.",
     "An abstract class can be instantiated.",
-    "An abstract class cannot have any abstract methods."
-  ],
+    "An abstract class cannot have any abstract methods."],
   "correctAnswer": "An abstract class can provide default method implementations."
 },
 {
@@ -1206,8 +1175,7 @@ What is the output to the above code?""",
     "Reverses the characters in the string",
     "Splits the string into multiple substrings based on a specified delimiter",
     "Extracts a portion of the string based on a specified starting index and length",
-    "Capitalizes the first letter of the string"
-  ],
+    "Capitalizes the first letter of the string"],
   "correctAnswer": "Extracts a portion of the string based on a specified starting index and length"
 },
 {
@@ -1217,8 +1185,7 @@ What is the output to the above code?""",
     "A meeting to discuss progress on the project",
     "A phase in the Waterfall methodology",
     "The final stage of project development",
-    "A time-boxed iteration for completing tasks"
-  ],
+    "A time-boxed iteration for completing tasks"],
   "correctAnswer": "A time-boxed iteration for completing tasks"
 },
 {
@@ -1228,8 +1195,7 @@ What is the output to the above code?""",
     "Low-Transmission Energy",
     "Localized Technology Environment",
     "Long-Term Evolution",
-    "Light-Thin Encryption"
-  ],
+    "Light-Thin Encryption"],
   "correctAnswer": "Long-Term Evolution"
 },
 {
@@ -1239,8 +1205,7 @@ What is the output to the above code?""",
     "AND gate",
     "NOT gate",
     "OR gate",
-    "XOR gate"
-  ],
+    "XOR gate"],
   "correctAnswer": "OR gate"
 },
 {
@@ -1250,8 +1215,7 @@ What is the output to the above code?""",
     "x is greater than or equal to 5",
     "x is less than 5",
     "x is greater than 5",
-    "x is equal to 5"
-  ],
+    "x is equal to 5"],
   "correctAnswer": "x is greater than or equal to 5"
 },
 {
@@ -1261,8 +1225,7 @@ What is the output to the above code?""",
     "Leave the problem-solving to someone else.",
     "Avoid understanding the problem as a whole.",
     "Solve each part independently and then combine the solutions to solve the entire problem.",
-    "Ignore the problem's complexities."
-  ],
+    "Ignore the problem's complexities."],
   "correctAnswer": "Solve each part independently and then combine the solutions to solve the entire problem."
 },
 {
@@ -1272,22 +1235,9 @@ What is the output to the above code?""",
     "COPPA",
     "FERPA",
     "CISPA",
-    "HIPAA"
-  ],
+    "HIPAA"],
   "correctAnswer": "CISPA"
 },
-
-
-
-
-
-
-
-
-
-
-    
-    
 ]
 
 def get_random_question():
