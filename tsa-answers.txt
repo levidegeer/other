@@ -2053,3 +2053,150 @@ Answer = Combining data and behavior in a single entity
 
 
 Question 179
+UML (Unified Modeling Language) is commonly used for:
+
+Testing the functionality of a program
+Planning the structure and relationships of objects in an object-oriented program
+Defining the hardware and software requirements for a program
+Writing pseudocode for program development
+
+Answer = Planning the structure and relationships of objects in an object-oriented program
+
+
+Question 180
+Which style convention focuses on error handling and testing practices?
+
+Commenting
+Error Handling and Testing
+Indentation and Formatting
+Naming Conventions
+
+Answer = Error Handling and Testing
+
+
+Question 181
+Which approach is generally preferred for input sanitization: whitelisting or blacklisting?
+
+Blacklisting
+validating user input against predefined SQL query patterns
+Removing all special characters from user input
+Whitelisting
+
+Answer = Whitelisting
+
+
+Question 182
+What does the term "Composition Over Inheritance" emphasize?
+
+Prioritizing code reusability through inheritance
+Avoiding all forms of relationships between classes
+Favoring composition for code reuse and flexibility
+Ignoring the diamond problem in multiple inheritance
+
+Answer = Favoring composition for code reuse and flexibility
+
+
+Question 183
+In a hash map, what are collisions, and how are they typically addressed?
+
+Collisions are the same as heterogeneous elements, and they are addressed by using chaining.
+Collisions are errors in the hash function, and they are fixed by rehashing. 
+Collisions are not an issue in hash maps.
+Collisions occur when two keys produce the same hash value, and they are addressed using collision resolution strategies like chaining or open addressing.
+
+Answer = Collisions occur when two keys produce the same hash value, and they are addressed using collision resolution strategies like chaining or open addressing.
+
+
+Question 184
+What does dropping a database mean?
+
+Erasing the entire database and its associated tables and data
+Removing all data from a database table
+Disconnecting from the database
+Deleting a specific row from a table
+
+Answer = Erasing the entire database and its associated tables and data
+
+
+Question 185
+Which type of attack uses someone else’s identity or credentials to give them access to information?
+
+Brute Force
+Identity Theft
+Phishing
+Malaware
+
+Answer = Identity Theft
+
+
+Question 186
+In which data structure are elements accessed using an index, and the order of elements is guaranteed?
+
+Set
+Array
+Hash map
+Linked list
+
+Answer = Array
+
+
+Question 187
+What is the potential issue with comparing floating-point numbers for equality?
+For example:
+
+a <- 0.1 + 0.2
+b <- 0.3
+display to console: a == b   # This might not necessarily print True
+
+(5.5 - Identify correct and problematic uses of integers, floating-point numbers, and fixed-point numbers in arithmetic)
+
+Integer overflow during floating-point operations
+Floating-point numbers can not be divided
+Floating-point numbers cannot handle irrational numbers
+Inexact binary representations can cause rounding errors
+
+Answer = Inexact binary representations can cause rounding errors
+
+
+Question 188
+What is the primary purpose of using nested loops?
+
+To improve code efficiency
+To increase code readability
+To perform input validation
+To handle exceptions
+
+Answer = To improve code efficiency
+
+
+Question 189
+A program is intended to calculate the average of a list of numbers, but instead it calculates the sum of the numbers without dividing by the count. What type of error occurred?
+
+Runtime Error
+Syntax Error
+Semantic Error
+Logic Error
+
+Answer = Logic Error
+
+
+Question 190
+Which of the following is NOT an access modifier used for encapsulation in many programming languages?
+
+Static
+Protected
+Private
+Public
+
+Answer = Static
+
+
+Question 191
+What do graphics methods offer for manipulating images?
+
+Methods for embedding images into web pages
+Encryption algorithms for image security
+Compression techniques for reducing file size
+Transformations, such as rotation and scaling
+
+Answer = Transformations, such as rotation and scaling
