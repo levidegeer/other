@@ -1,0 +1,183 @@
+<!-- templates/tsa-quiz.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            margin-bottom: 20px;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .option:hover {
+            background-color: #f9f9f9;
+        }
+        .option input {
+            margin-right: 10px;
+        }
+        .button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .primary {
+            background-color: #3b82f6;
+            color: white;
+        }
+        .primary:hover {
+            background-color: #2563eb;
+        }
+        .secondary {
+            background-color: #4b5563;
+            color: white;
+        }
+        .secondary:hover {
+            background-color: #374151;
+        }
+        .disabled {
+            background-color: #d1d5db;
+            color: #6b7280;
+            cursor: not-allowed;
+        }
+        .feedback {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .correct {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+        .incorrect {
+            background-color: #fee2e2;
+            color: #b91c1c;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        pre {
+            white-space: pre-wrap;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            line-height: 1.4;
+        }
+        code {
+            white-space: pre-wrap;
+            font-family: monospace;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <span>Random Question Mode</span>
+            <span>Score: {{ correct_answers }}/{{ total_answered }} ({{ score_percentage }}%)</span>
+        </div>
+        
+        <!-- Question -->
+        <div class="question">
+            {% if question.id == 6 %}
+                <h2>
+                    <code>{{ question.questionText | replace('\n', '<br>') | safe }}</code>
+                </h2>
+            {% else %}
+                <h2>{{ question.questionText | safe }}</h2>
+            {% endif %}
+        </div>
+        
+        {% if answer_submitted %}
+            <!-- Feedback when answer is submitted -->
+            <div class="feedback {% if user_answer == question.correctAnswer %}correct{% else %}incorrect{% endif %}">
+                {% if user_answer == question.correctAnswer %}
+                    Correct!
+                {% else %}
+                    Incorrect. The correct answer is: {{ question.correctAnswer }}
+                {% endif %}
+            </div>
+            
+            <!-- Next question & Reset buttons -->
+            <div class="button-group">
+                <a href="{{ url_for('next_question') }}" class="button primary">Next Question</a>
+                <a href="{{ url_for('reset_stats') }}" class="button secondary">Reset Stats</a>
+            </div>
+        {% else %}
+            <!-- Answer options form -->
+            <form action="{{ url_for('submit_answer') }}" method="post">
+                <div class="options">
+                    {% for option in question.options %}
+                    <label class="option">
+                        <input 
+                            type="radio" 
+                            name="answer" 
+                            value="{{ option }}"
+                            onclick="document.getElementById('submit-btn').disabled = false;
+                                     document.getElementById('submit-btn').classList.remove('disabled');
+                                     document.getElementById('submit-btn').classList.add('primary');"
+                        >
+                        {{ option }}
+                    </label>
+                    {% endfor %}
+                </div>
+                
+                <!-- Submit button -->
+                <button 
+                    id="submit-btn"
+                    type="submit" 
+                    class="button disabled" 
+                    disabled
+                >
+                    Submit Answer
+                </button>
+            </form>
+        {% endif %}
+    </div>
+</body>
+</html>
