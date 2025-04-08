@@ -44,8 +44,7 @@ all_questions = [
             "A security vulnerability caused by inserting malicious SQL code through user input",
             "A technique for securely executing SQL queries with user input",
             "A process of cleaning and validating user input against SQL syntax",
-            "A method for preventing unauthorized access to databases"
-        ],
+            "A method for preventing unauthorized access to databases"],
         "correctAnswer": "A security vulnerability caused by inserting malicious SQL code through user input"
     },
     {
@@ -69,8 +68,7 @@ all_questions = [
             "To complicate code readability",
             "To reduce the risk of errors and unexpected behavior",
             "To minimize documentation usage",
-            "To introduce inconsistencies in code"
-        ],
+            "To introduce inconsistencies in code"],
         "correctAnswer": "To reduce the risk of errors and unexpected behavior"
     },
     {
@@ -86,8 +84,7 @@ all_questions = [
             "how many mathematical operations are required",
             "which mathematical operation to perform first",
             "which mathematical operations are valid",
-            "which mathematical operation are NOT valid"
-        ],
+            "which mathematical operation are NOT valid"],
         "correctAnswer": "which mathematical operation to perform first"
     },
     {
@@ -97,8 +94,7 @@ all_questions = [
             "Asking for a code sent to a phone number",
             "Answering a security question",
             "Solving a Captcha puzzle",
-            "Asking for the password to be entered twice"
-        ],
+            "Asking for the password to be entered twice"],
         "correctAnswer": "Asking for a code sent to a phone number"
     },
     {
@@ -108,8 +104,7 @@ all_questions = [
             "To teach the program to automatically fix runtime errors",
             "To prevent the occurrence of runtime errors",
             "To provide alternative paths or fallback actions when runtime errors occur",
-            "To display error messages to the user"
-        ],
+            "To display error messages to the user"],
         "correctAnswer": "To provide alternative paths or fallback actions when runtime errors occur"
     },
     {
@@ -119,8 +114,7 @@ all_questions = [
             "By ensuring the confidentiality, integrity, and availability of software systems",
             "By improving the performance and usability of software systems",
             "By facilitating easier integration with other software components",
-            "By introducing coding errors or design flaws that can be exploited by attackers"
-        ],
+            "By introducing coding errors or design flaws that can be exploited by attackers"],
         "correctAnswer": "By introducing coding errors or design flaws that can be exploited by attackers"
     },
     {
@@ -130,8 +124,7 @@ all_questions = [
             "They track changes and provide a revision history",
             "They eliminate the need for documentation",
             "They can automatically generate documentation",
-            "They restrict access to documentation files"
-        ],
+            "They restrict access to documentation files"],
         "correctAnswer": "They track changes and provide a revision history"
     },
     {
@@ -1306,6 +1299,338 @@ all_questions = [
         "options": ["9", "30", "60", "29"],
         "correctAnswer": "60"
     },
+    {
+        "id": 152,
+        "questionText": "Which of the following HTTP status codes indicates a successful response from an API request?",
+        "options": ["302 Found", "404 Not Found", "200 OK", "500 Internal Server Error"],
+        "correctAnswer": "200 OK"
+    },
+    {
+        "id": 153,
+        "questionText": "When should merging typically take place in version control systems?",
+        "options": [
+            "After completing a feature or bug fix in a branch",
+            "Only when conflicts arise between branches",
+            "Before creating a new branch",
+            "Whenever a developer wants to experiment with new ideas"],
+        "correctAnswer": "After completing a feature or bug fix in a branch"
+    },
+    {
+        "id": 154,
+        "questionText": "Which data type would be most suitable to store a person's age?",
+        "options": ["integer", "boolean", "string", "character"],
+        "correctAnswer": "integer"
+    },
+    {
+        "id": 155,
+        "questionText": "What is object instantiation in programming?",
+        "options": [
+            "Executing a method in a class.",
+            "Creating a specific instance of a class.",
+            "Defining attributes in a class.",
+            "Creating a blueprint for a class."],
+        "correctAnswer": "Creating a specific instance of a class."
+    },
+    {
+        "id": 156,
+        "questionText": "Which type of exception is commonly associated with division by zero?",
+        "options": [
+            "ArrayIndexOutOfBoundsException",
+            "ClassCastException",
+            "ArithmeticException",
+            "NullPointerException"],
+        "correctAnswer": "ArithmeticException"
+    },
+    {
+        "id": 157,
+        "questionText": "In which kind of language does the code needs to be translated into something the computer can understand?",
+        "options": [
+            "Foreign language",
+            "Compiled language",
+            "Interpreted language",
+            "Encrypted language"],
+        "correctAnswer": "Compiled language"
+    },
+    {
+        "id": 158,
+        "questionText": "In the flowcharts, which shape is for the start/stop?",
+        "options": ["oval", "star", "square", "diamond"],
+        "correctAnswer": "oval"
+    },
+    {
+        "id": 159,
+        "questionText": "Which factor should be considered when decomposing a large programming problem?",
+        "options": [
+            "The company's overall mission statement",
+            "The logical relationships between procedures",
+            "The budget allocated for each step",
+            "The physical location of the programmers"],
+        "correctAnswer": "The logical relationships between procedures"
+    },
+    {
+        "id": 160,
+        "questionText": "Which of the following is NOT a common type of in-app purchase (IAP)?",
+        "options": [
+            "Non-consumable features",
+            "User-generated content",
+            "Subscriptions",
+            "Consumable items"],
+        "correctAnswer": "User-generated content"
+    },
+    {
+        "id": 161,
+        "questionText": "Which sorting algorithm is based on the divide-and-conquer strategy?",
+        "options": [
+            "Selection sort",
+            "Merge sort",
+            "Bubble sort",
+            "Insertion sort"],
+        "correctAnswer": "Merge sort"
+    },
+    {
+        "id": 162,
+        "questionText": "Which type of malware is a piece of code designed to repeat a task over and over again, overwhelming a system?",
+        "options": ["Adwares", "Bad bots", "Trojans", "Ransomewares"],
+        "correctAnswer": "Bad bots"
+    },
+    {
+        "id": 163,
+        "questionText": "What is NOT a type of inheritance?",
+        "options": [
+            "Multiple inheritance",
+            "Single inheritance",
+            "Double inheritance",
+            "Multilevel inheritance"],
+        "correctAnswer": "Double inheritance"
+    },
+    {
+        "id": 164,
+        "questionText": "class Student {\n    constructor(name, age) {\n        this.name = name;\n        this.age = age;\n    }\n    setName(newName) {\n        this.name = newName;\n    }\n    getName() {\n        return this.name;\n    }\n    setAge(newAge) {\n        this.age = newAge;\n    }\n    getAge() {\n        return this.age;\n    }\n}\nconst student1 = new Student(\"John\", 20);\nstudent1.setName(\"Alice\");\nlet name = student1.getName();\n\nWhich one of the modifier methods in the Student class is being used?",
+        "options": ["setAge()", "setName()", "getAge()", "getName()"],
+        "correctAnswer": "setName()"
+    },
+    {
+        "id": 165,
+        "questionText": "In a linear search, the number of elements to be searched increases linearly with the size of the array. What is the worst-case time complexity of a linear search?",
+        "options": ["O(1)", "O(n)", "O(n^2)", "O(log n)"],
+        "correctAnswer": "O(n)"
+    },
+    {
+        "id": 166,
+        "questionText": "Which keyword is used to declare a variable that holds text?",
+        "options": ["boolean", "float", "string", "integer"],
+        "correctAnswer": "string"
+    },
+    {
+        "id": 167,
+        "questionText": "Which type of error might occur when attempting to divide a number by zero during runtime?",
+        "options": [
+            "Null Pointer Exception",
+            "Syntax Error",
+            "Type Error",
+            "Divide-by-Zero Error"],
+        "correctAnswer": "Divide-by-Zero Error"
+    },
+    {
+        "id": 168,
+        "questionText": "What is the output of the following code?\n\nlet fruits = [\"apple\", \"mango\", \"grape\"];\nconsole.log(fruits.length);",
+        "options": ["grape", "3", "[\"apple\", \"mango\", \"grape\"]", "5"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 169,
+        "questionText": "What does a hash map use to locate the corresponding value for a given key?",
+        "options": ["Linear search", "Collisions", "Hash function", "Binary search"],
+        "correctAnswer": "Hash function"
+    },
+    {
+        "id": 170,
+        "questionText": "What is the purpose of input validation in data sanitization?",
+        "options": [
+            "Converting user input to the correct data type",
+            "Removing leading or trailing whitespaces from user input",
+            "Ensuring user input is free from malicious code",
+            "Checking user input against expected formats or patterns"],
+        "correctAnswer": "Checking user input against expected formats or patterns"
+    },
+    {
+        "id": 171,
+        "questionText": "Which sorting algorithm has the worst space efficiency?",
+        "options": ["Insertion Sort", "Quick Sort", "Merge Sort", "Selection Sort"],
+        "correctAnswer": "Merge Sort"
+    },
+    {
+        "id": 172,
+        "questionText": "What is the advantage of using established libraries and frameworks for output formatting and escaping?",
+        "options": [
+            "They allow embedding variable values into a string",
+            "They ensure data sanitization and security",
+            "They have built-in methods for output formatting and escaping",
+            "They provide control over the display of numbers"],
+        "correctAnswer": "They have built-in methods for output formatting and escaping"
+    },
+    {
+        "id": 173,
+        "questionText": "All of the following are key ethical concerns related to data handling EXCEPT ONE. What one of the following is NOT considered a key ethical concern related to data handling, regardless of software type?",
+        "options": [
+            "Visual presentation of data",
+            "Data Ownership",
+            "Data Monetization",
+            "Transparency and Accountability"],
+        "correctAnswer": "Visual presentation of data"
+    },
+    {
+        "id": 174,
+        "questionText": "Which operation involves arranging the elements of an array in a specific order based on their values?",
+        "options": ["Sorting", "Bound checking", "Indexing", "Initialization"],
+        "correctAnswer": "Sorting"
+    },
+    {
+        "id": 175,
+        "questionText": "Which of the following refers to how an algorithm repeats?",
+        "options": ["variety", "iteration", "selection", "sequencing"],
+        "correctAnswer": "iteration"
+    },
+    {
+        "id": 176,
+        "questionText": "What are digital signatures used for in software development?",
+        "options": [
+            "To authenticate users during the login process",
+            "To encrypt data at rest",
+            "To securely store passwords in databases",
+            "To ensure the integrity and authenticity of digital documents"],
+        "correctAnswer": "To ensure the integrity and authenticity of digital documents"
+    },
+    {
+        "id": 177,
+        "questionText": "p = false\nk = true\nresult = !(p NOR k)\nWhat is the value of \"result\" in the above code?",
+        "options": ["Error", "Undefined", "False", "True"],
+        "correctAnswer": "True"
+    },
+    {
+        "id": 178,
+        "questionText": "Which of the following statements best describes encapsulation in object-oriented programming?",
+        "options": [
+            "Restricting access to certain members of a class",
+            "Combining data and behavior in a single entity",
+            "Inheriting properties and methods from a base class",
+            "Treating objects of different classes as interchangeable"],
+        "correctAnswer": "Combining data and behavior in a single entity"
+    },
+    {
+        "id": 179,
+        "questionText": "UML (Unified Modeling Language) is commonly used for:",
+        "options": [
+            "Testing the functionality of a program",
+            "Planning the structure and relationships of objects in an object-oriented program",
+            "Defining the hardware and software requirements for a program",
+            "Writing pseudocode for program development"],
+        "correctAnswer": "Planning the structure and relationships of objects in an object-oriented program"
+    },
+    {
+        "id": 180,
+        "questionText": "Which style convention focuses on error handling and testing practices?",
+        "options": [
+            "Commenting",
+            "Error Handling and Testing",
+            "Indentation and Formatting",
+            "Naming Conventions"],
+        "correctAnswer": "Error Handling and Testing"
+    },
+    {
+        "id": 181,
+        "questionText": "Which approach is generally preferred for input sanitization: whitelisting or blacklisting?",
+        "options": [
+            "Blacklisting",
+            "validating user input against predefined SQL query patterns",
+            "Removing all special characters from user input",
+            "Whitelisting"],
+        "correctAnswer": "Whitelisting"
+    },
+    {
+        "id": 182,
+        "questionText": "What does the term \"Composition Over Inheritance\" emphasize?",
+        "options": [
+            "Prioritizing code reusability through inheritance",
+            "Avoiding all forms of relationships between classes",
+            "Favoring composition for code reuse and flexibility",
+            "Ignoring the diamond problem in multiple inheritance"],
+        "correctAnswer": "Favoring composition for code reuse and flexibility"
+    },
+    {
+        "id": 183,
+        "questionText": "In a hash map, what are collisions, and how are they typically addressed?",
+        "options": [
+            "Collisions are the same as heterogeneous elements, and they are addressed by using chaining.",
+            "Collisions are errors in the hash function, and they are fixed by rehashing.",
+            "Collisions are not an issue in hash maps.",
+            "Collisions occur when two keys produce the same hash value, and they are addressed using collision resolution strategies like chaining or open addressing."],
+        "correctAnswer": "Collisions occur when two keys produce the same hash value, and they are addressed using collision resolution strategies like chaining or open addressing."
+    },
+    {
+        "id": 184,
+        "questionText": "What does dropping a database mean?",
+        "options": [
+            "Erasing the entire database and its associated tables and data",
+            "Removing all data from a database table",
+            "Disconnecting from the database",
+            "Deleting a specific row from a table"],
+        "correctAnswer": "Erasing the entire database and its associated tables and data"
+    },
+    {
+        "id": 185,
+        "questionText": "Which type of attack uses someone else's identity or credentials to give them access to information?",
+        "options": ["Brute Force", "Identity Theft", "Phishing", "Malaware"],
+        "correctAnswer": "Identity Theft"
+    },
+    {
+        "id": 186,
+        "questionText": "In which data structure are elements accessed using an index, and the order of elements is guaranteed?",
+        "options": ["Set", "Array", "Hash map", "Linked list"],
+        "correctAnswer": "Array"
+    },
+    {
+        "id": 187,
+        "questionText": "What is the potential issue with comparing floating-point numbers for equality? For example:\n\na <- 0.1 + 0.2\nb <- 0.3\ndisplay to console: a == b   # This might not necessarily print True",
+        "options": [
+            "Integer overflow during floating-point operations",
+            "Floating-point numbers can not be divided",
+            "Floating-point numbers cannot handle irrational numbers",
+            "Inexact binary representations can cause rounding errors"],
+        "correctAnswer": "Inexact binary representations can cause rounding errors"
+    },
+    {
+        "id": 188,
+        "questionText": "What is the primary purpose of using nested loops?",
+        "options": [
+            "To improve code efficiency",
+            "To increase code readability",
+            "To perform input validation",
+            "To handle exceptions"],
+        "correctAnswer": "To improve code efficiency"
+    },
+    {
+        "id": 189,
+        "questionText": "A program is intended to calculate the average of a list of numbers, but instead it calculates the sum of the numbers without dividing by the count. What type of error occurred?",
+        "options": ["Runtime Error", "Syntax Error", "Semantic Error", "Logic Error"],
+        "correctAnswer": "Logic Error"
+    },
+    {
+        "id": 190,
+        "questionText": "Which of the following is NOT an access modifier used for encapsulation in many programming languages?",
+        "options": ["Static", "Protected", "Private", "Public"],
+        "correctAnswer": "Static"
+    },
+    {
+        "id": 191,
+        "questionText": "What do graphics methods offer for manipulating images?",
+        "options": [
+            "Methods for embedding images into web pages",
+            "Encryption algorithms for image security",
+            "Compression techniques for reducing file size",
+            "Transformations, such as rotation and scaling"],
+        "correctAnswer": "Transformations, such as rotation and scaling"
+    }
     ]
 
 def get_random_question():
