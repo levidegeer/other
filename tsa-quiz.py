@@ -51,14 +51,14 @@ all_questions = [
     {
         "id": 6,
         "questionText": """x = 7
-if (x % 2 == 0):
-    print("Even")
-elif (x % 3 == 0):
-    print("Multiple of 3")
-else:
-    print("Neither")
+        if (x % 2 == 0):
+          print("Even")
+        elif (x % 3 == 0):
+          print("Multiple of 3")
+        else:
+          print("Neither")
 
-What is the output to the above code?""",
+        What is the output to the above code?""",
         "options": ["Even", "Neither", "Error: Invalid operator", "Multiple of 3"],
         "correctAnswer": "Neither"
     },
@@ -747,498 +747,566 @@ What is the output to the above code?""",
             "It allows programmers to skip the planning phase.",
             "It speeds up the code execution process."],
         "correctAnswer": "It aids in understanding the problem and planning the solution."
-},
-{
-  "id": 92,
-  "questionText": "What is the role of try-catch blocks in error handling?",
-  "options": [
-    "They have no impact on error handling",
-    "They ensure error-free code execution",
-    "They handle exceptions in a controlled manner",
-    "They provide a user-friendly display of error messages"],
-  "correctAnswer": "They handle exceptions in a controlled manner"
-},
-{
-  "id": 93,
-  "questionText": "Which of the following is NOT a benefit of Encapsulation:",
-  "options": [
-    "Security via controlling access to an object’s attributes",
-    "The ability to change the internal implementation without affecting the external code",
-    "Code reusability through method overloading and overriding",
-    "Modularity that makes the code easier to manage and maintain"],
-  "correctAnswer": "Code reusability through method overloading and overriding"
-},
-{
-  "id": 94,
-  "questionText": "Which of the following is not an internet connection type?",
-  "options": ["Smartphone", "Bluetooth", "DSL", "Fiber-optic"],
-  "correctAnswer": "Bluetooth"
-},
-{
-  "id": 95,
-  "questionText": "Which naming convention is commonly used for Python variables and functions?",
-  "options": ["snake_case", "PascalCase", "camelCase", "kebab-case"],
-  "correctAnswer": "snake_case"
-},
-{
-  "id": 96,
-  "questionText": "What potential challenges may arise when decomposing a large programming problem?",
-  "options": [
-    "Eliminating the need for documentation and testing",
-    "Ensuring that different components work well together and communicate properly.",
-    "Determining the optimal programming language to be used",
-    "Managing the project budget effectively"],
-  "correctAnswer": "Ensuring that different components work well together and communicate properly."
-},
-{
-  "id": 97,
-  "questionText": "Match the decimal number on the LEFT to the equivalent hexadecimal representation on the RIGHT.\n\n29\n58\n128\n255",
-  "options": [
-    "1B, 38, 80, FF",
-    "1C, 3A, 81, FE",
-    "2D, 39, 82, FA",
-    "1A, 36, 79, EE"],
-  "correctAnswer": "1B, 38, 80, FF"
-},
-{
-  "id": 98,
-  "questionText": "Which of the following is a recommended practice for using whitespace in code?",
-  "options": [
-    "Use excessive whitespace to make the code look longer",
-    "Utilize whitespace effectively to enhance code readability",
-    "Avoid using whitespace as it adds unnecessary characters",
-    "Randomly add whitespace for aesthetic purposes"],
-  "correctAnswer": "Utilize whitespace effectively to enhance code readability"
-},
-{
-  "id": 99,
-  "questionText": "In which data structure can keys be of any data type?",
-  "options": ["Queue", "Array", "Linked list", "Hash map"],
-  "correctAnswer": "Hash map"
-},
-{
-  "id": 100,
-  "questionText": "Determine the highest precedence of operations in this example: 10 + 12 * 5 % 3 - 2.",
-  "options": ["Addition", "Subtraction", "Multiplication", "Modulo"],
-  "correctAnswer": "Multiplication"
-},
-{
-  "id": 101,
-  "questionText": "How can input filtering and sanitization libraries assist in input sanitization?",
-  "options": [
-    "By encrypting user input before processing",
-    "By automating the process of validating and cleaning user input",
-    "By generating secure encryption keys for user input",
-    "By removing all user input to prevent security issues"],
-  "correctAnswer": "By automating the process of validating and cleaning user input"
-},
-{
-  "id": 102,
-  "questionText": "What is the purpose of the catch block in exception handling?",
-  "options": [
-    "To exit the program abruptly",
-    "To throw an exception",
-    "To handle and process a caught exception",
-    "To ignore the caught exception"],
-  "correctAnswer": "To handle and process a caught exception"
-},
-{
-  "id": 103,
-  "questionText": "What is the primary use of Remote Desktop Services (RDS)?",
-  "options": [
-    "Access and control of remote desktops",
-    "Secure remote access to networks",
-    "Virtualized computing resources",
-    "Delivery of software applications"],
-  "correctAnswer": "Access and control of remote desktops"
-},
-{
-  "id": 104,
-  "questionText": "The phase in the SDLC (System Design Life Cycle) where requirements are gathered and analyzed is called:",
-  "options": ["Design", "Analysis", "Development", "Testing"],
-  "correctAnswer": "Analysis"
-},
-{
-  "id": 105,
-  "questionText": "What is a user-defined class?",
-  "options": [
-    "A class used for unit testing purposes",
-    "A class provided by the programming language's standard library",
-    "A class created by the user or developer",
-    "A class with restricted access permissions"],
-  "correctAnswer": "A class created by the user or developer"
-},
-{
-  "id": 106,
-  "questionText": "Which of the following is the best description of keylogging?",
-  "options": [
-    "A software that can track every key typed in a keyboard",
-    "A computer hardware part that holds the key based input",
-    "Expanding the memory space on a computer",
-    "The process of saving more passwords"],
-  "correctAnswer": "A software that can track every key typed in a keyboard"
-},
-{
-  "id": 107,
-  "questionText": "Using simple symbols to represent more complicated information is a definition for what idea?",
-  "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
-  "correctAnswer": "Abstraction"
-},
-{
-  "id": 108,
-  "questionText": "When performing arithmetic operations on integers, what is the potential issue to be aware of?",
-  "options": ["Rounding errors", "Overflow or underflow", "Precision loss", "Type conversion errors"],
-  "correctAnswer": "Overflow or underflow"
-},
-{
-  "id": 109,
-  "questionText": "What does the 'Extract Method' refactoring technique involve?",
-  "options": [
-    "Adding comments to the code",
-    "Replacing methods with inline code",
-    "Breaking down long, complex methods into smaller pieces",
-    "Combining multiple methods into one"],
-  "correctAnswer": "Breaking down long, complex methods into smaller pieces"
-},
-{
-  "id": 110,
-  "questionText": "Which of the following is an example of O(log n) time complexity?",
-  "options": [
-    "Bubble sort algorithm",
-    "Linear search algorithm",
-    "Binary search algorithm",
-    "Insertion sort algorithm"],
-  "correctAnswer": "Binary search algorithm"
-},
-{
-  "id": 111,
-  "questionText": "for (int i = 0; i <= 10; i += 2) {\n    System.out.print(i + ' ');\n}\n\nWhat will be the output of the above code snippet?",
-  "options": [
-    "0 2 4 6 8",
-    "0 2 4 6 8 10",
-    "0 1 2 3 4 5 6 7 8 9 10",
-    "1 3 5 7 9"],
-  "correctAnswer": "0 2 4 6 8 10"
-},
-{
-  "id": 112,
-  "questionText": "What kind of inputs should be considered when designing integration tests?",
-  "options": [
-    "Only valid and expected inputs",
-    "Both valid and invalid inputs, including edge cases and unexpected inputs",
-    "Only invalid inputs to stress-test the system",
-    "Randomly chosen inputs"],
-  "correctAnswer": "Both valid and invalid inputs, including edge cases and unexpected inputs"
-},
-{
-  "id": 113,
-  "questionText": "What is the purpose of a constructor in a class?",
-  "options": [
-    "To provide custom methods for objects.",
-    "To initialize objects when they are created.",
-    "To access private members of a class.",
-    "To destroy objects when they are no longer needed."],
-  "correctAnswer": "To initialize objects when they are created."
-},
-{
-  "id": 114,
-  "questionText": "What is the best way to increase password security?",
-  "options": [
-    "Include symbols such as $, *, !",
-    "Use the same password across multiple accounts",
-    "Make the password longer and more complex",
-    "Shorter passwords for easy memorization"],
-  "correctAnswer": "Make the password longer and more complex"
-},
-{
-  "id": 115,
-  "questionText": "What is the main purpose of inheritance in object-oriented programming?",
-  "options": [
-    "Method abstraction",
-    "Code reuse and extensibility",
-    "Data encapsulation",
-    "Polymorphism"],
-  "correctAnswer": "Code reuse and extensibility"
-},
-{
-  "id": 116,
-  "questionText": "How many bytes are in a kilobyte?",
-  "options": ["1024", "1000", "1 000 000", "1 048 576"],
-  "correctAnswer": "1024"
-},
-{
-  "id": 117,
-  "questionText": "What does the acronym API stand for in software development?",
-  "options": [
-    "Application Program Interface",
-    "Automated Programming Interface",
-    "Application Programming Intranet",
-    "Advanced Program Interaction"],
-  "correctAnswer": "Application Program Interface"
-},
-{
-  "id": 118,
-  "questionText": "What is the purpose of merging in version control?",
-  "options": [
-    "Integrating changes from one branch into another",
-    "Keeping changes isolated from the main codebase",
-    "Reviewing code changes made by others",
-    "Creating independent copies of repositories"],
-  "correctAnswer": "Integrating changes from one branch into another"
-},
-{
-  "id": 119,
-  "questionText": "Imagine a guest at a restaurant. The waiter comes and takes the guest's order and takes it to the chef to cook the food. Then, the waiter brings the food to the guest's table. In this example, which of the following is like an API?",
-  "options": ["The chef", "The restaurant", "The guest", "The waiter"],
-  "correctAnswer": "The waiter"
-},
-{
-  "id": 120,
-  "questionText": "Which security standard is established to protect cardholder data for payment card transactions?",
-  "options": ["CISPA", "FERPA", "PCI DSS", "COPPA"],
-  "correctAnswer": "PCI DSS"
-},
-{
-  "id": 121,
-  "questionText": "What is the primary goal of a search operation in an array?",
-  "options": [
-    "To sort the array in ascending order",
-    "To determine if the array is sorted.",
-    "To locate a specific element within the array.",
-    "To rearrange the elements in descending order."],
-  "correctAnswer": "To locate a specific element within the array."
-},
-{
-  "id": 122,
-  "questionText": "In which scenario is a hybrid search algorithm likely to be beneficial?",
-  "options": [
-    "When the data is consistently distributed",
-    "When the data is well-sorted",
-    "When the data distribution varies",
-    "When the data is small"],
-  "correctAnswer": "When the data distribution varies"
-},
-{
-  "id": 123,
-  "questionText": "Which communication interface allows devices to establish a connection by bringing them close together?",
-  "options": [
-    "Bluetooth",
-    "NFC",
-    "LTE",
-    "Wi-Fi"],
-  "correctAnswer": "NFC"
-},
-{
-  "id": 124,
-  "questionText": "What happens if the condition of an iterative loop is never met?",
-  "options": [
-    "The loop will run 10 times and stop.",
-    "It throws an error.",
-    "It won't run in the first place.",
-    "The loop continues forever."],
-  "correctAnswer": "The loop continues forever."
-},
-{
-  "id": 125,
-  "questionText": "What is the term used for the process of assigning initial values to an array?",
-  "options": [
-    "Initialization",
-    "Creation",
-    "Allocation",
-    "Assignment"],
-  "correctAnswer": "Assignment"
-},
-{
-  "id": 126,
-  "questionText": "What is a key benefit of using version control systems like Git and Mercurial?",
-  "options": [
-    "Increased server storage space",
-    "Reversion and Rollback",
-    "Faster internet connection speeds",
-    "Enhanced network security"],
-  "correctAnswer": "Reversion and Rollback"
-},
-{
-  "id": 127,
-  "questionText": "x = 6\ny = 3\nresult = x > 5 and y < 2\nWhat is the value of \"result\" in the above code?",
-  "options": [
-    "Error: Invalid operation",
-    "True",
-    "False",
-    "Error: Undefined variable"],
-  "correctAnswer": "False"
-},
-{
-  "id": 128,
-  "questionText": "Which technique allows us to embed variable values directly into a string for output formatting?",
-  "options": [
-    "Date and time formatting",
-    "String interpolation",
-    "Numeric formatting",
-    "HTML escaping"],
-  "correctAnswer": "String interpolation"
-},
-{
-  "id": 129,
-  "questionText": "What are graphics methods in the context of software development?",
-  "options": [
-    "File formats for saving images",
-    "Data structures for storing images",
-    "Programming functions for drawing and manipulating graphical elements",
-    "Communication protocols for graphics rendering"],
-  "correctAnswer": "Programming functions for drawing and manipulating graphical elements"
-},
-{
-  "id": 130,
-  "questionText": "In a two-dimensional array, how are elements typically accessed?",
-  "options": [
-    "Using a single index",
-    "Using a single index, and a column identifier.",
-    "Using two indices, representing row and column positions.",
-    "Using the length of the array."],
-  "correctAnswer": "Using two indices, representing row and column positions."
-},
-{
-  "id": 131,
-  "questionText": "What does i-- do to the value of i?",
-  "options": [
-    "multiplies the current value of i by 1",
-    "adds 1 to the current value of i",
-    "multiplies current value of i by 2",
-    "subtracts 1 to the current value of i"],
-  "correctAnswer": "subtracts 1 to the current value of i"
-},
-{
-  "id": 132,
-  "questionText": "All of the following are types of data at risk in a \"Sensitive Data Exposure\" vulnerability EXCEPT ONE.\nWhich one of the following is data types are NOT at risk in a 'Sensitive Data Exposure' vulnerability?",
-  "options": [
-    "Session tokens",
-    "Publicly available information",
-    "Internal files",
-    "Personal details"],
-  "correctAnswer": "Publicly available information"
-},
-{
-  "id": 133,
-  "questionText": "Which strategy is useful for dealing with a complex problem that is difficult to solve as a whole?",
-  "options": [
-    "Regression Testing",
-    "Decomposition",
-    "Integration",
-    "Abstraction"],
-  "correctAnswer": "Decomposition"
-},
-{
-  "id": 134,
-  "questionText": "What programming statement is used to exit a loop prematurely?",
-  "options": [
-    "Break statement",
-    "Halt statement",
-    "Stop statement",
-    "Terminate statement"],
-  "correctAnswer": "Break statement"
-},
-{
-  "id": 135,
-  "questionText": "Which expression is evaluated first in this example, 2 + 3 * 4 ** 2 % 5, according to the precedence of operations?",
-  "options": [
-    "Modulo, %",
-    "Exponentiation, **",
-    "Addition, +",
-    "Multiplication, *"],
-  "correctAnswer": "Exponentiation, **"
-},
-{
-  "id": 136,
-  "questionText": "Which of the following best describes interpreted code?",
-  "options": [
-    "Code that is executed line by line by an interpreter in real-time.",
-    "Code that does not require debugging.",
-    "Code that is platform-independent and executed faster.",
-    "Code that is translated into machine code before execution"],
-  "correctAnswer": "Code that is executed line by line by an interpreter in real-time."
-},
-{
-  "id": 137,
-  "questionText": "Which of the following statements is true about abstract classes?",
-  "options": [
-    "An abstract class can provide default method implementations.",
-    "An abstract class can be directly implemented by a class.",
-    "An abstract class can be instantiated.",
-    "An abstract class cannot have any abstract methods."],
-  "correctAnswer": "An abstract class can provide default method implementations."
-},
-{
-  "id": 138,
-  "questionText": "What does the substring method typically do when applied to a string?",
-  "options": [
-    "Reverses the characters in the string",
-    "Splits the string into multiple substrings based on a specified delimiter",
-    "Extracts a portion of the string based on a specified starting index and length",
-    "Capitalizes the first letter of the string"],
-  "correctAnswer": "Extracts a portion of the string based on a specified starting index and length"
-},
-{
-  "id": 139,
-  "questionText": "What does the term \"sprint\" refers to:",
-  "options": [
-    "A meeting to discuss progress on the project",
-    "A phase in the Waterfall methodology",
-    "The final stage of project development",
-    "A time-boxed iteration for completing tasks"],
-  "correctAnswer": "A time-boxed iteration for completing tasks"
-},
-{
-  "id": 140,
-  "questionText": "What does LTE stand for in the context of IoT communication?",
-  "options": [
-    "Low-Transmission Energy",
-    "Localized Technology Environment",
-    "Long-Term Evolution",
-    "Light-Thin Encryption"],
-  "correctAnswer": "Long-Term Evolution"
-},
-{
-  "id": 141,
-  "questionText": "Which logic gate is represented by the Boolean expression A or B?",
-  "options": [
-    "AND gate",
-    "NOT gate",
-    "OR gate",
-    "XOR gate"],
-  "correctAnswer": "OR gate"
-},
-{
-  "id": 142,
-  "questionText": "In the expression x >= 5, what does the >= operator signify?",
-  "options": [
-    "x is greater than or equal to 5",
-    "x is less than 5",
-    "x is greater than 5",
-    "x is equal to 5"],
-  "correctAnswer": "x is greater than or equal to 5"
-},
-{
-  "id": 143,
-  "questionText": "What does decomposing a problem into smaller procedures allow developers to do?",
-  "options": [
-    "Leave the problem-solving to someone else.",
-    "Avoid understanding the problem as a whole.",
-    "Solve each part independently and then combine the solutions to solve the entire problem.",
-    "Ignore the problem's complexities."],
-  "correctAnswer": "Solve each part independently and then combine the solutions to solve the entire problem."
-},
-{
-  "id": 144,
-  "questionText": "Which U.S. federal law facilitates information sharing and cooperation between private companies and the government concerning cybersecurity threats?",
-  "options": [
-    "COPPA",
-    "FERPA",
-    "CISPA",
-    "HIPAA"],
-  "correctAnswer": "CISPA"
-},
-]
+    },
+    {
+        "id": 92,
+        "questionText": "What is the role of try-catch blocks in error handling?",
+        "options": [
+          "They have no impact on error handling",
+          "They ensure error-free code execution",
+          "They handle exceptions in a controlled manner",
+          "They provide a user-friendly display of error messages"],
+        "correctAnswer": "They handle exceptions in a controlled manner"
+    },
+    {
+        "id": 93,
+        "questionText": "Which of the following is NOT a benefit of Encapsulation:",
+        "options": [
+          "Security via controlling access to an object's attributes",
+          "The ability to change the internal implementation without affecting the external code",
+          "Code reusability through method overloading and overriding",
+          "Modularity that makes the code easier to manage and maintain"],
+        "correctAnswer": "Code reusability through method overloading and overriding"
+    },
+    {
+        "id": 94,
+        "questionText": "Which of the following is not an internet connection type?",
+        "options": ["Smartphone", "Bluetooth", "DSL", "Fiber-optic"],
+        "correctAnswer": "Bluetooth"
+    },
+    {
+        "id": 95,
+        "questionText": "Which naming convention is commonly used for Python variables and functions?",
+        "options": ["snake_case", "PascalCase", "camelCase", "kebab-case"],
+        "correctAnswer": "snake_case"
+    },
+    {
+        "id": 96,
+        "questionText": "What potential challenges may arise when decomposing a large programming problem?",
+        "options": [
+          "Eliminating the need for documentation and testing",
+          "Ensuring that different components work well together and communicate properly.",
+          "Determining the optimal programming language to be used",
+          "Managing the project budget effectively"],
+        "correctAnswer": "Ensuring that different components work well together and communicate properly."
+    },
+    {
+        "id": 97,
+        "questionText": "Match the decimal number on the LEFT to the equivalent hexadecimal representation on the RIGHT.\n\n29\n58\n128\n255",
+        "options": [
+          "1B, 38, 80, FF",
+          "1C, 3A, 81, FE",
+          "2D, 39, 82, FA",
+          "1A, 36, 79, EE"],
+        "correctAnswer": "1B, 38, 80, FF"
+    },
+    {
+        "id": 98,
+        "questionText": "Which of the following is a recommended practice for using whitespace in code?",
+        "options": [
+          "Use excessive whitespace to make the code look longer",
+          "Utilize whitespace effectively to enhance code readability",
+          "Avoid using whitespace as it adds unnecessary characters",
+          "Randomly add whitespace for aesthetic purposes"],
+        "correctAnswer": "Utilize whitespace effectively to enhance code readability"
+    },
+    {
+        "id": 99,
+        "questionText": "In which data structure can keys be of any data type?",
+        "options": ["Queue", "Array", "Linked list", "Hash map"],
+        "correctAnswer": "Hash map"
+    },
+    {
+        "id": 100,
+        "questionText": "Determine the highest precedence of operations in this example: 10 + 12 * 5 % 3 - 2.",
+        "options": ["Addition", "Subtraction", "Multiplication", "Modulo"],
+        "correctAnswer": "Multiplication"
+    },
+    {
+        "id": 101,
+        "questionText": "How can input filtering and sanitization libraries assist in input sanitization?",
+        "options": [
+          "By encrypting user input before processing",
+          "By automating the process of validating and cleaning user input",
+          "By generating secure encryption keys for user input",
+          "By removing all user input to prevent security issues"],
+        "correctAnswer": "By automating the process of validating and cleaning user input"
+    },
+    {
+        "id": 102,
+        "questionText": "What is the purpose of the catch block in exception handling?",
+        "options": [
+          "To exit the program abruptly",
+          "To throw an exception",
+          "To handle and process a caught exception",
+          "To ignore the caught exception"],
+        "correctAnswer": "To handle and process a caught exception"
+    },
+    {
+        "id": 103,
+        "questionText": "What is the primary use of Remote Desktop Services (RDS)?",
+        "options": [
+          "Access and control of remote desktops",
+          "Secure remote access to networks",
+          "Virtualized computing resources",
+          "Delivery of software applications"],
+        "correctAnswer": "Access and control of remote desktops"
+    },
+    {
+        "id": 104,
+        "questionText": "The phase in the SDLC (System Design Life Cycle) where requirements are gathered and analyzed is called:",
+        "options": ["Design", "Analysis", "Development", "Testing"],
+        "correctAnswer": "Analysis"
+    },
+    {
+        "id": 105,
+        "questionText": "What is a user-defined class?",
+        "options": [
+          "A class used for unit testing purposes",
+          "A class provided by the programming language's standard library",
+          "A class created by the user or developer",
+          "A class with restricted access permissions"],
+        "correctAnswer": "A class created by the user or developer"
+    },
+    {
+        "id": 106,
+        "questionText": "Which of the following is the best description of keylogging?",
+        "options": [
+          "A software that can track every key typed in a keyboard",
+          "A computer hardware part that holds the key based input",
+          "Expanding the memory space on a computer",
+          "The process of saving more passwords"],
+        "correctAnswer": "A software that can track every key typed in a keyboard"
+    },
+    {
+        "id": 107,
+        "questionText": "Using simple symbols to represent more complicated information is a definition for what idea?",
+        "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"],
+        "correctAnswer": "Abstraction"
+    },
+    {
+        "id": 108,
+        "questionText": "When performing arithmetic operations on integers, what is the potential issue to be aware of?",
+        "options": ["Rounding errors", "Overflow or underflow", "Precision loss", "Type conversion errors"],
+        "correctAnswer": "Overflow or underflow"
+    },
+    {
+        "id": 109,
+        "questionText": "What does the 'Extract Method' refactoring technique involve?",
+        "options": [
+          "Adding comments to the code",
+          "Replacing methods with inline code",
+          "Breaking down long, complex methods into smaller pieces",
+          "Combining multiple methods into one"],
+        "correctAnswer": "Breaking down long, complex methods into smaller pieces"
+    },
+    {
+        "id": 110,
+        "questionText": "Which of the following is an example of O(log n) time complexity?",
+        "options": [
+          "Bubble sort algorithm",
+          "Linear search algorithm",
+          "Binary search algorithm",
+          "Insertion sort algorithm"],
+        "correctAnswer": "Binary search algorithm"
+    },
+    {
+        "id": 111,
+        "questionText": "for (int i = 0; i <= 10; i += 2) {\n    System.out.print(i + ' ');\n}\n\nWhat will be the output of the above code snippet?",
+        "options": [
+          "0 2 4 6 8",
+          "0 2 4 6 8 10",
+          "0 1 2 3 4 5 6 7 8 9 10",
+          "1 3 5 7 9"],
+        "correctAnswer": "0 2 4 6 8 10"
+    },
+    {
+        "id": 112,
+        "questionText": "What kind of inputs should be considered when designing integration tests?",
+        "options": [
+          "Only valid and expected inputs",
+          "Both valid and invalid inputs, including edge cases and unexpected inputs",
+          "Only invalid inputs to stress-test the system",
+          "Randomly chosen inputs"],
+        "correctAnswer": "Both valid and invalid inputs, including edge cases and unexpected inputs"
+    },
+    {
+        "id": 113,
+        "questionText": "What is the purpose of a constructor in a class?",
+        "options": [
+          "To provide custom methods for objects.",
+          "To initialize objects when they are created.",
+          "To access private members of a class.",
+          "To destroy objects when they are no longer needed."],
+        "correctAnswer": "To initialize objects when they are created."
+    },
+    {
+        "id": 114,
+        "questionText": "What is the best way to increase password security?",
+        "options": [
+          "Include symbols such as $, *, !",
+          "Use the same password across multiple accounts",
+          "Make the password longer and more complex",
+          "Shorter passwords for easy memorization"],
+        "correctAnswer": "Make the password longer and more complex"
+    },
+    {
+        "id": 115,
+        "questionText": "What is the main purpose of inheritance in object-oriented programming?",
+        "options": [
+          "Method abstraction",
+          "Code reuse and extensibility",
+          "Data encapsulation",
+          "Polymorphism"],
+        "correctAnswer": "Code reuse and extensibility"
+    },
+    {
+        "id": 116,
+        "questionText": "How many bytes are in a kilobyte?",
+        "options": ["1024", "1000", "1 000 000", "1 048 576"],
+        "correctAnswer": "1024"
+    },
+    {
+        "id": 117,
+        "questionText": "What does the acronym API stand for in software development?",
+        "options": [
+          "Application Program Interface",
+          "Automated Programming Interface",
+          "Application Programming Intranet",
+          "Advanced Program Interaction"],
+        "correctAnswer": "Application Program Interface"
+    },
+    {
+        "id": 118,
+        "questionText": "What is the purpose of merging in version control?",
+        "options": [
+          "Integrating changes from one branch into another",
+          "Keeping changes isolated from the main codebase",
+          "Reviewing code changes made by others",
+          "Creating independent copies of repositories"],
+        "correctAnswer": "Integrating changes from one branch into another"
+    },
+    {
+        "id": 119,
+        "questionText": "Imagine a guest at a restaurant. The waiter comes and takes the guest's order and takes it to the chef to cook the food. Then, the waiter brings the food to the guest's table. In this example, which of the following is like an API?",
+        "options": ["The chef", "The restaurant", "The guest", "The waiter"],
+        "correctAnswer": "The waiter"
+    },
+    {
+        "id": 120,
+        "questionText": "Which security standard is established to protect cardholder data for payment card transactions?",
+        "options": ["CISPA", "FERPA", "PCI DSS", "COPPA"],
+        "correctAnswer": "PCI DSS"
+    },
+    {
+        "id": 121,
+        "questionText": "What is the primary goal of a search operation in an array?",
+        "options": [
+          "To sort the array in ascending order",
+          "To determine if the array is sorted.",
+          "To locate a specific element within the array.",
+          "To rearrange the elements in descending order."],
+        "correctAnswer": "To locate a specific element within the array."
+    },
+    {
+        "id": 122,
+        "questionText": "In which scenario is a hybrid search algorithm likely to be beneficial?",
+        "options": [
+          "When the data is consistently distributed",
+          "When the data is well-sorted",
+          "When the data distribution varies",
+          "When the data is small"],
+        "correctAnswer": "When the data distribution varies"
+    },
+    {
+        "id": 123,
+        "questionText": "Which communication interface allows devices to establish a connection by bringing them close together?",
+        "options": [
+          "Bluetooth",
+          "NFC",
+          "LTE",
+          "Wi-Fi"],
+        "correctAnswer": "NFC"
+    },
+    {
+        "id": 124,
+        "questionText": "What happens if the condition of an iterative loop is never met?",
+        "options": [
+          "The loop will run 10 times and stop.",
+          "It throws an error.",
+          "It won't run in the first place.",
+          "The loop continues forever."],
+        "correctAnswer": "The loop continues forever."
+    },
+    {
+        "id": 125,
+        "questionText": "What is the term used for the process of assigning initial values to an array?",
+        "options": [
+          "Initialization",
+          "Creation",
+          "Allocation",
+          "Assignment"],
+        "correctAnswer": "Assignment"
+    },
+    {
+        "id": 126,
+        "questionText": "What is a key benefit of using version control systems like Git and Mercurial?",
+        "options": [
+          "Increased server storage space",
+          "Reversion and Rollback",
+          "Faster internet connection speeds",
+          "Enhanced network security"],
+        "correctAnswer": "Reversion and Rollback"
+    },
+    {
+        "id": 127,
+        "questionText": "x = 6\ny = 3\nresult = x > 5 and y < 2\nWhat is the value of \"result\" in the above code?",
+        "options": [
+          "Error: Invalid operation",
+          "True",
+          "False",
+          "Error: Undefined variable"],
+        "correctAnswer": "False"
+    },
+    {
+        "id": 128,
+        "questionText": "Which technique allows us to embed variable values directly into a string for output formatting?",
+        "options": [
+          "Date and time formatting",
+          "String interpolation",
+          "Numeric formatting",
+          "HTML escaping"],
+        "correctAnswer": "String interpolation"
+    },
+    {
+        "id": 129,
+        "questionText": "What are graphics methods in the context of software development?",
+        "options": [
+          "File formats for saving images",
+          "Data structures for storing images",
+          "Programming functions for drawing and manipulating graphical elements",
+          "Communication protocols for graphics rendering"],
+        "correctAnswer": "Programming functions for drawing and manipulating graphical elements"
+    },
+    {
+        "id": 130,
+        "questionText": "In a two-dimensional array, how are elements typically accessed?",
+        "options": [
+          "Using a single index",
+          "Using a single index, and a column identifier.",
+          "Using two indices, representing row and column positions.",
+          "Using the length of the array."],
+        "correctAnswer": "Using two indices, representing row and column positions."
+    },
+    {
+        "id": 131,
+        "questionText": "What does i-- do to the value of i?",
+        "options": [
+          "multiplies the current value of i by 1",
+          "adds 1 to the current value of i",
+          "multiplies current value of i by 2",
+          "subtracts 1 to the current value of i"],
+        "correctAnswer": "subtracts 1 to the current value of i"
+    },
+    {
+        "id": 132,
+        "questionText": "All of the following are types of data at risk in a \"Sensitive Data Exposure\" vulnerability EXCEPT ONE.\nWhich one of the following is data types are NOT at risk in a 'Sensitive Data Exposure' vulnerability?",
+        "options": [
+          "Session tokens",
+          "Publicly available information",
+          "Internal files",
+          "Personal details"],
+        "correctAnswer": "Publicly available information"
+    },
+    {
+        "id": 133,
+        "questionText": "Which strategy is useful for dealing with a complex problem that is difficult to solve as a whole?",
+        "options": [
+          "Regression Testing",
+          "Decomposition",
+          "Integration",
+          "Abstraction"],
+        "correctAnswer": "Decomposition"
+    },
+    {
+        "id": 134,
+        "questionText": "What programming statement is used to exit a loop prematurely?",
+        "options": [
+          "Break statement",
+          "Halt statement",
+          "Stop statement",
+          "Terminate statement"],
+        "correctAnswer": "Break statement"
+    },
+    {
+        "id": 135,
+        "questionText": "Which expression is evaluated first in this example, 2 + 3 * 4 ** 2 % 5, according to the precedence of operations?",
+        "options": [
+          "Modulo, %",
+          "Exponentiation, **",
+          "Addition, +",
+          "Multiplication, *"],
+        "correctAnswer": "Exponentiation, **"
+    },
+    {
+        "id": 136,
+        "questionText": "Which of the following best describes interpreted code?",
+        "options": [
+          "Code that is executed line by line by an interpreter in real-time.",
+          "Code that does not require debugging.",
+          "Code that is platform-independent and executed faster.",
+          "Code that is translated into machine code before execution"],
+        "correctAnswer": "Code that is executed line by line by an interpreter in real-time."
+    },
+    {
+        "id": 137,
+        "questionText": "Which of the following statements is true about abstract classes?",
+        "options": [
+          "An abstract class can provide default method implementations.",
+          "An abstract class can be directly implemented by a class.",
+          "An abstract class can be instantiated.",
+          "An abstract class cannot have any abstract methods."],
+        "correctAnswer": "An abstract class can provide default method implementations."
+    },
+    {
+        "id": 138,
+        "questionText": "What does the substring method typically do when applied to a string?",
+        "options": [
+          "Reverses the characters in the string",
+          "Splits the string into multiple substrings based on a specified delimiter",
+          "Extracts a portion of the string based on a specified starting index and length",
+          "Capitalizes the first letter of the string"],
+        "correctAnswer": "Extracts a portion of the string based on a specified starting index and length"
+    },
+    {
+        "id": 139,
+        "questionText": "What does the term \"sprint\" refers to:",
+        "options": [
+          "A meeting to discuss progress on the project",
+          "A phase in the Waterfall methodology",
+          "The final stage of project development",
+          "A time-boxed iteration for completing tasks"],
+        "correctAnswer": "A time-boxed iteration for completing tasks"
+    },
+    {
+        "id": 140,
+        "questionText": "What does LTE stand for in the context of IoT communication?",
+        "options": [
+          "Low-Transmission Energy",
+          "Localized Technology Environment",
+          "Long-Term Evolution",
+          "Light-Thin Encryption"],
+        "correctAnswer": "Long-Term Evolution"
+    },
+    {
+        "id": 141,
+        "questionText": "Which logic gate is represented by the Boolean expression A or B?",
+        "options": [
+          "AND gate",
+          "NOT gate",
+          "OR gate",
+          "XOR gate"],
+        "correctAnswer": "OR gate"
+    },
+    {
+        "id": 142,
+        "questionText": "In the expression x >= 5, what does the >= operator signify?",
+        "options": [
+          "x is greater than or equal to 5",
+          "x is less than 5",
+          "x is greater than 5",
+          "x is equal to 5"],
+        "correctAnswer": "x is greater than or equal to 5"
+    },
+    {
+        "id": 143,
+        "questionText": "What does decomposing a problem into smaller procedures allow developers to do?",
+        "options": [
+          "Leave the problem-solving to someone else.",
+          "Avoid understanding the problem as a whole.",
+          "Solve each part independently and then combine the solutions to solve the entire problem.",
+          "Ignore the problem's complexities."],
+        "correctAnswer": "Solve each part independently and then combine the solutions to solve the entire problem."
+    },
+    {
+        "id": 144,
+        "questionText": "Which U.S. federal law facilitates information sharing and cooperation between private companies and the government concerning cybersecurity threats?",
+        "options": [
+          "COPPA",
+          "FERPA",
+          "CISPA",
+          "HIPAA"],
+        "correctAnswer": "CISPA"
+    },
+    {
+        "id": 145,
+        "questionText": "What are media queries used for in responsive design?",
+        "options": [
+            "Controlling image size and resolution",
+            "Enhancing website accessibility for individuals with disabilities",
+            "Implementing interactive animations on web pages",
+            "Applying different styles and layout rules based on device characteristics"],
+        "correctAnswer": "Applying different styles and layout rules based on device characteristics"
+    },
+    {
+        "id": 146,
+        "questionText": "Which remote computing service allows users to access and control a remote desktop environment?",
+        "options": [
+            "Infrastructure as a Service (IaaS)",
+            "Remote Desktop Services (RDS)",
+            "Virtual Private Network (VPN)",
+            "Software as a Service (SaaS)"],
+        "correctAnswer": "Remote Desktop Services (RDS)"
+    },
+    {
+        "id": 147,
+        "questionText": "Which learning resources are helpful for improving visualization skills in problem-solving?",
+        "options": [
+            "Journals and magazines",
+            "Social media platforms",
+            "Music videos",
+            "Books, online tutorials, and YouTube videos"],
+        "correctAnswer": "Books, online tutorials, and YouTube videos"
+    },
+    {
+        "id": 148,
+        "questionText": "Which of the following best explains ownership and use of digital download copies?",
+        "options": [
+            "The copy can be used according to the license agreement with ownership being transferred only with permission to a second license holder.",
+            "The copy can be used, according to the license agreement, but the originator retains ownership so the license can not be copied, transferred or sold",
+            "The copy can be used, according to the license agreement, sold or copied as long as original receipt and use agreement is also transferred",
+            "The copy can be used, according to the license agreement and the user can make up to 4 additional copies for their own use only"],
+        "correctAnswer": "The copy can be used, according to the license agreement, but the originator retains ownership so the license can not be copied, transferred or sold"
+    },
+    {
+        "id": 149,
+        "questionText": "What is the main purpose of an API in software development?",
+        "options": [
+            "To simplify the development process by providing pre-built code modules.",
+            "To ensure data security and encryption in software applications.",
+            "To provide a graphical user interface for the end-users.",
+            "To enable integration and interaction between different software systems."],
+        "correctAnswer": "To enable integration and interaction between different software systems."
+    },
+    {
+        "id": 150,
+        "questionText": "Which of the following would undermine data integrity and security?",
+        "options": [
+            "Using symmetrical encryption",
+            "Using a caesar cypher",
+            "Using unapproved software",
+            "Using internet explorer"],
+        "correctAnswer": "Using unapproved software"
+    },
+    {
+        "id":151,
+        "questionText": """What will be the value of array[2] after executing the following code?
+        array = [10, 20, 30, 40, 50]
+        array[2] = array[0] + array[-1]""",
+        "options": ["9", "30", "60", "29"],
+        "correctAnswer": "60"
+    },
+    ]
 
 def get_random_question():
     """Get a random question that hasn't been used yet"""
