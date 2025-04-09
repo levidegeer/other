@@ -1630,8 +1630,438 @@ all_questions = [
             "Compression techniques for reducing file size",
             "Transformations, such as rotation and scaling"],
         "correctAnswer": "Transformations, such as rotation and scaling"
+    },
+    {
+        "id": 192,
+        "questionText": "What is the role of a testing plan in program development?",
+        "options": [
+            "To outline the development process and milestones", 
+            "To define the hardware requirements for the program", 
+            "To identify potential risks and issues in the program", 
+            "To document the approach and scope of testing"],
+        "correctAnswer": "To document the approach and scope of testing"
+    },
+    {
+        "id": 193,
+        "questionText": "What is the primary role of a whitelist when sanitizing user input?",
+        "options": [
+            "Identifying malicious user", 
+            "Accepting only predefined inputs", 
+            "Blocking specific IP addresses", 
+            "Logging user activities"],
+        "correctAnswer": "Accepting only predefined inputs"
+    },
+    {
+        "id": 194,
+        "questionText": "What is monetization in the context of app development?",
+        "options": [
+            "Techniques for improving app visibility", 
+            "Strategies for generating revenue from the app", 
+            "The process of reducing development costs", 
+            "The creation of app interfaces"],
+        "correctAnswer": "Strategies for generating revenue from the app"
+    },
+    {
+        "id": 195,
+        "questionText": "What constitutes the membership of the Internet Engineering Task Force (IETF)?",
+        "options": [
+            "A group of political leaders and heads of state", 
+            "A loosely organized collection of citizens and engineers", 
+            "A collection of the leaders of the top internet providers", 
+            "An international coalition of goernment agencies"],
+        "correctAnswer": "A loosely organized collection of citizens and engineers"
+    },
+    {
+        "id": 196,
+        "questionText": "Which statement is used to specify an alternative code block to be executed when the condition is false?",
+        "options": [
+            "switch case statement", 
+            "if/else statement", 
+            "while loop statement", 
+            "for loop statement"],
+        "correctAnswer": "if/else statement"
+    },
+    {
+        "id": 197,
+        "questionText": "class Book:\n    def __init__(self, title, author):\n        self.title = title\n        self.author = author\n    def setTitle(self, newTitle):\n        self.title = newTitle\n    def setAuthor(self, newAuthor):\n        self.author = newAuthor\nbook1 = Book(\"The Great Gatsby\", \"F. Scott Fitzgerald\")\nbook1.setTitle(\"To Kill a Mockingbird\")\n\nWhich method in the Book class is the modifier method?",
+        "options": [
+            "self.title = newTitle", 
+            "self.title = title", 
+            "book1.setTitle(\"To Kill a Mockingbird\")", 
+            "setTitle()"],
+        "correctAnswer": "setTitle()"
+    },
+    {
+        "id": 198,
+        "questionText": "x = 5\nif x > 3:\n    print(\"Hello\")\nelse:\n    print(\"Hi\")\n\nWhat is the output of the above code?",
+        "options": [
+            "No output; this block of code will not execute.", 
+            "Hello Hi", 
+            "Hi", 
+            "Hello"],
+        "correctAnswer": "Hello"
+    },
+    {
+        "id": 199,
+        "questionText": "Which of the following statements is true about object instantiation?",
+        "options": [
+            "Instantiating an object automatically creates a new class.", 
+            "Objects can only be instantiated from abstract classes.", 
+            "Each instance of an object has its own set of properties and methods.", 
+            "Instantiating an object modifies the behavior of the class."],
+        "correctAnswer": "Each instance of an object has its own set of properties and methods."
+    },
+    {
+        "id": 200,
+        "questionText": "Which of the following is the best definition for 'royalty fees'?",
+        "options": [
+            "A one time fee paid for the use of a licensed asset for the duration of use whether it is profit or nonprofit", 
+            "A fee based on the income earned because of the use of the licensed asset", 
+            "An ongoing fee paid for the use of a licensed asset each time the asset is used, normally a percentage of the sales", 
+            "An ongoing fee that changes based on the value of the licenses asset at the time it is being used"],
+        "correctAnswer": "An ongoing fee paid for the use of a licensed asset each time the asset is used, normally a percentage of the sales"
+    },
+    {
+        "id": 201,
+        "questionText": "What is the value of 17 % 5?",
+        "options": [
+            "3", 
+            "2", 
+            "0.4", 
+            "3.4"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 202,
+        "questionText": "What are the common types of integration testing?",
+        "options": [
+            "Black-box testing and white-box testing", 
+            "Functional testing and performance testing", 
+            "Top-down and bottom-up testing", 
+            "Unit testing and system testing"],
+        "correctAnswer": "Top-down and bottom-up testing"
+    },
+    {
+        "id": 203,
+        "questionText": "In Python, which naming convention is typically used for constant variables?",
+        "options": [
+            "PascalCase", 
+            "UPPER-CASE-WITH-HYPHENS", 
+            "kebab-case", 
+            "UPPER_CASE_WITH_UNDER_SCORES"],
+        "correctAnswer": "UPPER_CASE_WITH_UNDER_SCORES"
+    },
+    {
+        "id": 204,
+        "questionText": "Which type of code is more likely to create apps or programs that can run on their own as standalone executables?",
+        "options": [
+            "Compiled code", 
+            "Virtual machine code", 
+            "Hybrid code", 
+            "Interpreted code"],
+        "correctAnswer": "Compiled code"
+    },
+    {
+        "id": 205,
+        "questionText": "What is the first step to creating a new repository on GitHub?",
+        "options": [
+            "Creating a new repository on the GitHub website", 
+            "Initializing a local repository using \"git init\"", 
+            "Forking a repository", 
+            "Cloning an existing repository"],
+        "correctAnswer": "Creating a new repository on the GitHub website"
+    },
+    {
+        "id": 206,
+        "questionText": "What is the purpose of the CIA triad in information security?",
+        "options": [
+            "To focus solely on data confidentiality", 
+            "To enforce strict access controls for data protection", 
+            "To prevent all potential security breaches", 
+            "To provide a balanced approach to information security"],
+        "correctAnswer": "To provide a balanced approach to information security"
+    },
+    {
+        "id": 207,
+        "questionText": "Which term refers to the process of managing and responding to unexpected or erroneous input in a program?",
+        "options": [
+            "Input validation", 
+            "Output generation", 
+            "Error handling", 
+            "Data formatting"],
+        "correctAnswer": "Error handling"
+    },
+    {
+        "id": 208,
+        "questionText": "class Car:\n    def __init__(self, make, model):\n        self.make = make\n        self.model = model\nmy_car = Car(\"Toyota\", \"Camry\")\n\nWhat is happening in the the last line of code?",
+        "options": [
+            "A new instance of the Car class is created.", 
+            "The make and model attributes of the Car class are being defined.", 
+            "The Car class is being defined.", 
+            "The Car class is being modified."],
+        "correctAnswer": "A new instance of the Car class is created."
+    },
+    {
+        "id": 209,
+        "questionText": "What is the unique number for each computing device called?",
+        "options": [
+            "IP Address", 
+            "Device Location Address", 
+            "Domain Name System", 
+            "Device Number System"],
+        "correctAnswer": "IP Address"
+    },
+    {
+        "id": 210,
+        "questionText": "In zero-based indexing, which index is used to access the first element of an array?",
+        "options": [
+            "0", 
+            "2", 
+            "1", 
+            "-1"],
+        "correctAnswer": "0"
+    },
+    {
+        "id": 211,
+        "questionText": "larr ← [5, 2, 8, 4, 9]\narr.sortDescending()\noutput(arr)\n\nWhat will be the output of the code snippet above?",
+        "options": [
+            "[9, 8, 5, 4, 2]", 
+            "[2, 4, 5, 8, 9]", 
+            "[4, 8, 2, 5, 9]", 
+            "[5, 2, 8, 4, 9]"],
+        "correctAnswer": "[9, 8, 5, 4, 2]"
+    },
+    {
+        "id": 212,
+        "questionText": "What are NoSQL databases primarily used for?",
+        "options": [
+            "Relational data modeling", 
+            "Structured data storage", 
+            "Transaction management", 
+            "Non-relational data storage with specific data modeling requirements"],
+        "correctAnswer": "Non-relational data storage with specific data modeling requirements"
+    },
+    {
+        "id": 213,
+        "questionText": "What is the primary benefit of encapsulation?",
+        "options": [
+            "Code reuse and extensibility", 
+            "Method overriding and polymorphism", 
+            "Data hiding and security", 
+            "Code organization and modularity"],
+        "correctAnswer": "Data hiding and security"
+    },
+    {
+        "id": 214,
+        "questionText": "All of the following are benefits of automated testing except for ONE.\nWhich of the following is NOT a benefit of automated testing?",
+        "options": [
+            "Increases test coverage and accuracy", 
+            "Reduces the need for manual testing", 
+            "Assess the overall user experience", 
+            "Provides faster feedback on code changes"],
+        "correctAnswer": "Assess the overall user experience"
+    },
+    {
+        "id": 215,
+        "questionText": "What is one benefit of using return values in programming?",
+        "options": [
+            "It eliminates the need for writing comments and documentation", 
+            "It allows for faster program execution", 
+            "It improves code maintainability and flexibility", 
+            "It enhances code security and prevents data leakage"],
+        "correctAnswer": "It improves code maintainability and flexibility"
+    },
+    {
+        "id": 216,
+        "questionText": "If A is true and B is false, what is the result of the expression A OR B?",
+        "options": [
+            "False", 
+            "True", 
+            "XOR", 
+            "AND"],
+        "correctAnswer": "True"
+    },
+    {
+        "id": 217,
+        "questionText": "Which of the following statements is true about the relationship between a class and an object?",
+        "options": [
+            "An object is a collection of classes.", 
+            "A class is a subset of an object", 
+            "A class can exist without any objects.", 
+            "An object can exist without any classes."],
+        "correctAnswer": "A class can exist without any objects."
+    },
+    {
+        "id": 218,
+        "questionText": "Which of the following is a benefit of using a version control system in a collaborative software development environment?",
+        "options": [
+            "Simplified code compilation and deployment", 
+            "Improved code quality through automated testing", 
+            "Enhanced code documentation and commenting", 
+            "Facilitated coordination and conflict resolution among team members"],
+        "correctAnswer": "Facilitated coordination and conflict resolution among team members"
+    },
+    {
+        "id": 219,
+        "questionText": "Why is providing user-friendly error messages important in runtime error handling?",
+        "options": [
+            "To avoid handling errors altogether", 
+            "To provide clear information about the error to end-users", 
+            "To introduce intentional errors", 
+            "To confuse users"],
+        "correctAnswer": "To provide clear information about the error to end-users"
+    },
+    {
+        "id": 220,
+        "questionText": "The phase in the SDLC (system design life cycle) where the system is tested to ensure it meets the specified requirements is called:",
+        "options": [
+            "Testing", 
+            "Development", 
+            "Design", 
+            "Implementation"],
+        "correctAnswer": "Testing"
+    },
+    {
+        "id": 221,
+        "questionText": "What type of error will be thrown?\n\nfunction divideByZero() {\n    result = 10 / 0;  \n    return result;\n}\ndivideByZero();",
+        "options": [
+            "Runtime error", 
+            "Semantic error", 
+            "Syntax error", 
+            "Logic error"],
+        "correctAnswer": "Runtime error"
+    },
+    {
+        "id": 222,
+        "questionText": "Convert the decimal number 70 to hexadecimal.",
+        "options": [
+            "3A", 
+            "2E", 
+            "46", 
+            "5C"],
+        "correctAnswer": "46"
+    },
+    {
+        "id": 223,
+        "questionText": "What is the outcome of the Boolean expression (A OR B) AND (NOT A) if A is True?",
+        "options": [
+            "False", 
+            "XOR", 
+            "True", 
+            "AND"],
+        "correctAnswer": "False"
+    },
+    {
+        "id": 224,
+        "questionText": "Which term refers to the system that defines the positions of elements and is used by Graphic methods?",
+        "options": [
+            "Rendering Context", 
+            "Image Transformation", 
+            "Vector Graphics", 
+            "Coordinate System"],
+        "correctAnswer": "Coordinate System"
+    },
+    {
+        "id": 225,
+        "questionText": "What does the term \"stability\" refer to in the context of sorting algorithms?",
+        "options": [
+            "The ability to rearrange elements in ascending order.", 
+            "The time it takes to sort an array.", 
+            "The preservation of the relative order of equal elements in the sorted array.", 
+            "The number of comparisons made during sorting."],
+        "correctAnswer": "The preservation of the relative order of equal elements in the sorted array."
+    },
+    {
+        "id": 226,
+        "questionText": "count = 0\nfor i in range(1, 4):\n    for j in range(i):\n        count += j + 1\nprint(count)\n\nWhat will be the output of the above code?",
+        "options": [
+            "6", 
+            "10", 
+            "40", 
+            "9"],
+        "correctAnswer": "10"
+    },
+    {
+        "id": 227,
+        "questionText": "What are nested loops in programming?",
+        "options": [
+            "Loops that are never executed", 
+            "Loops that contain subroutines", 
+            "A loop that is located inside another loop", 
+            "Loops that are executed one after another"],
+        "correctAnswer": "A loop that is located inside another loop"
+    },
+    {
+        "id": 228,
+        "questionText": "What term describes the ability to work on documents, code, or content simultaneously with others with real-time changes?",
+        "options": [
+            "Real-time collaboration", 
+            "Version control", 
+            "File synchronization", 
+            "Code hosting"],
+        "correctAnswer": "Real-time collaboration"
+    },
+    {
+        "id": 229,
+        "questionText": "The level of security a person or organization has for their computer presence is referred to as their security ________.",
+        "options": [
+            "Posture", 
+            "Profile", 
+            "Holes", 
+            "Position"],
+        "correctAnswer": "Posture"
+    },
+    {
+        "id": 230,
+        "questionText": "Which of these methodologies is often associated with risk analysis and/or management?",
+        "options": [
+            "Scrum", 
+            "Top-Down", 
+            "Waterfall", 
+            "Spiral"],
+        "correctAnswer": "Spiral"
+    },
+    {
+        "id": 231,
+        "questionText": "In programming, what is the assignment operator used for?",
+        "options": [
+            "To assign values to variables", 
+            "To create mathematical inequalities", 
+            "To check for equality", 
+            "To compare values"],
+        "correctAnswer": "To assign values to variables"
+    },
+    {
+        "id": 232,
+        "questionText": "Set i to 0\nWhile i is less than 5\n    If i equals 3\n        Exit the loop\n    End If\n    Print the value of i\n    Increment i by 1\nEnd While\n\nWhat will be the output of the above code?",
+        "options": [
+            "0 1 2", 
+            "0 1 2 3", 
+            "0 1 2 4 5", 
+            "0 1 2 4"],
+        "correctAnswer": "0 1 2"
+    },
+    {
+        "id": 233,
+        "questionText": "string str1 ← \"Hello\"\nstring str2 ← \"world!\"\nstring result ← str1 + \" \" + str2\noutput(result)\n\nWhat will be the output of the above pseudocode?",
+        "options": [
+            "Hello + world!", 
+            "Hello World!", 
+            "\"Hello\" \"World!\"", 
+            "\"Hello\" + \"World!\""],
+        "correctAnswer": "Hello World!"
+    },
+    {
+        "id": 234,
+        "questionText": "Which one is the correct syntax structure for a nested loop?",
+        "options": [
+            "for i from 1 to 3 do\nfor j from 1 to 4 do", 
+            "for i from 1 to 3 do\n      for j from 1 to 4 do", 
+            "for i from 1 to 3 do", 
+            "for i from 1 to 3 do\nfor j from 1 to 4 do"],
+        "correctAnswer": "for i from 1 to 3 do\n    for j from 1 to 4 do"
     }
-    ]
+        ]
 
 def get_random_question():
     """Get a random question that hasn't been used yet"""
