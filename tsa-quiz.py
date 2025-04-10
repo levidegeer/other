@@ -2051,16 +2051,6 @@ all_questions = [
             "\"Hello\" + \"World!\""],
         "correctAnswer": "Hello World!"
     },
-    {
-        "id": 234,
-        "questionText": "Which one is the correct syntax structure for a nested loop?",
-        "options": [
-            "for i from 1 to 3 do\nfor j from 1 to 4 do", 
-            "for i from 1 to 3 do\n      for j from 1 to 4 do", 
-            "for i from 1 to 3 do", 
-            "for i from 1 to 3 do\nfor j from 1 to 4 do"],
-        "correctAnswer": "for i from 1 to 3 do\n    for j from 1 to 4 do"
-    }
         ]
 
 def get_random_question():
