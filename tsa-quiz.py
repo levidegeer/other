@@ -2061,7 +2061,427 @@ all_questions = [
             "236"],
         "correctAnswer": "206"
     },
-        ]
+    {
+        "id": 235,
+        "questionText": "When is the use of open web standards like HTML and CSS most relevant?",
+        "options": [
+            "When generating random numbers",
+            "When formatting data for a printed report",
+            "When displaying data in a user interface",
+            "When encrypting sensitive data"],
+        "correctAnswer": "When displaying data in a user interface"
+    },
+    {
+        "id": 236,
+        "questionText": "What is one recommended procedure to maintain data integrity and security on your computer?",
+        "options": [
+            "Keep the screen unlocked for easy access",
+            "Lock the screen when not in use",
+            "Use any thumb drive available",
+            "Delete all emails, even if they seem familiar"],
+        "correctAnswer": "Lock the screen when not in use"
+    },
+    {
+        "id": 237,
+        "questionText": "What is the purpose of a coordinate system in graphics?",
+        "options": [
+            "To define the position and orientation of objects",
+            "To encrypt and secure images",
+            "To specify the size and dimensions of an image",
+            "To compress image file sizes"],
+        "correctAnswer": "To define the position and orientation of objects"
+    },
+    {
+        "id": 238,
+        "questionText": "What is the approximate size of a typical high-resolution photo?",
+        "options": [
+            "Megabytes",
+            "Terabytes",
+            "Gigabytes",
+            "Kilobytes"],
+        "correctAnswer": "Megabytes"
+    },
+    {
+        "id": 239,
+        "questionText": "In the maintenance phase of a software application, how would you address user-identified issues and additional feature requests in a systematic manner?",
+        "options": [
+            "Request user feedback on new features",
+            "Proceed to the deployment phase",
+            "Prioritize and fix identified issues",
+            "Implement additional features directly"],
+        "correctAnswer": "Prioritize and fix identified issues"
+    },
+    {
+        "id": 240,
+        "questionText": "What is the purpose of a destructor in a class?",
+        "options": [
+            "To initialize object attributes",
+            "To clean up resources when an object is destroyed",
+            "To set default values for attributes",
+            "To create new instances of a class"],
+        "correctAnswer": "To clean up resources when an object is destroyed"
+    },
+    {
+        "id": 241,
+        "questionText": "What is the primary purpose of a Virtual Private Network (VPN)?",
+        "options": [
+            "Secure remote desktop access",
+            "Encrypt internet traffic",
+            "Virtual conferencing",
+            "Collaborative document editing"],
+        "correctAnswer": "Encrypt internet traffic"
+    },
+    {
+        "id": 242,
+        "questionText": "What is the purpose of instantiating objects from existing classes?",
+        "options": [
+            "To create new classes based on existing classes.",
+            "To combine multiple classes into one.",
+            "To create multiple instances of the same class with different data.",
+            "To modify the behavior of existing classes."],
+        "correctAnswer": "To create multiple instances of the same class with different data."
+    },
+    {
+        "id": 243,
+        "questionText": "What is bandwidth in the context of internet connections?",
+        "options": [
+            "The speed at which a website loads",
+            "The quality of images and graphics on a webpage",
+            "The number of web pages on a website",
+            "The amount of data that can be transmitted over a network in a given time"],
+        "correctAnswer": "The amount of data that can be transmitted over a network in a given time"
+    },
+    {
+        "id": 244,
+        "questionText": "Given the following code snippet, which line creates a subclass of the Animal class?\n\nclass Animal:\n    def __init__(self, name):\n        self.name = name\nclass Dog(Animal):\n    def bark(self):\n        print(\"Woof!\")",
+        "options": [
+            "Line 2: class Animal",
+            "Line 7: def bark(self)",
+            "Line 9: print(\"Woof!\")",
+            "Line 5: class Dog"],
+        "correctAnswer": "Line 5: class Dog"
+    },
+    {
+        "id": 245,
+        "questionText": "Which of the following statements about modifier methods is true?",
+        "options": [
+            "They are used to modify the state of objects by updating their attributes.",
+            "They are only used for retrieving data from objects.",
+            "They are used for deleting objects from memory.",
+            "They are used to create new objects."],
+        "correctAnswer": "They are used to modify the state of objects by updating their attributes."
+    },
+    {
+        "id": 246,
+        "questionText": "Which programming language is widely used for developing Android applications?",
+        "options": [
+            "Swift",
+            "Kotlin",
+            "C#",
+            "Python"],
+        "correctAnswer": "Kotlin"
+    },
+    {
+        "id": 247,
+        "questionText": "What is the primary purpose of initializing a new repository?",
+        "options": [
+            "To create a directory for storing code files",
+            "To set up authentication and access control for the repository",
+            "To configure the default branch and repository settings",
+            "To connect to a remote code hosting service"],
+        "correctAnswer": "To create a directory for storing code files"
+    },
+    {
+        "id": 248,
+        "questionText": "let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];\nlet sum = 0;\nfor (let i = 0; i < matrix.length; i++) {\n  for (let j = i; j < matrix[i].length - 1; j++) {\n    sum += matrix[i][j];\n  }\n}\nconsole.log(sum);\n\nWhat will be printed as the output of the above code?",
+        "options": [
+            "36",
+            "45",
+            "26",
+            "8"],
+        "correctAnswer": "8"
+    },
+    {
+        "id": 249,
+        "questionText": "In the documentation for a class, the constructor method(s) usually specify:",
+        "options": [
+            "The time complexity of creating an instance",
+            "The internal design choices made when creating an instance",
+            "The private variables used to create the instance",
+            "How to create an instance of the class"],
+        "correctAnswer": "How to create an instance of the class"
+    },
+    {
+        "id": 250,
+        "questionText": "Which logical operator evaluates to true if both operands are true?",
+        "options": [
+            "NOT",
+            "OR",
+            "XOR",
+            "AND"],
+        "correctAnswer": "AND"
+    },
+    {
+        "id": 251,
+        "questionText": "What does the term \"Semantic HTML\" refer to?",
+        "options": [
+            "HTML code optimized for search engines.",
+            "HTML code with fancy styling.",
+            "HTML tags with bright colors.",
+            "HTML markup that accurately represents the meaning and structure of content."],
+        "correctAnswer": "HTML markup that accurately represents the meaning and structure of content."
+    },
+    {
+        "id": 252,
+        "questionText": "let x = 10;\nlet y = 20;\nlet result = x <= y;\n\nWhat is the value of \"result\" in the above code?",
+        "options": [
+            "Error: Invalid comparison",
+            "10",
+            "False",
+            "True"],
+        "correctAnswer": "True"
+    },
+    {
+        "id": 253,
+        "questionText": "What is composition in object-oriented programming?",
+        "options": [
+            "The process of creating a new class from an existing class.",
+            "The process of designing classes based on their relationships.",
+            "The process of creating objects from a class.",
+            "The process of combining multiple classes into one."],
+        "correctAnswer": "The process of combining multiple classes into one."
+    },
+    {
+        "id": 254,
+        "questionText": "Name the loop will always execute before checking the condition?",
+        "options": [
+            "If conditional",
+            "For loop",
+            "While loop",
+            "Do while loop"],
+        "correctAnswer": "Do while loop"
+    },
+    {
+        "id": 255,
+        "questionText": "Which one of the following is a best practice for using parameters?",
+        "options": [
+            "Minimizing the use of default parameter values",
+            "Passing all arguments as positional arguments",
+            "Using single-letter variable names for parameters",
+            "Keeping the number of parameters in a function manageable"],
+        "correctAnswer": "Keeping the number of parameters in a function manageable"
+    },
+    {
+        "id": 256,
+        "questionText": "What should you consult to understand how to use a standard library function correctly?",
+        "options": [
+            "The official documentation",
+            "The forums like StackOverflow",
+            "ChatGPT",
+            "Web search results"],
+        "correctAnswer": "The official documentation"
+    },
+    {
+        "id": 257,
+        "questionText": "Which type of inheritance allows a class to inherit from more than one superclass?",
+        "options": [
+            "Multiple Inheritance",
+            "Single Inheritance",
+            "Hierarchical Inheritance",
+            "Multilevel Inheritance"],
+        "correctAnswer": "Multiple Inheritance"
+    },
+    {
+        "id": 258,
+        "questionText": "let i = 0;\nwhile (i < 5) {\n    output to console i ;\n    increment i;\n    if (i == 3) {\n        continue;\n    }\n    output to console \"Hello\";\n}\n\nWhat will be the console output of the above code?",
+        "options": [
+            "0 Hello 1 Hello 2 3 Hello 4 Hello",
+            "0 Hello 1 Hello 2 Hello Hello 4 Hello",
+            "0 Hello 1 Hello 2 Hello 3 Hello 4",
+            "0 Hello 1 Hello 2 Hello 4 Hello"],
+        "correctAnswer": "0 Hello 1 Hello 2 3 Hello 4 Hello"
+    },
+    {
+        "id": 259,
+        "questionText": "Which exception class is typically thrown when a method receives an invalid argument?",
+        "options": [
+            "NullPointerException",
+            "IOException",
+            "IndexOutOfBoundsException",
+            "IllegalArgumentException"],
+        "correctAnswer": "IllegalArgumentException"
+    },
+    {
+        "id": 260,
+        "questionText": "Which of the following costs is unique to cross-platform app development?",
+        "options": [
+            "Limitations in utilizing platform-specific features",
+            "App stores requiring a higher fee",
+            "Higher backend development costs",
+            "Separate codebases for iOS and Android"],
+        "correctAnswer": "Limitations in utilizing platform-specific features"
+    },
+    {
+        "id": 261,
+        "questionText": "Which one of the methods below can be used to prevent SQL Injection?",
+        "options": [
+            "Use an antivirus software",
+            "Validate and sanitize user inputs",
+            "Use digital certificates",
+            "Use a firewall"],
+        "correctAnswer": "Validate and sanitize user inputs"
+    },
+    {
+        "id": 262,
+        "questionText": "Why is it important to handle bad input and run-time errors within the program during integration testing?",
+        "options": [
+            "It reduces the need for writing test cases",
+            "It makes the program execute faster",
+            "It decreases the complexity of the testing process",
+            "It improves the reliability and robustness of the software"],
+        "correctAnswer": "It improves the reliability and robustness of the software"
+    },
+    {
+        "id": 263,
+        "questionText": "What is a buffer overflow?",
+        "options": [
+            "A method for encrypting user input to prevent unauthorized access",
+            "A security vulnerability caused by writing data beyond allocated buffer boundaries",
+            "A method for removing unnecessary characters from user input",
+            "A technique for validating user input against specific criteria"],
+        "correctAnswer": "A security vulnerability caused by writing data beyond allocated buffer boundaries"
+    },
+    {
+        "id": 264,
+        "questionText": "What's the process that helps by breaking down complex computer problems into more manageable parts?",
+        "options": [
+            "Decomparing",
+            "Decomposing",
+            "De-elevating",
+            "Decompressing"],
+        "correctAnswer": "Decomposing"
+    },
+    {
+        "id": 265,
+        "questionText": "Which type of software license allows users to modify and distribute the software freely?",
+        "options": [
+            "Shareware license",
+            "Freeware license",
+            "Open source license",
+            "Proprietary license"],
+        "correctAnswer": "Open source license"
+    },
+    {
+        "id": 266,
+        "questionText": "What are runtime errors in programming?",
+        "options": [
+            "Errors that occur during debugging",
+            "Errors that occur during program compilation",
+            "Errors that occur during program execution",
+            "Errors that occur due to logical inconsistencies in code"],
+        "correctAnswer": "Errors that occur during program execution"
+    },
+    {
+        "id": 267,
+        "questionText": "Which iteration structure is often used when solving problems that can be divided into smaller, similar subproblems?",
+        "options": [
+            "for loop",
+            "recursion",
+            "while loop",
+            "for-each loop"],
+        "correctAnswer": "recursion"
+    },
+    {
+        "id": 268,
+        "questionText": "What is the role of error handling in handling unexpected return values?",
+        "options": [
+            "To ignore unexpected return values and continue program execution",
+            "To prevent unexpected return values from occurring",
+            "To catch and handle errors or exceptions that may cause unexpected return values",
+            "To log unexpected return values for later analysis"],
+        "correctAnswer": "To catch and handle errors or exceptions that may cause unexpected return values"
+    },
+    {
+        "id": 269,
+        "questionText": "class Circle:\n    def __init__(self, radius):\n        self.radius = radius\n\n    def get_radius(self):\n        return self.radius\n\n    def set_radius(self, new_radius):\n        self.radius = new_radius\ncircle1 = Circle(5)\n\nWhich method in the Circle class is the accessor method?",
+        "options": [
+            "set_radius(self, new_radius)",
+            "get_radius()",
+            "self.radius = radius",
+            "Circle(5)"],
+        "correctAnswer": "get_radius()"
+    },
+    {
+        "id": 270,
+        "questionText": "Which law protects the digital access and transfer of medical records from one party to another?",
+        "options": [
+            "COBRA",
+            "FERPA",
+            "COPPA",
+            "HIPAA"],
+        "correctAnswer": "HIPAA"
+    },
+    {
+        "id": 271,
+        "questionText": "Which of the following is true about a user-defined class?",
+        "options": [
+            "It cannot have both attributes and methods",
+            "It can have attributes (data) and methods (functions)",
+            "It can only have attributes but not methods",
+            "It can only have methods but not attributes"],
+        "correctAnswer": "It can have attributes (data) and methods (functions)"
+    },
+    {
+        "id": 272,
+        "questionText": "What is the difference between a class and an object?",
+        "options": [
+            "A class can have multiple instances, while an object can have multiple classes.",
+            "A class is a runtime entity, while an object is a compile-time entity.",
+            "A class can have methods, while an object can only have properties.",
+            "A class defines the structure, while an object is an instance of the class."],
+        "correctAnswer": "A class defines the structure, while an object is an instance of the class."
+    },
+    {
+        "id": 273,
+        "questionText": "During the testing phase of a software project (Scenario 1), which of the following steps would you NOT perform?",
+        "options": [
+            "Develop the software",
+            "Identify test scenarios and test cases",
+            "Report and prioritize defects for resolution",
+            "Execute test cases and record results"],
+        "correctAnswer": "Develop the software"
+    },
+    {
+        "id": 274,
+        "questionText": "In a program editor, what does the term \"syntax highlighting\" refer to?",
+        "options": [
+            "Automatically suggesting code completion options",
+            "Changing the color scheme of the editor",
+            "Highlighting the syntax errors in the code",
+            "Highlighting different parts of the code with different colors"],
+        "correctAnswer": "Highlighting different parts of the code with different colors"
+    },
+    {
+        "id": 275,
+        "questionText": "Which sorting algorithm has a best-case time complexity of O(n)?",
+        "options": [
+            "Merge sort",
+            "Quick sort",
+            "Insertion sort",
+            "Heap sort"],
+        "correctAnswer": "Insertion sort"
+    },
+    {
+        "id": 276,
+        "questionText": "What does scalability refer to in app development?",
+        "options": [
+            "The app's visual design appeal",
+            "The app's ability to work offline",
+            "The app's ability to handle growth in users or features",
+            "The app's compatibility with older devices"],
+        "correctAnswer": "The app's ability to handle growth in users or features"
+    },
+]
 
 def get_random_question():
     """Get a random question that hasn't been used yet"""

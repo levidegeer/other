@@ -2926,7 +2926,7 @@ OR
 XOR
 AND
 
-Answer = 251
+Answer = AND
 
 
 Question 251
