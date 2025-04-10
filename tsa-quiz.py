@@ -2051,6 +2051,16 @@ all_questions = [
             "\"Hello\" + \"World!\""],
         "correctAnswer": "Hello World!"
     },
+    {
+        "id": 234,
+        "questionText": "What is the hexadeciaml number CE converted to decimal notation?",
+        "options": [
+            "105",
+            "206",
+            "205",
+            "236"],
+        "correctAnswer": "206"
+    },
         ]
 
 def get_random_question():
