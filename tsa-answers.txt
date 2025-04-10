@@ -2738,3 +2738,506 @@ for i from 1 to 3 do
 
 
 Question 235
+When is the use of open web standards like HTML and CSS most relevant?
+
+When generating random numbers
+When formatting data for a printed report
+When displaying data in a user interface
+When encrypting sensitive data
+
+Answer = When displaying data in a user interface
+
+
+Question 236
+What is one recommended procedure to maintain data integrity and security on your computer?
+
+Keep the screen unlocked for easy access
+Lock the screen when not in use
+Use any thumb drive available
+Delete all emails, even if they seem familiar
+
+Answer = Lock the screen when not in use
+
+
+Question 237
+What is the purpose of a coordinate system in graphics?
+
+To define the position and orientation of objects
+To encrypt and secure images
+To specify the size and dimensions of an image
+To compress image file sizes
+
+Answer = To define the position and orientation of objects
+
+
+Question 238
+What is the approximate size of a typical high-resolution photo?
+
+Megabytes
+Terabytes
+Gigabytes
+Kilobytes
+
+Answer = Megabytes
+
+
+Question 239
+In the maintenance phase of a software application, how would you address user-identified issues and additional feature requests in a systematic manner?
+
+Request user feedback on new features
+Proceed to the deployment phase
+Prioritize and fix identified issues
+Implement additional features directly
+
+Answer = Prioritize and fix identified issues
+
+
+Question 240
+What is the purpose of a destructor in a class?
+
+To initialize object attributes
+To clean up resources when an object is destroyed
+To set default values for attributes
+To create new instances of a class
+
+Answer = To clean up resources when an object is destroyed
+
+
+Question 241
+What is the primary purpose of a Virtual Private Network (VPN)?
+
+Secure remote desktop access
+Encrypt internet traffic
+Virtual conferencing
+Collaborative document editing
+
+Answer = Encrypt internet traffic
+
+
+Question 242
+What is the purpose of instantiating objects from existing classes?
+
+To create new classes based on existing classes.
+To combine multiple classes into one.
+To create multiple instances of the same class with different data.
+To modify the behavior of existing classes.
+
+Answer = To create multiple instances of the same class with different data.
+
+
+Question 243
+What is bandwidth in the context of internet connections?
+
+The speed at which a website loads
+The quality of images and graphics on a webpage
+The number of web pages on a website
+The amount of data that can be transmitted over a network in a given time
+
+Answer = The amount of data that can be transmitted over a network in a given time
+
+
+Question 244
+Given the following code snippet, which line creates a subclass of the Animal class?
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+class Dog(Animal):
+    def bark(self):
+        print("Woof!")
+
+Line 2: class Animal
+Line 7: def bark(self)
+Line 9: print("Woof!")
+Line 5: class Dog
+
+Answer = Line 5: class Dog
+
+
+Question 245
+Which of the following statements about modifier methods is true?
+
+They are used to modify the state of objects by updating their attributes.
+They are only used for retrieving data from objects.
+They are used for deleting objects from memory.
+They are used to create new objects.
+
+Answer = They are used to modify the state of objects by updating their attributes.
+
+
+Question 246
+Which programming language is widely used for developing Android applications?
+
+Swift
+Kotlin
+C#
+Python
+
+Answer = Kotlin
+
+
+Question 247
+What is the primary purpose of initializing a new repository?
+
+To create a directory for storing code files
+To set up authentication and access control for the repository
+To configure the default branch and repository settings
+To connect to a remote code hosting service
+
+Answer = To create a directory for storing code files
+
+
+Question 248
+let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+let sum = 0;
+for (let i = 0; i < matrix.length; i++) {
+  for (let j = i; j < matrix[i].length - 1; j++) {
+    sum += matrix[i][j];
+  }
+}
+console.log(sum);
+
+What will be printed as the output of the above code?
+
+36
+45
+26
+8
+
+Answer = 8
+
+
+Question 249
+In the documentation for a class, the constructor method(s) usually specify:
+
+The time complexity of creating an instance
+The internal design choices made when creating an instance
+The private variables used to create the instance
+How to create an instance of the class
+
+Answer = How to create an instance of the class
+
+
+Question 250
+Which logical operator evaluates to true if both operands are true?
+
+NOT
+OR
+XOR
+AND
+
+Answer = 251
+
+
+Question 251
+What does the term "Semantic HTML" refer to?
+
+HTML code optimized for search engines.
+HTML code with fancy styling.
+HTML tags with bright colors.
+HTML markup that accurately represents the meaning and structure of content.
+
+Answer = HTML markup that accurately represents the meaning and structure of content.
+
+
+Question 252
+let x = 10;
+let y = 20;
+let result = x <= y;
+
+What is the value of "result" in the above code?
+
+Error: Invalid comparison
+10
+False
+True
+
+Answer = True
+
+
+Question 253
+What is composition in object-oriented programming?
+
+The process of creating a new class from an existing class.
+The process of designing classes based on their relationships.
+The process of creating objects from a class.
+The process of combining multiple classes into one.
+
+Answer = The process of combining multiple classes into one.
+
+
+Question 254
+Name the loop will always execute before checking the condition?
+
+If conditional
+For loop
+While loop
+Do while loop
+
+Answer = Do while loop
+
+
+Question 255
+Which one of the following is a best practice for using parameters?
+
+Minimizing the use of default parameter values
+Passing all arguments as positional arguments
+Using single-letter variable names for parameters
+Keeping the number of parameters in a function manageable
+
+Answer = Keeping the number of parameters in a function manageable
+
+
+Question 256
+What should you consult to understand how to use a standard library function correctly?
+
+The official documentation
+The forums like StackOverflow
+ChatGPT
+Web search results
+
+Answer = The official documentation
+
+
+Question 257
+Which type of inheritance allows a class to inherit from more than one superclass?
+
+Multiple Inheritance
+Single Inheritance
+Hierarchical Inheritance
+Multilevel Inheritance
+
+Answer = Multiple Inheritance
+
+
+Question 258
+let i = 0;
+while (i < 5) {
+    output to console i ;
+    increment i;
+    if (i == 3) {
+        continue;
+    }
+    output to console "Hello";
+}
+
+What will be the console output of the above code?
+
+0 Hello 1 Hello 2 3 Hello 4 Hello
+0 Hello 1 Hello 2 Hello Hello 4 Hello
+0 Hello 1 Hello 2 Hello 3 Hello 4
+0 Hello 1 Hello 2 Hello 4 Hello
+
+Answer = 0 Hello 1 Hello 2 3 Hello 4 Hello
+
+
+Question 259
+Which exception class is typically thrown when a method receives an invalid argument?
+
+NullPointerException
+IOException
+IndexOutOfBoundsException
+IllegalArgumentException
+
+Answer = IllegalArgumentException
+
+
+Question 260
+Which of the following costs is unique to cross-platform app development?
+
+Limitations in utilizing platform-specific features
+App stores requiring a higher fee
+Higher backend development costs
+Separate codebases for iOS and Android
+
+Answer = Limitations in utilizing platform-specific features
+
+
+Question 261
+Which one of the methods below can be used to prevent SQL Injection?
+
+Use an antivirus software
+Validate and sanitize user inputs
+Use digital certificates
+Use a firewall
+
+Answer = Validate and sanitize user inputs
+
+
+Question 262
+Why is it important to handle bad input and run-time errors within the program during integration testing?
+
+It reduces the need for writing test cases
+It makes the program execute faster
+It decreases the complexity of the testing process
+It improves the reliability and robustness of the software
+
+Answer = It improves the reliability and robustness of the software
+
+
+Question 263
+What is a buffer overflow?
+
+A method for encrypting user input to prevent unauthorized access
+A security vulnerability caused by writing data beyond allocated buffer boundaries
+A method for removing unnecessary characters from user input
+A technique for validating user input against specific criteria
+
+Answer = A security vulnerability caused by writing data beyond allocated buffer boundaries
+
+
+Question 264
+What's the process that helps by breaking down complex computer problems into more manageable parts?
+
+Decomparing
+Decomposing
+De-elevating
+Decompressing
+
+Answer = Decomposing
+
+
+Question 265
+Which type of software license allows users to modify and distribute the software freely?
+
+Shareware license
+Freeware license
+Open source license
+Proprietary license
+
+Answer = Open source license
+
+
+Question 266
+What are runtime errors in programming?
+
+Errors that occur during debugging
+Errors that occur during program compilation
+Errors that occur during program execution
+Errors that occur due to logical inconsistencies in code
+
+Answer = Errors that occur during program execution
+
+
+Question 267
+Which iteration structure is often used when solving problems that can be divided into smaller, similar subproblems?
+
+for loop
+recursion
+while loop
+for-each loop
+
+Answer = recursion
+
+
+Question 268
+What is the role of error handling in handling unexpected return values?
+
+To ignore unexpected return values and continue program execution
+To prevent unexpected return values from occurring
+To catch and handle errors or exceptions that may cause unexpected return values
+To log unexpected return values for later analysis
+
+Answer = To catch and handle errors or exceptions that may cause unexpected return values
+
+
+Question 269
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def get_radius(self):
+        return self.radius
+
+    def set_radius(self, new_radius):
+        self.radius = new_radius
+circle1 = Circle(5)
+
+Which method in the Circle class is the accessor method?
+
+set_radius(self, new_radius)
+get_radius()
+self.radius = radius
+Circle(5)
+
+Answer = get_radius()
+
+
+Question 270
+Which law protects the digital access and transfer of medical records from one party to another?
+
+COBRA
+FERPA
+COPPA
+HIPAA
+
+Answer = HIPAA
+
+
+Question 271
+Which of the following is true about a user-defined class?
+
+It cannot have both attributes and methods
+It can have attributes (data) and methods (functions)
+It can only have attributes but not methods
+It can only have methods but not attributes
+
+Answer = It can have attributes (data) and methods (functions)
+
+
+Question 272
+What is the difference between a class and an object?
+
+A class can have multiple instances, while an object can have multiple classes.
+A class is a runtime entity, while an object is a compile-time entity.
+A class can have methods, while an object can only have properties.
+A class defines the structure, while an object is an instance of the class.
+
+Answer = A class defines the structure, while an object is an instance of the class.
+
+
+Question 273
+During the testing phase of a software project (Scenario 1), which of the following steps would you NOT perform?
+
+Develop the software
+Identify test scenarios and test cases
+Report and prioritize defects for resolution
+Execute test cases and record results
+
+Answer = Develop the software
+
+
+Question 274
+In a program editor, what does the term "syntax highlighting" refer to?
+
+Automatically suggesting code completion options
+Changing the color scheme of the editor
+Highlighting the syntax errors in the code
+Highlighting different parts of the code with different colors
+
+Answer = Highlighting different parts of the code with different colors
+
+
+Question 275
+Which sorting algorithm has a best-case time complexity of O(n)?
+
+Merge sort
+Quick sort
+Insertion sort
+Heap sort
+
+Answer = Insertion sort
+
+
+Question 276
+What does scalability refer to in app development?
+
+The app's visual design appeal
+The app's ability to work offline
+The app's ability to handle growth in users or features
+The app's compatibility with older devices
+
+Answer = The app's ability to handle growth in users or features
+
+
+Question 277
