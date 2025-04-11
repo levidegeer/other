@@ -3241,3 +3241,505 @@ Answer = The app's ability to handle growth in users or features
 
 
 Question 277
+User stories are a common technique used to:
+
+Describe the functionality from the perspective of end users
+Define the technical specifications of a program
+Document the testing plan for a program
+Outline the development process for a program
+
+Answer = Describe the functionality from the perspective of end users
+
+
+Question 278
+Which characteristic is associated with the dynamic nature of objects?
+
+Objects defined at compile-time
+Objects are static entities
+Objects remain unchanged during runtime
+Objects can be created and modified during runtime
+
+Answer = Objects can be created and modified during runtime
+
+
+Question 279
+What does the code below display given:
+
+boy = TRUE 
+young = FALSE
+IF NOT young AND boy 
+{
+   DISPLAY (“Sup!”) 
+} 
+ELSE
+{ 
+     IF NOT boy AND young 
+     { 
+       DISPLAY (“Right on”) 
+      } 
+     ELSE
+       { 
+         DISPLAY(“Seriously?!”) 
+       }
+ }
+
+Right on
+Sup!
+Seriously?!
+Nothing - it has an error
+
+Answer = Sup!
+
+
+Question 280
+Which GUI object is suitable for displaying single lines of text or results of calculations?
+
+Radio Buttons
+Labels
+Dropdowns
+Text Boxes
+
+Answer = Text Boxes
+
+
+Question 281
+What is the primary purpose of searching in an array?
+
+To rearrange the elements in ascending order.
+To sort the array
+To determine if a specific element exists in the array.
+To count the number of elements in the array.
+
+Answer = To determine if a specific element exists in the array.
+
+
+Question 282
+What does the A stand for in the CIA triad?
+
+Availability
+Aggregation
+Accounting
+Agency
+
+Answer = Availability
+
+
+Question 283
+What does API stand for?
+
+Application Protocol Interface
+Application Program Interface
+Advanced Protocol Interface
+Advanced Programming Interface
+
+Answer = Application Program Interface
+
+
+Question 284
+How does the -- symbol in programming change a variable?
+
+divide by 2 to the value of itself
+subtract 1 from the value of itself
+add 1 to the value of itself
+multiply by 2 to the value of itself
+
+Answer = subtract 1 from the value of itself
+
+
+Question 285
+Which type of software system is more likely to require upfront licensing fees?
+
+Proprietary systems
+Neither open source nor proprietary systems
+Both open source and proprietary systems
+Open source systems
+
+Answer = Proprietary systems
+
+
+Question 286
+Which of the following is a best practice for maintaining integrity and security in software development?
+
+Use version control systems
+Debug programs without encryption
+Store passwords in plain text
+Make your code more difficult to read
+
+Answer = Use version control systems
+
+
+Question 287
+If the last value in a binary number is "1", what do we know about that number?
+
+It's an even number.
+It's an odd number.
+It's a whole number.
+It's less than 20.
+
+Answer = It's an odd number.
+
+
+Question 288
+What does a build system help achieve in terms of software development?
+
+Platform-dependent builds
+Error-free code writing
+Real-time code execution
+Consistency in builds
+
+Answer = Consistency in builds
+
+
+Question 289
+Which mechanism allows a class to inherit attributes and behaviors from another class?
+
+Encapsulation
+Polymorphism
+Inheritance
+Abstraction
+
+Answer = Inheritance
+
+
+Question 290
+What are the consequences of software duplication and copyright infringement?
+
+Increased competition in the software market
+Legal penalties and potential lawsuits
+Higher software prices for consumers
+Enhanced software security measures
+
+Answer = Legal penalties and potential lawsuits
+
+
+Question 291
+What is OWASP?
+
+A programming language commonly used for web development
+A nonprofit organization addressing web application security
+A software vulnerability scanner
+A government agency focused on software security
+
+Answer = A nonprofit organization addressing web application security
+
+
+Question 292
+All of the below statements are false except for one. 
+Which one of the following statements is true about a two-dimensional array?
+
+It can only store integer values.
+It can have a different number of elements in each row.
+It cannot be resized once initialized.
+All elements in the array must have the same data type.
+
+Answer = It can have a different number of elements in each row.
+
+
+Question 293
+What is the value of the expression "y -= 3" if y is initially 8?
+
+11
+3
+8
+5
+
+Answer = 5
+
+
+Question 294
+Which operator would you use to check if a user's age is not equal to 18?
+
+(>)
+(<)
+(==)
+(!=)
+
+Answer = (!=)
+
+
+Question 295
+How do you generate appropriate test data?
+
+Choose random inputs
+Only use inputs that aren't close to the boundary conditions
+Only test with valid inputs
+Test the extremes of the input domain
+
+Answer = Test the extremes of the input domain
+
+
+Question 296
+Which command is typically used to create a new repository in Git?
+
+git init
+git commit
+git push
+git clone
+
+Answer = git init
+
+
+Question 297
+What constitutes the most accurate definition of a variable in the context of programming?
+
+A variable is a symbolic name or identifier associated with a storage location that holds a data value.
+A variable is a self-contained block of code that performs a specific task or set of tasks.
+A variable is a reserved word that has a special meaning and is part of the programming language's syntax.
+A variable refers to a specific action or computation that can be performed on data.
+
+Answer = A variable is a symbolic name or identifier associated with a storage location that holds a data value.
+
+
+Question 298
+What is the primary focus of privacy-focused browsers?
+
+Optimizing browsing speed
+Displaying web content
+Supporting web development activities
+Enhancing user privacy and security
+
+Answer = Enhancing user privacy and security
+
+
+Question 299
+What is encryption in the context of software development?
+
+A technique to validate user input
+A method to secure software configuration settings
+A process of converting data into an unreadable format
+A way to test software for vulnerabilities
+
+Answer = A process of converting data into an unreadable format
+
+
+Question 300
+What is the purpose of instantiating a user-defined class?
+
+To access class-level variables and methods
+To modify the existing class definition
+To destroy the existing class object
+To create a new object based on the class blueprint
+
+Answer = To create a new object based on the class blueprint
+
+
+Question 301
+def calculate_area(radius):
+    return 3.14 * radius * radius
+r = float(input("Enter the radius: "))
+area = calculate_area(r)
+print("The area is:", area)
+
+Which statement represents the input to the function calculate_area?
+
+r = float(input("Enter the radius: "))
+print("The area is:", area)
+def calculate_area(radius):
+return 3.14 * radius * radius
+
+Answer = def calculate_area(radius):
+
+
+Question 302
+What is space complexity in the context of sorting algorithms?
+
+The size of the input data.
+The amount of additional memory used by the algorithm.
+The time it takes for the algorithm to complete.
+The number of comparisons made by the algorithm.
+
+Answer = The amount of additional memory used by the algorithm.
+
+
+Question 303
+What is a challenge in using customer feedback?
+
+Generating crash reports
+Understanding technical requirements
+Balancing conflicting opinions from different users
+Collecting any feedback at all
+
+Answer = Balancing conflicting opinions from different users
+
+
+Question 304
+Can a function return multiple values simultaneously?
+
+Only when the function is defined as a method within a class can it be structured to send out multiple values simultaneously.
+It depends on the programming language whether the function can send out multiple values simultaneously.
+No, a function can only have a single return statement but the return statement can send out an array or other data structure containing multiple values.
+Yes, in all programming languages, functions can send out multiple values simultaneously.
+
+Answer = No, a function can only have a single return statement but the return statement can send out an array or other data structure containing multiple values.
+
+
+Question 305
+What is the primary goal of documentation maintenance?
+
+Eliminating all comments from the code
+Keeping documentation accurate and relevant as code changes
+Updating documentation only when code is completely rewritten
+Creating new documentation for every code change
+
+Answer = Keeping documentation accurate and relevant as code changes
+
+
+Question 306
+What does instantiation involve in object-oriented programming?
+
+Creating a class
+Destroying an object
+Modifying an object's state
+Creating an object from a class
+
+Answer = Creating an object from a class
+
+
+Question 307
+What is the benefit of applying responsive design principles to web applications?
+
+Consistent visual design across devices
+Enhanced security for web application data
+Improved website loading speed
+Adaptation of layout and functionality to different screen sizes
+
+Answer = Adaptation of layout and functionality to different screen sizes
+
+
+Question 308
+let arr = [10, 20, 30, 40, 50];
+let index = arr.findIndex((element) => element > 30);
+console.log(index);
+
+What will be the output of the code snippet above?
+
+2
+4
+1
+3
+
+Answer = 3
+
+
+Question 309
+Which search method is suitable for finding a specific word in an unsorted book?
+
+Quick search
+Binary search
+Hash search
+Linear search
+
+Answer = Linear search
+
+
+Question 310
+Which of the following is NOT a common consideration when selecting a third-party library for integration?
+
+Community support and activity
+Price of the library
+License compatibility
+Code efficiency and performance
+
+Answer = Price of the library
+
+
+Question 311
+What is the practice of structuring and presenting data in a specific layout or style called?
+
+Data formatting
+Cross-platform compatibility
+Input validation
+Output generation
+
+Answer = Data formatting
+
+
+Question 312
+Which logical operator negates the result of the expression?
+
+OR
+XOR
+NOR
+NOT
+
+Answer = NOT
+
+
+Question 313
+What is the purpose of a Trigger in a database?
+
+Execute a set of SQL statements in response to specific events
+Create a virtual table
+Define the structure of a database table
+Optimize data retrieval speed
+
+Answer = Execute a set of SQL statements in response to specific events
+
+
+Question 314
+What is the index of the first element in an array?
+
+It depends on the array size.
+-1
+0
+1
+
+Answer = 0
+
+
+Question 315
+What purpose do extensions and add-ons serve in specialty browsers?
+
+Optimizing workflows
+Ensuring regulatory compliance
+Customizing the user interface
+Enhancing browser functionality
+
+Answer = Enhancing browser functionality
+
+
+Question 316
+What does Big-O notation describe in the context of algorithms?
+
+The best-case scenario for an algorithm's performance.
+The exact runtime of an algorithm.
+The upper bound of an algorithm's time or space complexity.
+The lower bound of an algorithm's time complexity
+
+Answer = The upper bound of an algorithm's time or space complexity.
+
+
+Question 317
+What is the purpose of merging branches in version control systems?
+
+To create a new branch from an existing branch.
+To combine the changes from one branch into another branch.
+To create a new repository from an existing repository.
+To revert all changes made in a branch.
+
+Answer = To combine the changes from one branch into another branch.
+
+
+Question 318
+What is a potential issue when using fixed-point numbers in arithmetic operations?
+
+Precision loss
+Difficulty in performing bitwise operations
+Type conversion errors
+Increased memory usage
+
+Answer = Precision loss
+
+
+Question 319
+What is the role of function overloading?
+
+It restricts the use of parameters in functions.
+It limits the use of arguments in a function.
+It allows multiple functions with the same name but different parameter lists.
+It enforces a single function for all data types.
+
+Answer = It allows multiple functions with the same name but different parameter lists.
+
+
+Question 320

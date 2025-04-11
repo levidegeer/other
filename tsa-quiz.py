@@ -2481,6 +2481,436 @@ all_questions = [
             "The app's compatibility with older devices"],
         "correctAnswer": "The app's ability to handle growth in users or features"
     },
+    {
+        "id": 277,
+        "questionText": "User stories are a common technique used to:",
+        "options": [
+            "Describe the functionality from the perspective of end users",
+            "Define the technical specifications of a program",
+            "Document the testing plan for a program",
+            "Outline the development process for a program"],
+        "correctAnswer": "Describe the functionality from the perspective of end users"
+    },
+    {
+        "id": 278,
+        "questionText": "Which characteristic is associated with the dynamic nature of objects?",
+        "options": [
+            "Objects defined at compile-time",
+            "Objects are static entities",
+            "Objects remain unchanged during runtime",
+            "Objects can be created and modified during runtime"],
+        "correctAnswer": "Objects can be created and modified during runtime"
+    },
+    {
+        "id": 279,
+        "questionText": "What does the code below display given:\n\nboy = TRUE \nyoung = FALSE\nIF NOT young AND boy \n{\n   DISPLAY (\"Sup!\") \n} \nELSE\n{ \n     IF NOT boy AND young \n     { \n       DISPLAY (\"Right on\") \n      } \n     ELSE\n       { \n         DISPLAY(\"Seriously?!\") \n       }\n }",
+        "options": [
+            "Right on",
+            "Sup!",
+            "Seriously?!",
+            "Nothing - it has an error"],
+        "correctAnswer": "Sup!"
+    },
+    {
+        "id": 280,
+        "questionText": "Which GUI object is suitable for displaying single lines of text or results of calculations?",
+        "options": [
+            "Radio Buttons",
+            "Labels",
+            "Dropdowns",
+            "Text Boxes"],
+        "correctAnswer": "Text Boxes"
+    },
+    {
+        "id": 281,
+        "questionText": "What is the primary purpose of searching in an array?",
+        "options": [
+            "To rearrange the elements in ascending order.",
+            "To sort the array",
+            "To determine if a specific element exists in the array.",
+            "To count the number of elements in the array."],
+        "correctAnswer": "To determine if a specific element exists in the array."
+    },
+    {
+        "id": 282,
+        "questionText": "What does the A stand for in the CIA triad?",
+        "options": [
+            "Availability",
+            "Aggregation",
+            "Accounting",
+            "Agency"],
+        "correctAnswer": "Availability"
+    },
+    {
+        "id": 283,
+        "questionText": "What does API stand for?",
+        "options": [
+            "Application Protocol Interface",
+            "Application Program Interface",
+            "Advanced Protocol Interface",
+            "Advanced Programming Interface"],
+        "correctAnswer": "Application Program Interface"
+    },
+    {
+        "id": 284,
+        "questionText": "How does the -- symbol in programming change a variable?",
+        "options": [
+            "divide by 2 to the value of itself",
+            "subtract 1 from the value of itself",
+            "add 1 to the value of itself",
+            "multiply by 2 to the value of itself"],
+        "correctAnswer": "subtract 1 from the value of itself"
+    },
+    {
+        "id": 285,
+        "questionText": "Which type of software system is more likely to require upfront licensing fees?",
+        "options": [
+            "Proprietary systems",
+            "Neither open source nor proprietary systems",
+            "Both open source and proprietary systems",
+            "Open source systems"],
+        "correctAnswer": "Proprietary systems"
+    },
+    {
+        "id": 286,
+        "questionText": "Which of the following is a best practice for maintaining integrity and security in software development?",
+        "options": [
+            "Use version control systems",
+            "Debug programs without encryption",
+            "Store passwords in plain text",
+            "Make your code more difficult to read"],
+        "correctAnswer": "Use version control systems"
+    },
+    {
+        "id": 287,
+        "questionText": "If the last value in a binary number is \"1\", what do we know about that number?",
+        "options": [
+            "It's an even number.",
+            "It's an odd number.",
+            "It's a whole number.",
+            "It's less than 20."],
+        "correctAnswer": "It's an odd number."
+    },
+    {
+        "id": 288,
+        "questionText": "What does a build system help achieve in terms of software development?",
+        "options": [
+            "Platform-dependent builds",
+            "Error-free code writing",
+            "Real-time code execution",
+            "Consistency in builds"],
+        "correctAnswer": "Consistency in builds"
+    },
+    {
+        "id": 289,
+        "questionText": "Which mechanism allows a class to inherit attributes and behaviors from another class?",
+        "options": [
+            "Encapsulation",
+            "Polymorphism",
+            "Inheritance",
+            "Abstraction"],
+        "correctAnswer": "Inheritance"
+    },
+    {
+        "id": 290,
+        "questionText": "What are the consequences of software duplication and copyright infringement?",
+        "options": [
+            "Increased competition in the software market",
+            "Legal penalties and potential lawsuits",
+            "Higher software prices for consumers",
+            "Enhanced software security measures"],
+        "correctAnswer": "Legal penalties and potential lawsuits"
+    },
+    {
+        "id": 291,
+        "questionText": "What is OWASP?",
+        "options": [
+            "A programming language commonly used for web development",
+            "A nonprofit organization addressing web application security",
+            "A software vulnerability scanner",
+            "A government agency focused on software security"],
+        "correctAnswer": "A nonprofit organization addressing web application security"
+    },
+    {
+        "id": 292,
+        "questionText": "All of the below statements are false except for one. Which one of the following statements is true about a two-dimensional array?",
+        "options": [
+            "It can only store integer values.",
+            "It can have a different number of elements in each row.",
+            "It cannot be resized once initialized.",
+            "All elements in the array must have the same data type."],
+        "correctAnswer": "It can have a different number of elements in each row."
+    },
+    {
+        "id": 293,
+        "questionText": "What is the value of the expression \"y -= 3\" if y is initially 8?",
+        "options": [
+            "11",
+            "3",
+            "8",
+            "5"],
+        "correctAnswer": "5"
+    },
+    {
+        "id": 294,
+        "questionText": "Which operator would you use to check if a user's age is not equal to 18?",
+        "options": [
+            "(>)",
+            "(<)",
+            "(==)",
+            "(!=)"],
+        "correctAnswer": "(!=)"
+    },
+    {
+        "id": 295,
+        "questionText": "How do you generate appropriate test data?",
+        "options": [
+            "Choose random inputs",
+            "Only use inputs that aren't close to the boundary conditions",
+            "Only test with valid inputs",
+            "Test the extremes of the input domain"],
+        "correctAnswer": "Test the extremes of the input domain"
+    },
+    {
+        "id": 296,
+        "questionText": "Which command is typically used to create a new repository in Git?",
+        "options": [
+            "git init",
+            "git commit",
+            "git push",
+            "git clone"],
+        "correctAnswer": "git init"
+    },
+    {
+        "id": 297,
+        "questionText": "What constitutes the most accurate definition of a variable in the context of programming?",
+        "options": [
+            "A variable is a symbolic name or identifier associated with a storage location that holds a data value.",
+            "A variable is a self-contained block of code that performs a specific task or set of tasks.",
+            "A variable is a reserved word that has a special meaning and is part of the programming language's syntax.",
+            "A variable refers to a specific action or computation that can be performed on data."],
+        "correctAnswer": "A variable is a symbolic name or identifier associated with a storage location that holds a data value."
+    },
+    {
+        "id": 298,
+        "questionText": "What is the primary focus of privacy-focused browsers?",
+        "options": [
+            "Optimizing browsing speed",
+            "Displaying web content",
+            "Supporting web development activities",
+            "Enhancing user privacy and security"],
+        "correctAnswer": "Enhancing user privacy and security"
+    },
+    {
+        "id": 299,
+        "questionText": "What is encryption in the context of software development?",
+        "options": [
+            "A technique to validate user input",
+            "A method to secure software configuration settings",
+            "A process of converting data into an unreadable format",
+            "A way to test software for vulnerabilities"],
+        "correctAnswer": "A process of converting data into an unreadable format"
+    },
+    {
+        "id": 300,
+        "questionText": "What is the purpose of instantiating a user-defined class?",
+        "options": [
+            "To access class-level variables and methods",
+            "To modify the existing class definition",
+            "To destroy the existing class object",
+            "To create a new object based on the class blueprint"],
+        "correctAnswer": "To create a new object based on the class blueprint"
+    },
+    {
+        "id": 301,
+        "questionText": "def calculate_area(radius):\n    return 3.14 * radius * radius\nr = float(input(\"Enter the radius: \"))\narea = calculate_area(r)\nprint(\"The area is:\", area)\n\nWhich statement represents the input to the function calculate_area?",
+        "options": [
+            "r = float(input(\"Enter the radius: \"))",
+            "print(\"The area is:\", area)",
+            "def calculate_area(radius):",
+            "return 3.14 * radius * radius"],
+        "correctAnswer": "def calculate_area(radius):"
+    },
+    {
+        "id": 302,
+        "questionText": "What is space complexity in the context of sorting algorithms?",
+        "options": [
+            "The size of the input data.",
+            "The amount of additional memory used by the algorithm.",
+            "The time it takes for the algorithm to complete.",
+            "The number of comparisons made by the algorithm."],
+        "correctAnswer": "The amount of additional memory used by the algorithm."
+    },
+    {
+        "id": 303,
+        "questionText": "What is a challenge in using customer feedback?",
+        "options": [
+            "Generating crash reports",
+            "Understanding technical requirements",
+            "Balancing conflicting opinions from different users",
+            "Collecting any feedback at all"],
+        "correctAnswer": "Balancing conflicting opinions from different users"
+    },
+    {
+        "id": 304,
+        "questionText": "Can a function return multiple values simultaneously?",
+        "options": [
+            "Only when the function is defined as a method within a class can it be structured to send out multiple values simultaneously.",
+            "It depends on the programming language whether the function can send out multiple values simultaneously.",
+            "No, a function can only have a single return statement but the return statement can send out an array or other data structure containing multiple values.",
+            "Yes, in all programming languages, functions can send out multiple values simultaneously."],
+        "correctAnswer": "No, a function can only have a single return statement but the return statement can send out an array or other data structure containing multiple values."
+    },
+    {
+        "id": 305,
+        "questionText": "What is the primary goal of documentation maintenance?",
+        "options": [
+            "Eliminating all comments from the code",
+            "Keeping documentation accurate and relevant as code changes",
+            "Updating documentation only when code is completely rewritten",
+            "Creating new documentation for every code change"],
+        "correctAnswer": "Keeping documentation accurate and relevant as code changes"
+    },
+    {
+        "id": 306,
+        "questionText": "What does instantiation involve in object-oriented programming?",
+        "options": [
+            "Creating a class",
+            "Destroying an object",
+            "Modifying an object's state",
+            "Creating an object from a class"],
+        "correctAnswer": "Creating an object from a class"
+    },
+    {
+        "id": 307,
+        "questionText": "What is the benefit of applying responsive design principles to web applications?",
+        "options": [
+            "Consistent visual design across devices",
+            "Enhanced security for web application data",
+            "Improved website loading speed",
+            "Adaptation of layout and functionality to different screen sizes"],
+        "correctAnswer": "Adaptation of layout and functionality to different screen sizes"
+    },
+    {
+        "id": 308,
+        "questionText": "let arr = [10, 20, 30, 40, 50];\nlet index = arr.findIndex((element) => element > 30);\nconsole.log(index);\n\nWhat will be the output of the code snippet above?",
+        "options": [
+            "2",
+            "4",
+            "1",
+            "3"],
+        "correctAnswer": "3"
+    },
+    {
+        "id": 309,
+        "questionText": "Which search method is suitable for finding a specific word in an unsorted book?",
+        "options": [
+            "Quick search",
+            "Binary search",
+            "Hash search",
+            "Linear search"],
+        "correctAnswer": "Linear search"
+    },
+    {
+        "id": 310,
+        "questionText": "Which of the following is NOT a common consideration when selecting a third-party library for integration?",
+        "options": [
+            "Community support and activity",
+            "Price of the library",
+            "License compatibility",
+            "Code efficiency and performance"],
+        "correctAnswer": "Price of the library"
+    },
+    {
+        "id": 311,
+        "questionText": "What is the practice of structuring and presenting data in a specific layout or style called?",
+        "options": [
+            "Data formatting",
+            "Cross-platform compatibility",
+            "Input validation",
+            "Output generation"],
+        "correctAnswer": "Data formatting"
+    },
+    {
+        "id": 312,
+        "questionText": "Which logical operator negates the result of the expression?",
+        "options": [
+            "OR",
+            "XOR",
+            "NOR",
+            "NOT"],
+        "correctAnswer": "NOT"
+    },
+    {
+        "id": 313,
+        "questionText": "What is the purpose of a Trigger in a database?",
+        "options": [
+            "Execute a set of SQL statements in response to specific events",
+            "Create a virtual table",
+            "Define the structure of a database table",
+            "Optimize data retrieval speed"],
+        "correctAnswer": "Execute a set of SQL statements in response to specific events"
+    },
+    {
+        "id": 314,
+        "questionText": "What is the index of the first element in an array?",
+        "options": [
+            "It depends on the array size.",
+            "-1",
+            "0",
+            "1"],
+        "correctAnswer": "0"
+    },
+    {
+        "id": 315,
+        "questionText": "What purpose do extensions and add-ons serve in specialty browsers?",
+        "options": [
+            "Optimizing workflows",
+            "Ensuring regulatory compliance",
+            "Customizing the user interface",
+            "Enhancing browser functionality"],
+        "correctAnswer": "Enhancing browser functionality"
+    },
+    {
+        "id": 316,
+        "questionText": "What does Big-O notation describe in the context of algorithms?",
+        "options": [
+            "The best-case scenario for an algorithm's performance.",
+            "The exact runtime of an algorithm.",
+            "The upper bound of an algorithm's time or space complexity.",
+            "The lower bound of an algorithm's time complexity"],
+        "correctAnswer": "The upper bound of an algorithm's time or space complexity."
+    },
+    {
+        "id": 317,
+        "questionText": "What is the purpose of merging branches in version control systems?",
+        "options": [
+            "To create a new branch from an existing branch.",
+            "To combine the changes from one branch into another branch.",
+            "To create a new repository from an existing repository.",
+            "To revert all changes made in a branch."],
+        "correctAnswer": "To combine the changes from one branch into another branch."
+    },
+    {
+        "id": 318,
+        "questionText": "What is a potential issue when using fixed-point numbers in arithmetic operations?",
+        "options": [
+            "Precision loss",
+            "Difficulty in performing bitwise operations",
+            "Type conversion errors",
+            "Increased memory usage"],
+        "correctAnswer": "Precision loss"
+    },
+    {
+        "id": 319,
+        "questionText": "What is the role of function overloading?",
+        "options": [
+            "It restricts the use of parameters in functions.",
+            "It limits the use of arguments in a function.",
+            "It allows multiple functions with the same name but different parameter lists.",
+            "It enforces a single function for all data types."],
+        "correctAnswer": "It allows multiple functions with the same name but different parameter lists."
+    },
 ]
 
 def get_random_question():
