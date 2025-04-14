@@ -3743,3 +3743,781 @@ Answer = It allows multiple functions with the same name but different parameter
 
 
 Question 320
+Which hosting option is typically the most budget-friendly?
+
+Shared hosting
+VPS hosting
+Dedicated server
+Cloud hosting
+
+Answer = Shared hosting
+
+
+Question 321
+All of the following can be used for nested loops except for one.
+Which one of the following loop structures cannot be used in a nested loop?
+
+while loop
+switch loop
+for loop
+do-while loop
+
+Answer = switch loop
+
+
+Question 322
+If x is defined at 6 what value with be returned? 30/x*3^2-8
+
+217
+316
+37
+45
+
+Answer = 37
+
+
+Question 323
+Which type of error leads to unintended or incorrect program results but does not produce error messages?
+
+Syntax Error
+Runtime Error
+Logic Error
+Compile-Time Error
+
+Answer = Logic Error
+
+
+Question 324
+What is the primary goal of output validation?
+
+Enhancing user experience
+Reducing data size for storage efficiency
+Improving cross-browser compatibility
+Ensuring data is correctly formatted and secure
+
+Answer = Ensuring data is correctly formatted and secure
+
+
+Question 325
+i = 0
+while( i < 100)
+{
+   print(i)
+}
+
+How many times will this run?
+
+99
+Infinite number of times
+0
+100
+
+Answer = Infinite number of times
+
+
+Question 326
+Which algorithmic technique involves breaking down a problem into smaller subproblems and solving each independently?
+
+Divide and Conquer
+Recursion
+Dynamic Programming
+Brute Force
+
+Answer = Divide and Conquer
+
+
+Question 327
+What does ADA stand for in the context of web accessibility?
+
+Americans with Disabilities Act
+American Digital Association
+Accessibility Design Act
+Accessible Development Association
+
+Answer = Americans with Disabilities Act
+
+
+Question 328
+Which unit is equivalent to 8 bits?
+
+Megabyte
+Kilobyte
+Byte
+Terabytes
+
+Answer = Byte
+
+
+Question 329
+Encapsulation helps in achieving which of the following?
+
+Data hiding and abstraction
+Code reusability
+Polymorphism
+Method overriding
+
+Answer = Data hiding and abstraction
+
+
+Question 330
+What vulnerability involves weak or flawed authentication and session management mechanisms?
+
+Broken Authentication
+Broken Access Control
+Injection
+Sensitive Data Exposure
+
+Answer = Broken Authentication
+
+
+Question 331
+Which data type will you most likely use for performing division (such as y = a / b)?
+
+Character
+Floating point
+Integer
+Boolean
+
+Answer = Floating point
+
+
+Question 332
+Given the following code snippet, what will be the output?
+
+matrix ← [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+output to console(matrix[1][2])
+
+2
+[7,8,9]
+[4,5,6]
+6
+
+Answer = 6
+
+
+Question 333
+What is the decimal equivalent of the binary number 1001?
+
+8
+12
+10
+9
+
+Answer = 9
+
+
+Question 334
+Which of the following operators checks if two values are not equal?
+
+(>)
+(==)
+(!=)
+(<)
+
+Answer = (!=)
+
+
+Question 335
+Which one of the following is an example of an intellectual property right with regards to computer software?
+
+Creating a user defined class
+Using a Digital Trademark
+Encrypting sensitive data
+Signing a non-disclosure agreement
+
+Answer = Using a Digital Trademark
+
+
+Question 336
+Which object-oriented concept allows you to treat an object of a derived class as an object of its base class?
+
+Abstraction
+Inheritance
+Polymorphism
+Encapsulation
+
+Answer = Polymorphism
+
+
+Question 337
+Which programming language is often used for building interactive web applications and dynamic websites?
+
+PHP
+JavaScript
+Java
+Python
+
+Answer = JavaScript
+
+
+Question 338
+In the Request-Response Model of API communication, what typically happens after the client sends a request to the API server?
+
+The client immediately processes the response.
+The server terminates the connection with the client.
+The server processes the request and sends a response to the client.
+The client sends additional requests without waiting for a response.
+
+Answer = The server processes the request and sends a response to the client.
+
+
+Question 339
+What concept specifically addresses the challenges of storing and manipulating data, ensuring optimal memory allocation, and efficient execution of algorithms?
+
+DRY coding
+SDLC
+Big O notation
+Refactoring
+
+Answer = Big O notation
+
+
+Question 340
+What does "visualizing" refer to as a problem-solving technique prior to writing code?
+
+Creating mental or visual representations of the problem and its potential solutions
+Choosing the appropriate programming language for the task
+Estimating the time required for coding
+Determining the hardware and software requirements
+
+Answer = Creating mental or visual representations of the problem and its potential solutions
+
+
+Question 341
+The repeating of instructions in programming is sometimes called what?
+
+Cloning
+Continuation
+Iteration
+Duplication
+
+Answer = Iteration
+
+
+Question 342
+Which of the following tools can be used for automated documentation generation?
+
+Excel
+Microsoft Word
+Sphinx
+PowerPoint
+
+Answer = Sphinx
+
+
+Question 343
+Which of the following is a valid integer?
+
+0.5
+0.75
+-25
+0.25
+
+Answer = -25
+
+
+Question 344
+Which tool is commonly used for inspecting, debugging, and analyzing web pages and applications?
+
+GitHub
+Google Drive
+Dropbox
+Browser Developer Tools
+
+Answer = Browser Developer Tools
+
+
+Question 345
+What is the purpose of the "git pull" command?
+
+To discard all local changes and reset to the last commit
+To revert the last commit in the local repository
+To create a new branch in the local repository
+To fetch the latest changes from a remote repository and merge them into the local branch
+
+Answer = 
+To fetch the latest changes from a remote repository and merge them into the local branch
+
+
+Question 346
+What SQL keyword is used to delete data from a database table?
+
+REMOVE
+ERASE
+DELETE
+DROP
+
+Answer = DELETE
+
+
+Question 347
+Which core component of a browser is responsible for displaying web content?
+
+Security features
+Extensions and add-ons
+Optimized workflows
+Rendering engine
+
+Answer = Rendering engine
+
+
+Question 348
+Which one of the following is an example of a  float assignment?
+
+x = "-2.0"
+x = "-2"
+x = -2
+x = -2.0
+
+Answer = x = -2.0
+
+
+Question 349
+Which one of the following describes works that used to be copyrighted but are now free to use?
+
+Public domain
+Creative commons
+Open access
+Open source
+
+Answer = Public domain
+
+
+Question 350
+What role does a "commit" play in a version control repository?
+
+Creating a new branch
+Connecting to a remote repository
+Deleting files from the repository
+Capturing a snapshot of project changes with a message
+
+Answer = Capturing a snapshot of project changes with a message
+
+
+Question 351
+When restoring a previous version of code, what happens to the changes made in the current version?
+
+They are temporarily saved as a separate branch.
+They are automatically committed as a new version.
+They are merged with the restored version.
+They are permanently discarded.
+
+Answer = They are permanently discarded.
+
+
+Question 352
+Which technique is commonly used to achieve responsiveness in web design according to W3C standards?
+
+JavaScript pop-ups
+Iframe embedding
+Flash animation
+Media queries
+
+Answer = Media queries
+
+
+Question 353
+All of these are concerns for spreading viruses EXCEPT ONE.
+Which one of the following is NOT a concern for spreading viruses?
+
+SQL Injection
+Unpatched software
+Drive-by downloads
+Email attachments 
+
+Answer = SQL Injection
+
+
+Question 354
+Which of these is the best way to protect your data in your computer system?
+
+Having up to date screen savers
+Having up to date virus protection
+Only downloading expensive closed-source apps and software
+Having a computer that is less than two years old
+
+Answer = Having up to date virus protection
+
+
+Question 355
+Which of the following is an example of social engineering?
+
+Creating fake websites
+Impersonating a trusted entity
+Sending spam emails
+Replicating a computer virus
+
+Answer = Impersonating a trusted entity
+
+
+Question 356
+What is the purpose of creating a subclass of an existing class in object-oriented programming?
+
+To create an instance of the existing class
+To inherit the properties and methods of the existing class
+To override the existing properties and methods of the class
+To add new properties and methods to the existing class
+
+Answer = To inherit the properties and methods of the existing class
+
+
+Question 357
+Write an expression to correctly calculate the remainder when dividing 20 by 7.
+
+7 % 20
+20 / 7
+7 / 20
+20 % 7
+
+Answer = 20 % 7
+
+
+Question 358
+Which type of loop is represented by the pseudocode below?
+
+FOR index FROM 10 TO 1 STEP -1
+    PRINT "Countdown: " + index
+END FOR
+
+For loop
+Do-while loop
+Repeat-until loop
+While loop
+
+Answer = For loop
+
+
+Question 359
+Which search algorithm is more suitable for large-sized arrays? 
+
+Linear search
+The efficiency depends on the elements in the array
+Binary and linear searches have the same efficiency
+Binary search
+
+Answer = Binary search
+
+
+Question 360
+Why is "Cross-Browser Compatibility" important in web development?
+
+To improve search engine rankings.
+To minimize rendering discrepancies across different web browsers.
+To enhance website speed.
+To ensure consistent website aesthetics.
+
+Answer = To minimize rendering discrepancies across different web browsers.
+
+
+Question 361
+In general, in which scenario would you prefer using an abstract class over an interface?
+
+When you want to achieve multiple inheritances.
+When you want to enforce that a class should implement specific methods.
+When you want to define a contract for implementing classes.
+When you want to provide a common implementation for multiple classes.
+
+Answer = When you want to provide a common implementation for multiple classes.
+
+
+Question 362
+Which programming language is commonly used for developing business software?
+
+Python
+C#
+JavaScript
+Java
+
+Answer = Java
+
+
+Question 363
+What is the ultimate benefit of applying industry standards in documentation?
+
+Creating perfect, error-free code
+Reducing the need for testing
+Improving code maintainability, collaboration, and user experience
+Streamlining the development process
+
+Answer = Improving code maintainability, collaboration, and user experience
+
+
+Question 364
+What is the primary benefit of using well-documented APIs?
+
+They enable developers to understand and utilize the API's functionality effectively.
+They simplify the development process by automating common tasks.
+They ensure compatibility with all programming languages and frameworks.
+They provide free access to premium features and resources.
+
+Answer = They enable developers to understand and utilize the API's functionality effectively.
+
+
+Question 365
+What is the complexity of an algorithm?
+
+The efficiency of the algorithm in solving a problem
+The time and space required for the algorithm to run
+The number of variables used in the algorithm
+The total number of steps in the algorithm
+
+Answer = The time and space required for the algorithm to run
+
+
+Question 366
+What term describes a user who spends significantly more on in-app purchases than the average user?
+
+Affiliate
+LTV
+Subscriber
+Whale
+
+Answer = Whale
+
+
+Question 367
+What is the purpose of UML diagrams in the context of class relationships?
+
+Identifying runtime errors
+Visualizing and representing relationships between classes
+Testing code performance
+Representing code implementation details
+
+Answer = Visualizing and representing relationships between classes
+
+
+Question 368
+How can decomposition of a programming problem aid in code maintenance and troubleshooting?
+
+It automates the debugging process
+It allows for easier identification and isolation of issues within specific procedures
+It eliminates the need for error handling and exception mechanisms
+It reduces the need for regular updates and improvements
+
+Answer = It allows for easier identification and isolation of issues within specific procedures
+
+
+Question 369
+Which cloud service model allows developers to focus on coding and deploying applications without managing the underlying infrastructure?
+
+PaaS (Platform as a Service)
+DaaS (Data as a Service)
+SaaS (Software as a Service)
+IaaS (Infrastructure as a Service)
+
+Answer = PaaS (Platform as a Service)
+
+
+Question 370
+What does the term "Theme" refer to in GUI design?
+
+Synchronizing data between the GUI and application logic
+A collection of visual elements defining the overall appearance
+Adapting the GUI to different languages
+Designing interfaces for different screen sizes
+
+Answer = A collection of visual elements defining the overall appearance
+
+
+Question 371
+What is an object in object-oriented programming?
+
+A piece of code that performs a specific task.
+An instance of a class with its own state and behavior.
+A function that can be called from other parts of the program.
+A special type of data structure.
+
+Answer = An instance of a class with its own state and behavior.
+
+
+Question 372
+What is data serialization in the context of API communication?
+
+A mechanism for securing API endpoints
+A method for hiding the response data from the client
+The conversion of data into a specific format suitable for transmission
+A process for selecting the most valuable API
+
+Answer = The conversion of data into a specific format suitable for transmission
+
+
+Question 373
+Which programming language provides a comprehensive standard library with a wide range of built-in functions?
+
+C++
+PHP
+JavaScript
+Python
+
+Answer = Python
+
+
+Question 374
+All of the following sorting algorithms directly modify the input array EXCEPT ONE.
+Which one of the following sorting algorithm does NOT directly modifies the input array?
+
+Selection sort
+Merge sort
+Bubble sort
+In-place sorting
+
+Answer = In-place sorting
+
+
+Question 375
+In the example x = "a", what data type is the value a?
+
+char
+int
+boolean
+float
+
+Answer = char
+
+
+Question 376
+What is the primary benefit of version control in platforms like GitHub?
+
+Document editing
+Real-time collaboration
+File synchronization
+Tracking code changes and managing revisions
+
+Answer = Tracking code changes and managing revisions
+
+
+Question 377
+In terms of efficiency, which Big-O notation represents the most favorable scenario?
+
+O(1)
+O(log n)
+O(n^2)
+O(n)
+
+Answer = O(1)
+
+
+Question 378
+What is encapsulation in object-oriented programming?
+
+The bundling of data and methods that operate on that data into a single unit.
+The process of creating new data types.
+The practice of exposing all internal details of a class.
+A type of data type.
+
+Answer = The bundling of data and methods that operate on that data into a single unit.
+
+
+Question 379
+Which data type is suitable for representing numbers with decimal points and fractional parts?
+
+Float
+Integer
+Boolean
+String
+
+Answer = Float
+
+
+Question 380
+What is the primary concern when dealing with resource constraints in data storage and manipulation?
+
+Minimizing resource usage.
+Ignoring resource usage.
+Using any available resources.
+Maximizing resource usage.
+
+Answer = Minimizing resource usage.
+
+
+Question 381
+Which relational operator is used to check if two values are equal?
+
+!=
+==
+<
+>
+
+Answer = ==
+
+
+Question 382
+Which of the following is not a characteristic of the Waterfall methodology?
+
+Extensive documentation
+Flexible response to changes
+Sequential stages
+Testing completed near the end
+
+Answer = Flexible response to changes
+
+
+Question 383
+What is integration testing?
+
+Testing the user interface of a program
+Testing individual components of a program in isolation
+Testing the performance of a program
+Testing the interactions between different components of a program
+
+Answer = Testing the interactions between different components of a program
+
+
+Question 384
+If x = 10 and y = 3, what is the value of the expression "x / y"
+
+3.3333
+2
+1
+3
+
+Answer = 3.3333
+
+
+Question 385
+All of the following are service offering cloud based file storage AND real-time synchronization EXCEPT ONE.
+Which one of the following service does NOT offer both cloud-based file storage and synchronization?
+10.2 Use client collaboration sources/platforms (e.g., GitHub, Google Drive, Dropbox, JSFiddle, and browser developer tools)
+
+JSFiddle
+GitHub
+Dropbox
+Google Drive
+
+Answer = JSFiddle
+
+
+Question 386
+What is the concept of recursion in programming?
+
+The use of a function within a for loop
+The use of a function that calls itself at the end
+The use of a function that returns multiple values
+The use of a function that has no exit condition
+
+Answer = The use of a function that calls itself at the end
+
+
+Question 387
+What is a trustworthy practice to ensure data integrity and security when using external storage devices?
+
+Use any available USB drive
+Format the drive without scanning for viruses
+Use trustworthy thumb drives
+Use a thumb drive you found on campus
+
+Answer = Use trustworthy thumb drives
+
+
+Question 388
+What is the purpose of including examples and code snippets in documentation?
+
+To replace the need for descriptive text in the documentation
+To demonstrate how to use different functionalities
+To confuse readers with unnecessary code
+To increase the length of the documentation
+
+Answer = To demonstrate how to use different functionalities
+
+
+Question 389
