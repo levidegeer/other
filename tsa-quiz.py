@@ -2911,6 +2911,420 @@ all_questions = [
             "It enforces a single function for all data types."],
         "correctAnswer": "It allows multiple functions with the same name but different parameter lists."
     },
+    {
+        "id": 320,
+        "questionText": "Which hosting option is typically the most budget-friendly?",
+        "options": ["Shared hosting", "VPS hosting", "Dedicated server", "Cloud hosting"],
+        "correctAnswer": "Shared hosting"
+    },
+    {
+        "id": 321,
+        "questionText": "All of the following can be used for nested loops except for one. Which one of the following loop structures cannot be used in a nested loop?",
+        "options": ["while loop", "switch loop", "for loop", "do-while loop"],
+        "correctAnswer": "switch loop"
+    },
+    {
+        "id": 322,
+        "questionText": "If x is defined at 6 what value with be returned? 30/x*3^2-8",
+        "options": ["217", "316", "37", "45"],
+        "correctAnswer": "37"
+    },
+    {
+        "id": 323,
+        "questionText": "Which type of error leads to unintended or incorrect program results but does not produce error messages?",
+        "options": ["Syntax Error", "Runtime Error", "Logic Error", "Compile-Time Error"],
+        "correctAnswer": "Logic Error"
+    },
+    {
+        "id": 324,
+        "questionText": "What is the primary goal of output validation?",
+        "options": ["Enhancing user experience", "Reducing data size for storage efficiency", "Improving cross-browser compatibility", "Ensuring data is correctly formatted and secure"],
+        "correctAnswer": "Ensuring data is correctly formatted and secure"
+    },
+    {
+        "id": 325,
+        "questionText": "i = 0\nwhile( i < 100)\n{\n   print(i)\n}\n\nHow many times will this run?",
+        "options": ["99", "Infinite number of times", "0", "100"],
+        "correctAnswer": "Infinite number of times"
+    },
+    {
+        "id": 326,
+        "questionText": "Which algorithmic technique involves breaking down a problem into smaller subproblems and solving each independently?",
+        "options": ["Divide and Conquer", "Recursion", "Dynamic Programming", "Brute Force"],
+        "correctAnswer": "Divide and Conquer"
+    },
+    {
+        "id": 327,
+        "questionText": "What does ADA stand for in the context of web accessibility?",
+        "options": ["Americans with Disabilities Act", "American Digital Association", "Accessibility Design Act", "Accessible Development Association"],
+        "correctAnswer": "Americans with Disabilities Act"
+    },
+    {
+        "id": 328,
+        "questionText": "Which unit is equivalent to 8 bits?",
+        "options": ["Megabyte", "Kilobyte", "Byte", "Terabytes"],
+        "correctAnswer": "Byte"
+    },
+    {
+        "id": 329,
+        "questionText": "Encapsulation helps in achieving which of the following?",
+        "options": ["Data hiding and abstraction", "Code reusability", "Polymorphism", "Method overriding"],
+        "correctAnswer": "Data hiding and abstraction"
+    },
+    {
+        "id": 330,
+        "questionText": "What vulnerability involves weak or flawed authentication and session management mechanisms?",
+        "options": ["Broken Authentication", "Broken Access Control", "Injection", "Sensitive Data Exposure"],
+        "correctAnswer": "Broken Authentication"
+    },
+    {
+        "id": 331,
+        "questionText": "Which data type will you most likely use for performing division (such as y = a / b)?",
+        "options": ["Character", "Floating point", "Integer", "Boolean"],
+        "correctAnswer": "Floating point"
+    },
+    {
+        "id": 332,
+        "questionText": "Given the following code snippet, what will be the output?\n\nmatrix ← [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\noutput to console(matrix[1][2])",
+        "options": ["2", "[7,8,9]", "[4,5,6]", "6"],
+        "correctAnswer": "6"
+    },
+    {
+        "id": 333,
+        "questionText": "What is the decimal equivalent of the binary number 1001?",
+        "options": ["8", "12", "10", "9"],
+        "correctAnswer": "9"
+    },
+    {
+        "id": 334,
+        "questionText": "Which of the following operators checks if two values are not equal?",
+        "options": ["(>)", "(==)", "(!=)", "(<)"],
+        "correctAnswer": "(!=)"
+    },
+    {
+        "id": 335,
+        "questionText": "Which one of the following is an example of an intellectual property right with regards to computer software?",
+        "options": ["Creating a user defined class", "Using a Digital Trademark", "Encrypting sensitive data", "Signing a non-disclosure agreement"],
+        "correctAnswer": "Using a Digital Trademark"
+    },
+    {
+        "id": 336,
+        "questionText": "Which object-oriented concept allows you to treat an object of a derived class as an object of its base class?",
+        "options": ["Abstraction", "Inheritance", "Polymorphism", "Encapsulation"],
+        "correctAnswer": "Polymorphism"
+    },
+    {
+        "id": 337,
+        "questionText": "Which programming language is often used for building interactive web applications and dynamic websites?",
+        "options": ["PHP", "JavaScript", "Java", "Python"],
+        "correctAnswer": "JavaScript"
+    },
+    {
+        "id": 338,
+        "questionText": "In the Request-Response Model of API communication, what typically happens after the client sends a request to the API server?",
+        "options": ["The client immediately processes the response.", "The server terminates the connection with the client.", "The server processes the request and sends a response to the client.", "The client sends additional requests without waiting for a response."],
+        "correctAnswer": "The server processes the request and sends a response to the client."
+    },
+    {
+        "id": 339,
+        "questionText": "What concept specifically addresses the challenges of storing and manipulating data, ensuring optimal memory allocation, and efficient execution of algorithms?",
+        "options": ["DRY coding", "SDLC", "Big O notation", "Refactoring"],
+        "correctAnswer": "Big O notation"
+    },
+    {
+        "id": 340,
+        "questionText": "What does \"visualizing\" refer to as a problem-solving technique prior to writing code?",
+        "options": ["Creating mental or visual representations of the problem and its potential solutions", "Choosing the appropriate programming language for the task", "Estimating the time required for coding", "Determining the hardware and software requirements"],
+        "correctAnswer": "Creating mental or visual representations of the problem and its potential solutions"
+    },
+    {
+        "id": 341,
+        "questionText": "The repeating of instructions in programming is sometimes called what?",
+        "options": ["Cloning", "Continuation", "Iteration", "Duplication"],
+        "correctAnswer": "Iteration"
+    },
+    {
+        "id": 342,
+        "questionText": "Which of the following tools can be used for automated documentation generation?",
+        "options": ["Excel", "Microsoft Word", "Sphinx", "PowerPoint"],
+        "correctAnswer": "Sphinx"
+    },
+    {
+        "id": 343,
+        "questionText": "Which of the following is a valid integer?",
+        "options": ["0.5", "0.75", "-25", "0.25"],
+        "correctAnswer": "-25"
+    },
+    {
+        "id": 344,
+        "questionText": "Which tool is commonly used for inspecting, debugging, and analyzing web pages and applications?",
+        "options": ["GitHub", "Google Drive", "Dropbox", "Browser Developer Tools"],
+        "correctAnswer": "Browser Developer Tools"
+    },
+    {
+        "id": 345,
+        "questionText": "What is the purpose of the \"git pull\" command?",
+        "options": ["To discard all local changes and reset to the last commit", "To revert the last commit in the local repository", "To create a new branch in the local repository", "To fetch the latest changes from a remote repository and merge them into the local branch"],
+        "correctAnswer": "To fetch the latest changes from a remote repository and merge them into the local branch"
+    },
+    {
+        "id": 346,
+        "questionText": "What SQL keyword is used to delete data from a database table?",
+        "options": ["REMOVE", "ERASE", "DELETE", "DROP"],
+        "correctAnswer": "DELETE"
+    },
+    {
+        "id": 347,
+        "questionText": "Which core component of a browser is responsible for displaying web content?",
+        "options": ["Security features", "Extensions and add-ons", "Optimized workflows", "Rendering engine"],
+        "correctAnswer": "Rendering engine"
+    },
+    {
+        "id": 348,
+        "questionText": "Which one of the following is an example of a float assignment?",
+        "options": ["x = \"-2.0\"", "x = \"-2\"", "x = -2", "x = -2.0"],
+        "correctAnswer": "x = -2.0"
+    },
+    {
+        "id": 349,
+        "questionText": "Which one of the following describes works that used to be copyrighted but are now free to use?",
+        "options": ["Public domain", "Creative commons", "Open access", "Open source"],
+        "correctAnswer": "Public domain"
+    },
+    {
+        "id": 350,
+        "questionText": "What role does a \"commit\" play in a version control repository?",
+        "options": ["Creating a new branch", "Connecting to a remote repository", "Deleting files from the repository", "Capturing a snapshot of project changes with a message"],
+        "correctAnswer": "Capturing a snapshot of project changes with a message"
+    },
+    {
+        "id": 351,
+        "questionText": "When restoring a previous version of code, what happens to the changes made in the current version?",
+        "options": ["They are temporarily saved as a separate branch.", "They are automatically committed as a new version.", "They are merged with the restored version.", "They are permanently discarded."],
+        "correctAnswer": "They are permanently discarded."
+    },
+    {
+        "id": 352,
+        "questionText": "Which technique is commonly used to achieve responsiveness in web design according to W3C standards?",
+        "options": ["JavaScript pop-ups", "Iframe embedding", "Flash animation", "Media queries"],
+        "correctAnswer": "Media queries"
+    },
+    {
+        "id": 353,
+        "questionText": "All of these are concerns for spreading viruses EXCEPT ONE. Which one of the following is NOT a concern for spreading viruses?",
+        "options": ["SQL Injection", "Unpatched software", "Drive-by downloads", "Email attachments"],
+        "correctAnswer": "SQL Injection"
+    },
+    {
+        "id": 354,
+        "questionText": "Which of these is the best way to protect your data in your computer system?",
+        "options": ["Having up to date screen savers", "Having up to date virus protection", "Only downloading expensive closed-source apps and software", "Having a computer that is less than two years old"],
+        "correctAnswer": "Having up to date virus protection"
+    },
+    {
+        "id": 355,
+        "questionText": "Which of the following is an example of social engineering?",
+        "options": ["Creating fake websites", "Impersonating a trusted entity", "Sending spam emails", "Replicating a computer virus"],
+        "correctAnswer": "Impersonating a trusted entity"
+    },
+    {
+        "id": 356,
+        "questionText": "What is the purpose of creating a subclass of an existing class in object-oriented programming?",
+        "options": ["To create an instance of the existing class", "To inherit the properties and methods of the existing class", "To override the existing properties and methods of the class", "To add new properties and methods to the existing class"],
+        "correctAnswer": "To inherit the properties and methods of the existing class"
+    },
+    {
+        "id": 357,
+        "questionText": "Write an expression to correctly calculate the remainder when dividing 20 by 7.",
+        "options": ["7 % 20", "20 / 7", "7 / 20", "20 % 7"],
+        "correctAnswer": "20 % 7"
+    },
+    {
+        "id": 358,
+        "questionText": "Which type of loop is represented by the pseudocode below?\n\nFOR index FROM 10 TO 1 STEP -1\n    PRINT \"Countdown: \" + index\nEND FOR",
+        "options": ["For loop", "Do-while loop", "Repeat-until loop", "While loop"],
+        "correctAnswer": "For loop"
+    },
+    {
+        "id": 359,
+        "questionText": "Which search algorithm is more suitable for large-sized arrays?",
+        "options": ["Linear search", "The efficiency depends on the elements in the array", "Binary and linear searches have the same efficiency", "Binary search"],
+        "correctAnswer": "Binary search"
+    },
+    {
+        "id": 360,
+        "questionText": "Why is \"Cross-Browser Compatibility\" important in web development?",
+        "options": ["To improve search engine rankings.", "To minimize rendering discrepancies across different web browsers.", "To enhance website speed.", "To ensure consistent website aesthetics."],
+        "correctAnswer": "To minimize rendering discrepancies across different web browsers."
+    },
+    {
+        "id": 361,
+        "questionText": "In general, in which scenario would you prefer using an abstract class over an interface?",
+        "options": ["When you want to achieve multiple inheritances.", "When you want to enforce that a class should implement specific methods.", "When you want to define a contract for implementing classes.", "When you want to provide a common implementation for multiple classes."],
+        "correctAnswer": "When you want to provide a common implementation for multiple classes."
+    },
+    {
+        "id": 362,
+        "questionText": "Which programming language is commonly used for developing business software?",
+        "options": ["Python", "C#", "JavaScript", "Java"],
+        "correctAnswer": "Java"
+    },
+    {
+        "id": 363,
+        "questionText": "What is the ultimate benefit of applying industry standards in documentation?",
+        "options": ["Creating perfect, error-free code", "Reducing the need for testing", "Improving code maintainability, collaboration, and user experience", "Streamlining the development process"],
+        "correctAnswer": "Improving code maintainability, collaboration, and user experience"
+    },
+    {
+        "id": 364,
+        "questionText": "What is the primary benefit of using well-documented APIs?",
+        "options": ["They enable developers to understand and utilize the API's functionality effectively.", "They simplify the development process by automating common tasks.", "They ensure compatibility with all programming languages and frameworks.", "They provide free access to premium features and resources."],
+        "correctAnswer": "They enable developers to understand and utilize the API's functionality effectively."
+    },
+    {
+        "id": 365,
+        "questionText": "What is the complexity of an algorithm?",
+        "options": ["The efficiency of the algorithm in solving a problem", "The time and space required for the algorithm to run", "The number of variables used in the algorithm", "The total number of steps in the algorithm"],
+        "correctAnswer": "The time and space required for the algorithm to run"
+    },
+    {
+        "id": 366,
+        "questionText": "What term describes a user who spends significantly more on in-app purchases than the average user?",
+        "options": ["Affiliate", "LTV", "Subscriber", "Whale"],
+        "correctAnswer": "Whale"
+    },
+    {
+        "id": 367,
+        "questionText": "What is the purpose of UML diagrams in the context of class relationships?",
+        "options": ["Identifying runtime errors", "Visualizing and representing relationships between classes", "Testing code performance", "Representing code implementation details"],
+        "correctAnswer": "Visualizing and representing relationships between classes"
+    },
+    {
+        "id": 368,
+        "questionText": "How can decomposition of a programming problem aid in code maintenance and troubleshooting?",
+        "options": ["It automates the debugging process", "It allows for easier identification and isolation of issues within specific procedures", "It eliminates the need for error handling and exception mechanisms", "It reduces the need for regular updates and improvements"],
+        "correctAnswer": "It allows for easier identification and isolation of issues within specific procedures"
+    },
+    {
+        "id": 369,
+        "questionText": "Which cloud service model allows developers to focus on coding and deploying applications without managing the underlying infrastructure?",
+        "options": ["PaaS (Platform as a Service)", "DaaS (Data as a Service)", "SaaS (Software as a Service)", "IaaS (Infrastructure as a Service)"],
+        "correctAnswer": "PaaS (Platform as a Service)"
+    },
+    {
+        "id": 370,
+        "questionText": "What does the term \"Theme\" refer to in GUI design?",
+        "options": ["Synchronizing data between the GUI and application logic", "A collection of visual elements defining the overall appearance", "Adapting the GUI to different languages", "Designing interfaces for different screen sizes"],
+        "correctAnswer": "A collection of visual elements defining the overall appearance"
+    },
+    {
+        "id": 371,
+        "questionText": "What is an object in object-oriented programming?",
+        "options": ["A piece of code that performs a specific task.", "An instance of a class with its own state and behavior.", "A function that can be called from other parts of the program.", "A special type of data structure."],
+        "correctAnswer": "An instance of a class with its own state and behavior."
+    },
+    {
+        "id": 372,
+        "questionText": "What is data serialization in the context of API communication?",
+        "options": ["A mechanism for securing API endpoints", "A method for hiding the response data from the client", "The conversion of data into a specific format suitable for transmission", "A process for selecting the most valuable API"],
+        "correctAnswer": "The conversion of data into a specific format suitable for transmission"
+    },
+    {
+        "id": 373,
+        "questionText": "Which programming language provides a comprehensive standard library with a wide range of built-in functions?",
+        "options": ["C++", "PHP", "JavaScript", "Python"],
+        "correctAnswer": "Python"
+    },
+    {
+        "id": 374,
+        "questionText": "All of the following sorting algorithms directly modify the input array EXCEPT ONE. Which one of the following sorting algorithm does NOT directly modifies the input array?",
+        "options": ["Selection sort", "Merge sort", "Bubble sort", "In-place sorting"],
+        "correctAnswer": "In-place sorting"
+    },
+    {
+        "id": 375,
+        "questionText": "In the example x = \"a\", what data type is the value a?",
+        "options": ["char", "int", "boolean", "float"],
+        "correctAnswer": "char"
+    },
+    {
+        "id": 376,
+        "questionText": "What is the primary benefit of version control in platforms like GitHub?",
+        "options": ["Document editing", "Real-time collaboration", "File synchronization", "Tracking code changes and managing revisions"],
+        "correctAnswer": "Tracking code changes and managing revisions"
+    },
+    {
+        "id": 377,
+        "questionText": "In terms of efficiency, which Big-O notation represents the most favorable scenario?",
+        "options": ["O(1)", "O(log n)", "O(n^2)", "O(n)"],
+        "correctAnswer": "O(1)"
+    },
+    {
+        "id": 378,
+        "questionText": "What is encapsulation in object-oriented programming?",
+        "options": ["The bundling of data and methods that operate on that data into a single unit.", "The process of creating new data types.", "The practice of exposing all internal details of a class.", "A type of data type."],
+        "correctAnswer": "The bundling of data and methods that operate on that data into a single unit."
+    },
+    {
+        "id": 379,
+        "questionText": "Which data type is suitable for representing numbers with decimal points and fractional parts?",
+        "options": ["Float", "Integer", "Boolean", "String"],
+        "correctAnswer": "Float"
+    },
+    {
+        "id": 380,
+        "questionText": "What is the primary concern when dealing with resource constraints in data storage and manipulation?",
+        "options": ["Minimizing resource usage.", "Ignoring resource usage.", "Using any available resources.", "Maximizing resource usage."],
+        "correctAnswer": "Minimizing resource usage."
+    },
+    {
+        "id": 381,
+        "questionText": "Which relational operator is used to check if two values are equal?",
+        "options": ["!=", "==", "<", ">"],
+        "correctAnswer": "=="
+    },
+    {
+        "id": 382,
+        "questionText": "Which of the following is not a characteristic of the Waterfall methodology?",
+        "options": ["Extensive documentation", "Flexible response to changes", "Sequential stages", "Testing completed near the end"],
+        "correctAnswer": "Flexible response to changes"
+    },
+    {
+        "id": 383,
+        "questionText": "What is integration testing?",
+        "options": ["Testing the user interface of a program", "Testing individual components of a program in isolation", "Testing the performance of a program", "Testing the interactions between different components of a program"],
+        "correctAnswer": "Testing the interactions between different components of a program"
+    },
+    {
+        "id": 384,
+        "questionText": "If x = 10 and y = 3, what is the value of the expression \"x / y\"",
+        "options": ["3.3333", "2", "1", "3"],
+        "correctAnswer": "3.3333"
+    },
+    {
+        "id": 385,
+        "questionText": "All of the following are service offering cloud based file storage AND real-time synchronization EXCEPT ONE. Which one of the following service does NOT offer both cloud-based file storage and synchronization?",
+        "options": ["JSFiddle", "GitHub", "Dropbox", "Google Drive"],
+        "correctAnswer": "JSFiddle"
+    },
+    {
+        "id": 386,
+        "questionText": "What is the concept of recursion in programming?",
+        "options": ["The use of a function within a for loop", "The use of a function that calls itself at the end", "The use of a function that returns multiple values", "The use of a function that has no exit condition"],
+        "correctAnswer": "The use of a function that calls itself at the end"
+    },
+    {
+        "id": 387,
+        "questionText": "What is a trustworthy practice to ensure data integrity and security when using external storage devices?",
+        "options": ["Use any available USB drive", "Format the drive without scanning for viruses", "Use trustworthy thumb drives", "Use a thumb drive you found on campus"],
+        "correctAnswer": "Use trustworthy thumb drives"
+    },
+    {
+        "id": 388,
+        "questionText": "What is the purpose of including examples and code snippets in documentation?",
+        "options": ["To replace the need for descriptive text in the documentation", "To demonstrate how to use different functionalities", "To confuse readers with unnecessary code", "To increase the length of the documentation"],
+        "correctAnswer": "To demonstrate how to use different functionalities"
+    },
 ]
 
 def get_random_question():
