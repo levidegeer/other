@@ -4795,3 +4795,170 @@ Answer = git fetch
 
 
 Question 412
+What does a defense-in-depth approach to security involve?
+
+Relying on a single security layer
+Implementing input validation only
+Having a firewall in place
+Multiple layers of security measures
+
+Answer = Multiple layers of security measures
+
+
+Question 413
+What is the suitable data type to represent a true/false condition?
+
+integer
+string
+boolean
+float
+
+Answer = boolean
+
+
+Question 414
+Which type of web API is accessible to developers and users without restrictions, typically provided by companies or organizations to enable integration with their services or platforms?
+
+Private API
+Public API
+Composite API
+Partner API
+
+Answer = Public API
+
+
+Question 415
+Which of the following is an important aspect of project closing?
+
+Gathering feedback and documenting lessons learned
+Developing the software solution
+Identifying risks and their mitigation strategies
+Conducting code reviews
+
+Answer = Gathering feedback and documenting lessons learned
+
+
+Question 416
+Which of the following activities poses the greatest personal cybersecurity risk?
+
+Making a purchase at an online store that uses public key encryption to transmit credit card information
+Withdrawing money from a bank account using an automated teller machine (ATM)
+Entering your credit card number at a website you found by following a link sent by text.
+Paying a bill using a secure electronic payment system
+
+Answer = Entering your credit card number at a website you found by following a link sent by text.
+
+
+Question 417
+What is the result of adding 128 kilobytes and 256 kilobytes?
+
+48 Mb
+Kilobytes cannot be added
+384 Kb
+49 152 Kb
+
+Answer = 384 Kb
+
+
+Question 418
+Which method of debugging involves strategically inserting print statements to display variable values and observe control flow?
+
+Hand-tracing code
+Print statement debugging
+Collaborative debugging
+Real-time debugging
+
+Answer = Print statement debugging
+
+
+Question 419
+What type of search is less efficient in arrays when looking for a specific element?
+
+Binary Search
+Hash-based Search
+Depth-First Search
+Linear Search
+
+Answer = Linear Search
+
+
+Question 420
+Convert the binary number 0100 to decimal.
+
+4
+2
+10
+5
+
+Answer = 4
+
+
+Question 421
+What is the primary purpose of restoring previous versions of code?
+
+To create a new commit history
+To undo changes made in a project and revert to a prior state
+To permanently delete all subsequent commits
+To merge conflicting commits automatically
+
+Answer = To undo changes made in a project and revert to a prior state
+
+
+Question 422
+Which aspect of the CIA triad ensures that authorized users can access information and systems without interruption?
+
+Confidentiality
+Authentication
+Availability
+Integrity
+
+Answer = Availability
+
+
+Question 423
+When should code smells be addressed in the software development process?
+
+At the end of the project
+As soon as they are detected
+Only during code reviews
+During user acceptance testing
+
+Answer = As soon as they are detected
+
+
+Question 424
+class Employee {
+    constructor(name, age, department) {
+        this.name = name;
+        this.age = age;
+        this.department = department;
+    }
+    changeDepartment(newDepartment) {
+        this.department = newDepartment;
+    }
+}
+let john = new Employee("John Doe", 25, "Sales");
+john.changeDepartment("Marketing");
+
+What is happening in the last line of this code?
+
+A new instance of the Employee class is created.
+The department attribute of the John object is being modified
+The Deparment method is being defined.
+The Employee class is being defined. 
+
+Answer = The department attribute of the John object is being modified
+
+
+Question 425
+When should data sanitization be performed in the input handling process?
+
+As late as possible in the process
+As early as possible in the process
+Just before storing the data
+After client-side validation
+
+Answer = As early as possible in the process
+
+
+Question 426
