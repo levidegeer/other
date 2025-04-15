@@ -4521,3 +4521,277 @@ Answer = To demonstrate how to use different functionalities
 
 
 Question 389
+int[] numbers = {1, 2, 3, 4, 5};
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println(numbers[i]);
+}
+
+What will be the starting value of the index variable i in the for loop?
+
+1
+0
+undefined
+depends on the length of the 'numbers'  array
+
+Answer = 0
+
+
+Question 390
+When encountering a syntax error, what should you do to locate the source of the error?
+
+Ignore the error and run the code again
+Review the code surrounding the reported error
+Rewrite the program
+Change programming languages
+
+Answer = Review the code surrounding the reported error
+
+
+Question 391
+Which feature in an IDE allows developers to identify and fix errors in the code step by step?
+
+Debugging
+Auto-Formatting
+Auto-Completion
+Code Snippets
+
+Answer = Debugging
+
+
+Question 392
+What is a common use case for a two-dimensional array in data science?
+
+Performing string operations.
+Storing a list of integers
+Storing tabular data, such as a dataset
+Representing a list of items.
+
+Answer = Storing tabular data, such as a dataset
+
+
+Question 393
+What does program-level documentation typically provide an overview of?
+
+User interface design
+External libraries used in the project
+The entire software program or project
+Individual code functions
+
+Answer = The entire software program or project
+
+
+Question 394
+Which of the following describes how polymorphism is achieved in object-oriented programming?
+
+Inheritance and method overriding
+Classes and access modifiers
+Abstract classes and access modifiers
+Abstract classes and interfaces
+
+Answer = Inheritance and method overriding
+
+
+Question 395
+All of the following are strategies for narrowing down the potential causes of a problem in your code EXCEPT for ONE.
+Which one of the following approaches would NOT be a strategy for narrowing down the potential causes of a problem in your code?
+
+Analyze error messages
+Test and validate
+Evaluate and improve
+Reproduce the issue
+
+Answer = Evaluate and improve
+
+
+Question 396
+How can parameterized queries help prevent SQL injection?
+
+By encrypting SQL queries before execution
+By validating user input against predefined SQL query patterns
+By allowing unrestricted SQL code execution
+By separating user input from SQL code and automatically handling data escaping
+
+Answer = By separating user input from SQL code and automatically handling data escaping
+
+
+Question 397
+Accessor methods in object-oriented programming are also known as?
+
+getters
+modifiers
+setters
+readers
+
+Answer = getters
+
+
+Question 398
+What type of error is typically detected during the compilation phase and prevents the program from running?
+
+Semantic Error
+Logic Error
+Syntax Error
+Runtime Error
+
+Answer = Syntax Error
+
+
+Question 399
+What is the primary reason to choose an interface over an abstract class?
+
+To encapsulate common behavior and provide a base implementation that can be inherited by subclasses.
+To provide a default implementation or share common behavior among related classes
+To define a contract or set of capabilities to which a class must adhere.
+To maintain state and store common data that can be accessed by subclasses.
+
+Answer = To define a contract or set of capabilities to which a class must adhere.
+
+
+Question 400
+Which concept allows you to create multiple branches to experiment with different versions of code and easily switch between them?
+
+Forking
+Versioning
+Merging
+Branching
+
+Answer = Branching
+
+
+Question 401
+What ethical principle aligns with the transparency and collaboration of open source systems?
+
+User freedom and knowledge sharing
+Restriction of software distribution
+Intellectual property protection
+Vendor-controlled software development
+
+Answer = User freedom and knowledge sharing
+
+
+Question 402
+What does the term "API" stand for in the context of client collaboration platforms?
+
+Access Permission Identifier
+Automated Platform Integration
+Application Programming Interface
+Advanced Project Integration
+
+Answer = Application Programming Interface
+
+
+Question 403
+Which of the following best describes the purpose of the string length method?
+
+Determines whether the string contains a specific substring
+Converts the string to uppercase or lowercase letters
+Retrieves the total number of characters in the string
+Splits the string into an array of substrings based on a delimiter
+
+Answer = Retrieves the total number of characters in the string
+
+
+Question 404
+When storing the status of a light switch (on/off), which data type is best?
+
+string
+boolean
+float
+integer
+
+Answer = boolean
+
+
+Question 405
+public class Person {
+    private String name;
+    private int age;
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
+Person person1 = new Person();
+person1.setName("John");
+person1.setAge(25);
+
+Which method in the Person class is the modifier method?
+
+this.age = age;
+setAge()
+person1.setAge(25);
+Person()
+
+Answer = setAge()
+
+
+Question 406
+What does the "fork" operation in collaborative platforms like GitHub involve?
+
+Uploading local changes to a remote repository
+Creating a personal copy of someone else's repository
+Creating a new branch in your local repository
+Merging changes from a different repository
+
+Answer = Creating a personal copy of someone else's repository
+
+
+Question 407
+All of the following are types of user inputs that should be validated EXCEPT ONE.
+Which one of the following types of user input does NOT need to be validated for compliance with data format, data types, and length?
+
+Mouse clicks
+Passwords
+URLs
+Usernames
+
+Answer = Mouse clicks
+
+
+Question 408
+What is the purpose of data validation in file and database I/O?
+
+To prevent SQL injection attacks
+To secure the database connection
+To ensure the accuracy and integrity of data
+To optimize database performance
+
+Answer = To ensure the accuracy and integrity of data
+
+
+Question 409
+Which Boolean operator returns true if at least one of its operands is true?
+
+NOT
+AND
+XOR
+OR
+
+Answer = OR
+
+
+Question 410
+Which factor should be considered when selecting an algorithm for an array-related task
+
+Efficiency and accuracy
+The length of the array
+The choice of data type
+The size of the elements
+
+Answer = Efficiency and accuracy
+
+
+Question 411
+Which command is used to retrieve changes from a remote repository to the local repository?
+
+git fetch
+git commit
+git add
+git push
+
+Answer = git fetch
+
+
+Question 412

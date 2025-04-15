@@ -3325,6 +3325,144 @@ all_questions = [
         "options": ["To replace the need for descriptive text in the documentation", "To demonstrate how to use different functionalities", "To confuse readers with unnecessary code", "To increase the length of the documentation"],
         "correctAnswer": "To demonstrate how to use different functionalities"
     },
+    {
+        "id": 389,
+        "questionText": "int[] numbers = {1, 2, 3, 4, 5};\nfor (int i = 0; i < numbers.length; i++) {\n    System.out.println(numbers[i]);\n}\n\nWhat will be the starting value of the index variable i in the for loop?",
+        "options": ["1", "0", "undefined", "depends on the length of the 'numbers' array"],
+        "correctAnswer": "0"
+    },
+    {
+        "id": 390,
+        "questionText": "When encountering a syntax error, what should you do to locate the source of the error?",
+        "options": ["Ignore the error and run the code again", "Review the code surrounding the reported error", "Rewrite the program", "Change programming languages"],
+        "correctAnswer": "Review the code surrounding the reported error"
+    },
+    {
+        "id": 391,
+        "questionText": "Which feature in an IDE allows developers to identify and fix errors in the code step by step?",
+        "options": ["Debugging", "Auto-Formatting", "Auto-Completion", "Code Snippets"],
+        "correctAnswer": "Debugging"
+    },
+    {
+        "id": 392,
+        "questionText": "What is a common use case for a two-dimensional array in data science?",
+        "options": ["Performing string operations.", "Storing a list of integers", "Storing tabular data, such as a dataset", "Representing a list of items."],
+        "correctAnswer": "Storing tabular data, such as a dataset"
+    },
+    {
+        "id": 393,
+        "questionText": "What does program-level documentation typically provide an overview of?",
+        "options": ["User interface design", "External libraries used in the project", "The entire software program or project", "Individual code functions"],
+        "correctAnswer": "The entire software program or project"
+    },
+    {
+        "id": 394,
+        "questionText": "Which of the following describes how polymorphism is achieved in object-oriented programming?",
+        "options": ["Inheritance and method overriding", "Classes and access modifiers", "Abstract classes and access modifiers", "Abstract classes and interfaces"],
+        "correctAnswer": "Inheritance and method overriding"
+    },
+    {
+        "id": 395,
+        "questionText": "All of the following are strategies for narrowing down the potential causes of a problem in your code EXCEPT for ONE. Which one of the following approaches would NOT be a strategy for narrowing down the potential causes of a problem in your code?",
+        "options": ["Analyze error messages", "Test and validate", "Evaluate and improve", "Reproduce the issue"],
+        "correctAnswer": "Evaluate and improve"
+    },
+    {
+        "id": 396,
+        "questionText": "How can parameterized queries help prevent SQL injection?",
+        "options": ["By encrypting SQL queries before execution", "By validating user input against predefined SQL query patterns", "By allowing unrestricted SQL code execution", "By separating user input from SQL code and automatically handling data escaping"],
+        "correctAnswer": "By separating user input from SQL code and automatically handling data escaping"
+    },
+    {
+        "id": 397,
+        "questionText": "Accessor methods in object-oriented programming are also known as?",
+        "options": ["getters", "modifiers", "setters", "readers"],
+        "correctAnswer": "getters"
+    },
+    {
+        "id": 398,
+        "questionText": "What type of error is typically detected during the compilation phase and prevents the program from running?",
+        "options": ["Semantic Error", "Logic Error", "Syntax Error", "Runtime Error"],
+        "correctAnswer": "Syntax Error"
+    },
+    {
+        "id": 399,
+        "questionText": "What is the primary reason to choose an interface over an abstract class?",
+        "options": ["To encapsulate common behavior and provide a base implementation that can be inherited by subclasses.", "To provide a default implementation or share common behavior among related classes", "To define a contract or set of capabilities to which a class must adhere.", "To maintain state and store common data that can be accessed by subclasses."],
+        "correctAnswer": "To define a contract or set of capabilities to which a class must adhere."
+    },
+    {
+        "id": 400,
+        "questionText": "Which concept allows you to create multiple branches to experiment with different versions of code and easily switch between them?",
+        "options": ["Forking", "Versioning", "Merging", "Branching"],
+        "correctAnswer": "Branching"
+    },
+    {
+        "id": 401,
+        "questionText": "What ethical principle aligns with the transparency and collaboration of open source systems?",
+        "options": ["User freedom and knowledge sharing", "Restriction of software distribution", "Intellectual property protection", "Vendor-controlled software development"],
+        "correctAnswer": "User freedom and knowledge sharing"
+    },
+    {
+        "id": 402,
+        "questionText": "What does the term \"API\" stand for in the context of client collaboration platforms?",
+        "options": ["Access Permission Identifier", "Automated Platform Integration", "Application Programming Interface", "Advanced Project Integration"],
+        "correctAnswer": "Application Programming Interface"
+    },
+    {
+        "id": 403,
+        "questionText": "Which of the following best describes the purpose of the string length method?",
+        "options": ["Determines whether the string contains a specific substring", "Converts the string to uppercase or lowercase letters", "Retrieves the total number of characters in the string", "Splits the string into an array of substrings based on a delimiter"],
+        "correctAnswer": "Retrieves the total number of characters in the string"
+    },
+    {
+        "id": 404,
+        "questionText": "When storing the status of a light switch (on/off), which data type is best?",
+        "options": ["string", "boolean", "float", "integer"],
+        "correctAnswer": "boolean"
+    },
+    {
+        "id": 405,
+        "questionText": "public class Person {\n    private String name;\n    private int age;\n    public void setName(String name) {\n        this.name = name;\n    }\n    public void setAge(int age) {\n        this.age = age;\n    }\n}\nPerson person1 = new Person();\nperson1.setName(\"John\");\nperson1.setAge(25);\n\nWhich method in the Person class is the modifier method?",
+        "options": ["this.age = age;", "setAge()", "person1.setAge(25);", "Person()"],
+        "correctAnswer": "setAge()"
+    },
+    {
+        "id": 406,
+        "questionText": "What does the \"fork\" operation in collaborative platforms like GitHub involve?",
+        "options": ["Uploading local changes to a remote repository", "Creating a personal copy of someone else's repository", "Creating a new branch in your local repository", "Merging changes from a different repository"],
+        "correctAnswer": "Creating a personal copy of someone else's repository"
+    },
+    {
+        "id": 407,
+        "questionText": "All of the following are types of user inputs that should be validated EXCEPT ONE. Which one of the following types of user input does NOT need to be validated for compliance with data format, data types, and length?",
+        "options": ["Mouse clicks", "Passwords", "URLs", "Usernames"],
+        "correctAnswer": "Mouse clicks"
+    },
+    {
+        "id": 408,
+        "questionText": "What is the purpose of data validation in file and database I/O?",
+        "options": ["To prevent SQL injection attacks", "To secure the database connection", "To ensure the accuracy and integrity of data", "To optimize database performance"],
+        "correctAnswer": "To ensure the accuracy and integrity of data"
+    },
+    {
+        "id": 409,
+        "questionText": "Which Boolean operator returns true if at least one of its operands is true?",
+        "options": ["NOT", "AND", "XOR", "OR"],
+        "correctAnswer": "OR"
+    },
+    {
+        "id": 410,
+        "questionText": "Which factor should be considered when selecting an algorithm for an array-related task",
+        "options": ["Efficiency and accuracy", "The length of the array", "The choice of data type", "The size of the elements"],
+        "correctAnswer": "Efficiency and accuracy"
+    },
+    {
+        "id": 411,
+        "questionText": "Which command is used to retrieve changes from a remote repository to the local repository?",
+        "options": ["git fetch", "git commit", "git add", "git push"],
+        "correctAnswer": "git fetch"
+    }
 ]
 
 def get_random_question():
