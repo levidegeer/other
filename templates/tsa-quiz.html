@@ -29,6 +29,22 @@
             padding-bottom: 10px;
             border-bottom: 1px solid #333;
         }
+        /* Progress bar container */
+        .progress-container {
+            width: 100%;
+            height: 20px;
+            background-color: #911a1a;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        /* Progress bar fill */
+        .progress-bar {
+            height: 100%;
+            background-color: #19ad3e;
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
         .question {
             margin-bottom: 20px;
         }
@@ -122,6 +138,11 @@
         <div class="header">
             <span>Random Question Mode</span>
             <span>Score: {{ correct_answers }}/{{ total_answered }} ({{ score_percentage }}%)</span>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" style="width: {{ score_percentage }}%"></div>
         </div>
         
         <!-- Question -->
