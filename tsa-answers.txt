@@ -5533,4 +5533,255 @@ Determine the value of a
 Answer = 10
 
 
-Question 572
+Question 472
+In which situation would restoring a previous version of code from the repository be beneficial?
+
+When optimizing code performance
+When fixing a bug
+When adding documentation
+When introducing new features
+
+Answer = When fixing a bug
+
+
+Question 473
+In JavaScript, which naming convention is typically used for constant variables?
+
+UPPER-CASE-WITH-HYPHENS
+UPPER_CASE_WITH_UNDERSCORES
+PascalCase
+kebab-case
+
+Answer = UPPER_CASE_WITH_UNDERSCORES
+
+
+Question 474
+Which security practice involves masking detailed error messages from users while logging error information for system administrators?
+
+Whitelist Filtering
+Error Obfuscation
+Character Escaping
+Input Validation
+
+Answer = Error Obfuscation
+
+
+Question 475
+What does instantiation refer to in object-oriented programming?
+
+Creating an object
+Destroying an object
+Modifying an object
+Retrieving an object's attributes
+
+Answer = Creating an object
+
+
+Question 476
+let arr = [10, 20, 30, 40, 50];
+let index = arr.indexOf(30);
+console.log(index);
+
+What will be the output of the code snippet above?
+
+Undefined
+NaN
+2
+3
+
+Answer = 2
+
+
+Question 477
+All of the following are key concerns associated with big data and privacy EXCEPT ONE.
+Which of the following is NOT considered as a key concern associated with big data and privacy?
+
+Fostering data transparency
+Increasing user control over data
+Balancing the potential benefits of big data with privacy protections
+Strict control over data sharing
+
+Answer = Increasing user control over data
+
+
+Question 478
+What ONE of the following is the best practice when creating variables?
+
+Use one syllable words when creating variables.
+Name your variable something that refers to what it holds.
+Use more than one word when naming a variable to make it specific..
+Create as many variables as possible.
+
+Answer = Name your variable something that refers to what it holds.
+
+
+Question 479
+What does the Digital Millennium Copyright Act (DMCA) address?
+
+Encryption standards for secure software distribution
+Patent infringement cases
+Software licensing agreements
+Protection of intellectual property rights in the digital realm
+
+Answer = Protection of intellectual property rights in the digital realm
+
+
+Question 480
+In Java, which naming convention is typically used for constant variables?
+
+UPPER-CASE-WITH-HYPHENS
+kebab-case
+PascalCase
+UPPER_CASE_WITH_UNDERSCORES
+
+Answer = UPPER_CASE_WITH_UNDERSCORES
+
+
+Question 481
+What is the primary function of a Checkbox in GUI design?
+
+Allowing users to choose multiple options from a list of options
+Allowing users to select only one option from a list of options
+Displaying non-interactive text
+Presenting a text entry space for the user
+
+Answer = Allowing users to choose multiple options from a list of options
+
+
+Question 482
+Inheritance is often used when:
+
+Classes need to define their own behavior and properties.
+Objects need to be created from a class.
+Multiple classes need to be combined into one.
+Classes need to inherit properties and methods from a superclass.
+
+Answer = Classes need to inherit properties and methods from a superclass.
+
+
+Question 483
+What is the primary function of a transaction in a database?
+
+Retrieving data
+Indexing data
+Storing data
+Ensuring data consistency and integrity
+
+Answer = Ensuring data consistency and integrity
+
+
+Question 484
+What is the purpose of regression testing after implementing error-handling mechanisms?
+
+To verify that the software behaves consistently across different environments
+To confirm that error-handling logic doesn't introduce new issues
+To ensure that new features have been added correctly
+To assess the overall performance of the software
+
+Answer = To confirm that error-handling logic doesn't introduce new issues
+
+
+Question 485
+What is the purpose of parallel sorting algorithms?
+
+To perform sorting operations on arrays with fewer elements.
+To use multiple processors to improve sorting performance.
+To sort arrays without considering the order of elements.
+To guarantee stable sorting.
+
+Answer = To use multiple processors to improve sorting performance.
+
+
+Question 486
+In object-oriented programming, what is the relationship between a class and an object?
+
+A class is an object.
+An object is an instance of a class.
+An object is a subclass of a class.
+A class is a collection of objects.
+
+Answer = An object is an instance of a class.
+
+
+Question 487
+In which sorting algorithm does the "divide-and-conquer" approach play a crucial role?
+
+Quick Sort
+Counting Sort
+Bubble Sort
+Selection Sort
+
+Answer = Quick Sort
+
+
+Question 488
+Given the code below, what boolean values would need to be assigned to young and boy in order for this program to return "Sup!"?
+
+IF NOT young AND boy 
+{
+   DISPLAY (“Sup!”) 
+} 
+ELSE
+{ 
+     IF NOT boy AND young 
+     { 
+       DISPLAY (“Right on”) 
+      } 
+     ELSE
+       { 
+         DISPLAY(“Seriously?!”) 
+       }
+ }
+
+
+young = FALSE
+boy = TRUE
+
+young = TRUE
+boy = TRUE
+
+young = TRUE
+boy = FALSE
+
+young = FALSE
+boy = FALSE
+
+Answer =
+young = FALSE
+boy = TRUE
+
+
+Question 489
+What is the purpose of pushing changes in version control systems?
+
+To update the remote repository with local changes, making them accessible to others and creating a backup of work
+To capture progress and milestones in project development history
+To stage modifications in the working directory
+To integrate changes from a remote repository into the local repository
+
+Answer = To update the remote repository with local changes, making them accessible to others and creating a backup of work
+
+
+Question 490
+What is the base of the hexadecimal number system?
+
+2
+16
+8
+10
+
+Answer = 16
+
+
+Question 491
+Which GUI object is most suitable for users to input their names?
+
+Radio Buttons
+Dropdowns
+Labels
+Text Boxes
+
+Answer = Text Boxes
+
+
+Question 492
