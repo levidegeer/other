@@ -3462,7 +3462,368 @@ all_questions = [
         "questionText": "Which command is used to retrieve changes from a remote repository to the local repository?",
         "options": ["git fetch", "git commit", "git add", "git push"],
         "correctAnswer": "git fetch"
-    }
+    },
+    {
+        "id": 412,
+        "questionText": "What does a defense-in-depth approach to security involve?",
+        "options": ["Relying on a single security layer", "Implementing input validation only", "Having a firewall in place", "Multiple layers of security measures"],
+        "correctAnswer": "Multiple layers of security measures"
+    },
+    {
+        "id": 413,
+        "questionText": "What is the suitable data type to represent a true/false condition?",
+        "options": ["integer", "string", "boolean", "float"],
+        "correctAnswer": "boolean"
+    },
+    {
+        "id": 414,
+        "questionText": "Which type of web API is accessible to developers and users without restrictions, typically provided by companies or organizations to enable integration with their services or platforms?",
+        "options": ["Private API", "Public API", "Composite API", "Partner API"],
+        "correctAnswer": "Public API"
+    },
+    {
+        "id": 415,
+        "questionText": "Which of the following is an important aspect of project closing?",
+        "options": ["Gathering feedback and documenting lessons learned", "Developing the software solution", "Identifying risks and their mitigation strategies", "Conducting code reviews"],
+        "correctAnswer": "Gathering feedback and documenting lessons learned"
+    },
+    {
+        "id": 416,
+        "questionText": "Which of the following activities poses the greatest personal cybersecurity risk?",
+        "options": ["Making a purchase at an online store that uses public key encryption to transmit credit card information", "Withdrawing money from a bank account using an automated teller machine (ATM)", "Entering your credit card number at a website you found by following a link sent by text.", "Paying a bill using a secure electronic payment system"],
+        "correctAnswer": "Entering your credit card number at a website you found by following a link sent by text."
+    },
+    {
+        "id": 417,
+        "questionText": "What is the result of adding 128 kilobytes and 256 kilobytes?",
+        "options": ["48 Mb", "Kilobytes cannot be added", "384 Kb", "49 152 Kb"],
+        "correctAnswer": "384 Kb"
+    },
+    {
+        "id": 418,
+        "questionText": "Which method of debugging involves strategically inserting print statements to display variable values and observe control flow?",
+        "options": ["Hand-tracing code", "Print statement debugging", "Collaborative debugging", "Real-time debugging"],
+        "correctAnswer": "Print statement debugging"
+    },
+    {
+        "id": 419,
+        "questionText": "What type of search is less efficient in arrays when looking for a specific element?",
+        "options": ["Binary Search", "Hash-based Search", "Depth-First Search", "Linear Search"],
+        "correctAnswer": "Linear Search"
+    },
+    {
+        "id": 420,
+        "questionText": "Convert the binary number 0100 to decimal.",
+        "options": ["4", "2", "10", "5"],
+        "correctAnswer": "4"
+    },
+    {
+        "id": 421,
+        "questionText": "What is the primary purpose of restoring previous versions of code?",
+        "options": ["To create a new commit history", "To undo changes made in a project and revert to a prior state", "To permanently delete all subsequent commits", "To merge conflicting commits automatically"],
+        "correctAnswer": "To undo changes made in a project and revert to a prior state"
+    },
+    {
+        "id": 422,
+        "questionText": "Which aspect of the CIA triad ensures that authorized users can access information and systems without interruption?",
+        "options": ["Confidentiality", "Authentication", "Availability", "Integrity"],
+        "correctAnswer": "Availability"
+    },
+    {
+        "id": 423,
+        "questionText": "When should code smells be addressed in the software development process?",
+        "options": ["At the end of the project", "As soon as they are detected", "Only during code reviews", "During user acceptance testing"],
+        "correctAnswer": "As soon as they are detected"
+    },
+    {
+        "id": 424,
+        "questionText": "class Employee {\n    constructor(name, age, department) {\n        this.name = name;\n        this.age = age;\n        this.department = department;\n    }\n    changeDepartment(newDepartment) {\n        this.department = newDepartment;\n    }\n}\nlet john = new Employee(\"John Doe\", 25, \"Sales\");\njohn.changeDepartment(\"Marketing\");\n\nWhat is happening in the last line of this code?",
+        "options": ["A new instance of the Employee class is created.", "The department attribute of the John object is being modified", "The Deparment method is being defined.", "The Employee class is being defined."],
+        "correctAnswer": "The department attribute of the John object is being modified"
+    },
+    {
+        "id": 425,
+        "questionText": "When should data sanitization be performed in the input handling process?",
+        "options": ["As late as possible in the process", "As early as possible in the process", "Just before storing the data", "After client-side validation"],
+        "correctAnswer": "As early as possible in the process"
+    },
+    {
+        "id": 426,
+        "questionText": "What does the validation tools check for in HTML and CSS code?",
+        "options": ["Aesthetics and design principles.", "Syntax errors and compliance with W3C standards.", "Browser compatibility.", "Website performance."],
+        "correctAnswer": "Syntax errors and compliance with W3C standards."
+    },
+    {
+        "id": 427,
+        "questionText": "Which among the following variable names can not be used due to its status as a reserved word?",
+        "options": ["x", "a2", "bool", "apple"],
+        "correctAnswer": "bool"
+    },
+    {
+        "id": 428,
+        "questionText": "What should be considered when designing test cases for boundary testing",
+        "options": ["Exclude combinations of boundary values", "Focus only on positive scenarios", "Include only the exact boundary values", "Consider both valid and invalid inputs"],
+        "correctAnswer": "Consider both valid and invalid inputs"
+    },
+    {
+        "id": 429,
+        "questionText": "class Circle:\n    def __init__(self, radius):\n        self.radius = radius\n    def setRadius(self, newRadius):\n        self.radius = newRadius\n    def getRadius(self):\n        return self.radius\n\ncircle1 = Circle(5)\ncircle1.setRadius(10)\nradius = circle1.getRadius()\n\nWhich one of the following choices is a modifier methods in the Circle class?",
+        "options": ["setRadius()", "There are no modifier methods in the code", "__init__()", "Circle(5)"],
+        "correctAnswer": "setRadius()"
+    },
+    {
+        "id": 430,
+        "questionText": "How does a build system contribute to the reproducibility of software builds?",
+        "options": ["By optimizing software performance through runtime profiling and analysis", "By automatically generating user manuals and technical documentation", "By providing code refactoring and code completion capabilities", "By recording and managing build configurations and dependencies"],
+        "correctAnswer": "By recording and managing build configurations and dependencies"
+    },
+    {
+        "id": 431,
+        "questionText": "Which design pattern ensures that a class has only one instance and provides a global point of access to it?",
+        "options": ["Decorator Pattern", "Singleton Pattern", "Observer Pattern", "Factory Method Pattern"],
+        "correctAnswer": "Singleton Pattern"
+    },
+    {
+        "id": 432,
+        "questionText": "Which one of the following is the smallest unit of storage capacity?",
+        "options": ["Terabyte", "Kilobyte", "Gigabyte", "Megabyte"],
+        "correctAnswer": "Kilobyte"
+    },
+    {
+        "id": 433,
+        "questionText": "Which cloud computing model provides virtualized computing resources as a service?",
+        "options": ["Software as a Service (SaaS)", "Remote Desktop Services (RDS)", "Infrastructure as a Service (IaaS)", "Platform as a Service (PaaS)"],
+        "correctAnswer": "Infrastructure as a Service (IaaS)"
+    },
+    {
+        "id": 434,
+        "questionText": "Which of the following allows for a portion of a copyrighted material to be used in special situations such as educational purposes?",
+        "options": ["Digital Millennium Copyright Act", "Fair Recording Standards Act", "Digital Licensing Act", "Fair Use Act"],
+        "correctAnswer": "Fair Use Act"
+    },
+    {
+        "id": 435,
+        "questionText": "When analyzing the efficiency of an algorithm, which of the following factors should be considered?",
+        "options": ["Memory usage only", "Scalability only", "Memory usage, execution speed, and scalability", "Execution speed only"],
+        "correctAnswer": "Memory usage, execution speed, and scalability"
+    },
+    {
+        "id": 436,
+        "questionText": "What is the process of modifying the behavior of an existing class in object-oriented programming called?",
+        "options": ["Abstraction", "Inheritance", "Encapsulation", "Polymorphism"],
+        "correctAnswer": "Polymorphism"
+    },
+    {
+        "id": 437,
+        "questionText": "Which keyword is used to declare a variable that can hold a single character?",
+        "options": ["char", "string", "integer", "boolean"],
+        "correctAnswer": "char"
+    },
+    {
+        "id": 438,
+        "questionText": "What should you do if your work has been used without your permission online?",
+        "options": ["Fill out the incident form on copyright.gov.", "Call the police and file a report", "Contact the website developer directly", "Send a DMCA takedown request to the service provider."],
+        "correctAnswer": "Send a DMCA takedown request to the service provider."
+    },
+    {
+        "id": 439,
+        "questionText": "What is the base of the binary number system?",
+        "options": ["16", "10", "8", "2"],
+        "correctAnswer": "2"
+    },
+    {
+        "id": 440,
+        "questionText": "let matrix = [[1, 2], [3, 4]];\nconsole.log(matrix[1][1]);\n\nWhat will be printed as the output of the above code?",
+        "options": ["4", "3", "1", "2"],
+        "correctAnswer": "4"
+    },
+    {
+        "id": 441,
+        "questionText": "marks = 75\nif (marks >= 90):\n    print(\"Excellent\")\nelse if (marks >= 70):\n    print(\"Good\")\nelse:\n    print(\"Average\")\n\nWhat is the output to the above code?",
+        "options": ["Error: Missing closing bracket", "Average", "Excellent", "Good"],
+        "correctAnswer": "Good"
+    },
+    {
+        "id": 442,
+        "questionText": "Which database application is known for its support of relational databases and SQL?",
+        "options": ["Oracle Databases", "MongoDB", "Code.org's App Lab", "Google Sheets"],
+        "correctAnswer": "Oracle Databases"
+    },
+    {
+        "id": 443,
+        "questionText": "Which project management tool visually represents tasks over time, often showing dependencies?",
+        "options": ["Scrum Board", "Risk Register", "Kanban Board", "Gantt Chart"],
+        "correctAnswer": "Gantt Chart"
+    },
+    {
+        "id": 444,
+        "questionText": "Why is understanding Big-O notation important in computer science and programming?",
+        "options": ["It allows developers to compare and analyze the efficiency of algorithms.", "It quantifies the lower bound of an algorithm's performance.", "It provides a guarantee of the best-case scenario for algorithm performance.", "It helps write code more quickly."],
+        "correctAnswer": "It allows developers to compare and analyze the efficiency of algorithms."
+    },
+    {
+        "id": 445,
+        "questionText": "Which of the following is a part of the CIA information protection concept that ensures that information is correct and has not been altered?",
+        "options": ["Accounting", "Availability", "Integrity", "Confidentiality"],
+        "correctAnswer": "Integrity"
+    },
+    {
+        "id": 446,
+        "questionText": "What does WCAG stand for?",
+        "options": ["W3C Control and Accessibility Guidelines", "Web Content Accessibility Guidelines", "Web Compliance and Accessibility Group", "World Consortium for Accessibility and Guidelines"],
+        "correctAnswer": "Web Content Accessibility Guidelines"
+    },
+    {
+        "id": 447,
+        "questionText": "Which of the following is an example of encapsulation in a user-defined class",
+        "options": ["Creating multiple instances of the class", "Grouping related data and methods together", "Inheriting properties and behaviors from another class", "Keeping data private and providing access through methods"],
+        "correctAnswer": "Keeping data private and providing access through methods"
+    },
+    {
+        "id": 448,
+        "questionText": "What is the purpose of a rendering context in graphics development?",
+        "options": ["To define coordinate systems", "To create and control the display of graphical content", "To store image data", "To create vector graphics"],
+        "correctAnswer": "To create and control the display of graphical content"
+    },
+    {
+        "id": 449,
+        "questionText": "Convert the decimal number 0110",
+        "options": ["4", "5", "6", "9"],
+        "correctAnswer": "6"
+    },
+    {
+        "id": 450,
+        "questionText": "What is the purpose of overloading in programming?",
+        "options": ["Creating new data types.", "Providing a specific implementation for a method inherited from a base class", "Customizing the behavior of inherited methods", "Defining multiple methods with the same name but different parameters."],
+        "correctAnswer": "Defining multiple methods with the same name but different parameters."
+    },
+    {
+        "id": 451,
+        "questionText": "Which of the following is a set of established guidelines and best practices outlining specific requirements for data security, aligning with the CIA triad principles?",
+        "options": ["Legal Compliance", "Risk Tolerance", "Adaptability", "Human Factor"],
+        "correctAnswer": "Legal Compliance"
+    },
+    {
+        "id": 452,
+        "questionText": "What approach should be used to identify algorithmic errors in code?",
+        "options": ["Analyzing error messages", "Ignoring the issue", "Examining Code Logic", "Conducting tests"],
+        "correctAnswer": "Examining Code Logic"
+    },
+    {
+        "id": 453,
+        "questionText": "What does the term \"freemium\" refer to in app monetization?",
+        "options": ["Offering users a free trial period, followed by a subscription", "Providing the app for free with optional in-app purchases", "Displaying advertisements in the app", "Charging users a one-time fee to download the app"],
+        "correctAnswer": "Providing the app for free with optional in-app purchases"
+    },
+    {
+        "id": 454,
+        "questionText": "What is the main goal of responsive design?",
+        "options": ["Optimizing website loading speed", "Enhancing search engine optimization", "Adapting to different screen sizes and devices", "Providing a consistent visual design"],
+        "correctAnswer": "Adapting to different screen sizes and devices"
+    },
+    {
+        "id": 455,
+        "questionText": "What does the term \"latency\" refer to in the context of web performance?",
+        "options": ["The responsiveness of a web server", "The size of images on a webpage", "The delay or lag in data transmission over a network", "The number of web pages on a website"],
+        "correctAnswer": "The delay or lag in data transmission over a network"
+    },
+    {
+        "id": 456,
+        "questionText": "How can logging help in handling unexpected return values?",
+        "options": ["By capturing information for analysis and troubleshooting", "By providing meaningful error messages to users", "By automatically fixing unexpected return values", "By generating stack traces for debugging"],
+        "correctAnswer": "By capturing information for analysis and troubleshooting"
+    },
+    {
+        "id": 457,
+        "questionText": "What is the main advantage of compiled code?",
+        "options": ["More interactive debugging", "Compilation guarantees security", "Easier development process", "Platform-specific optimizations"],
+        "correctAnswer": "Platform-specific optimizations"
+    },
+    {
+        "id": 458,
+        "questionText": "In which data structure is the order of elements guaranteed?",
+        "options": ["Set", "Array", "Graph", "Hash map"],
+        "correctAnswer": "Array"
+    },
+    {
+        "id": 459,
+        "questionText": "Which of the following expressions is evaluated first in this expression, 4 + 8 / 2 * 3 - 5, according to the precedence of operations?",
+        "options": ["Division", "Addition", "Subtraction", "Multiplication"],
+        "correctAnswer": "Division"
+    },
+    {
+        "id": 460,
+        "questionText": "What is the purpose of a program editor?",
+        "options": ["To format and modify code", "To debug and fix code errors", "To collaborate with team members", "To compile and execute code"],
+        "correctAnswer": "To format and modify code"
+    },
+    {
+        "id": 461,
+        "questionText": "What is the purpose of boundary checks when accessing elements in a two-dimensional array?",
+        "options": ["To improve array performance.", "To ensure the array is completely filled.", "To verify that the indices fall within the defined dimensions", "To prevent accidental modification of elements."],
+        "correctAnswer": "To verify that the indices fall within the defined dimensions"
+    },
+    {
+        "id": 462,
+        "questionText": "let result = 1;\nfor (let i = 1; i <= 4; i++) {\n    for (let j = 1; j <= i; j++) {\n        result *= i - j + 1;\n    }\n}\nconsole.log(result);\n\nWhat will be the output of the above code?",
+        "options": ["4896", "21", "288", "61"],
+        "correctAnswer": "288"
+    },
+    {
+        "id": 463,
+        "questionText": "How can parallel processing be beneficial when working with large two-dimensional arrays?",
+        "options": ["It allows for manual manipulation of data.", "It enables data compression", "It simplifies data visualization.", "It distributes tasks across multiple processing units for faster computation."],
+        "correctAnswer": "It distributes tasks across multiple processing units for faster computation."
+    },
+    {
+        "id": 464,
+        "questionText": "let arr = [3, 5, 2, 1, 4];\narr.reverse();\nconsole.log(arr);\n\nWhat will be the output of the code snippet above?",
+        "options": ["[4, 1, 2, 5, 3]", "[5, 4, 3, 2, 1]", "[3, 5, 2, 1, 4]", "[1, 2, 3, 4, 5]"],
+        "correctAnswer": "[4, 1, 2, 5, 3]"
+    },
+    {
+        "id": 465,
+        "questionText": "Which data structure is indexed by numerical indices starting from 0?",
+        "options": ["Tree", "Stack", "Array", "Hash Map"],
+        "correctAnswer": "Array"
+    },
+    {
+        "id": 466,
+        "questionText": "What does it mean when a function returns None?",
+        "options": ["The function returns a value of zero", "The function returns a value of false", "The function encountered an error during execution", "The function is not designed to return any value"],
+        "correctAnswer": "The function is not designed to return any value"
+    },
+    {
+        "id": 467,
+        "questionText": "Which project management role is responsible for overseeing the project from start to finish, ensuring it stays on schedule and within budget?",
+        "options": ["Quality Assurance Specialist", "Scrum Master", "Project Manager", "Developer"],
+        "correctAnswer": "Project Manager"
+    },
+    {
+        "id": 468,
+        "questionText": "initialize sum at 0\nFor each number i from 1 to 10\n    If i is odd\n        Add i to sum\n    Else\n        Exit the loop\n    End If\nEnd For\nOutput to console(sum)\n\nWhat will be the output of the above code?",
+        "options": ["25", "0", "1", "55"],
+        "correctAnswer": "1"
+    },
+    {
+        "id": 469,
+        "questionText": "How do software defects relate to security vulnerabilities?",
+        "options": ["Software defects are security vulnerabilities", "Software defects can lead to security vulnerabilities", "Security vulnerabilities cause software defects", "Software defects and security vulnerabilities are unrelated"],
+        "correctAnswer": "Software defects can lead to security vulnerabilities"
+    },
+    {
+        "id": 470,
+        "questionText": "class Vehicle \n    constructor(this, make, model) \n        this.make  assigned to make\n        this.model assigned to model\n    method:  getInfo() \n        return concatenateStrings(this.make, \" \", this.model)\nclass Car extends Vehicle \n    constructor(this, make, model, color) \n        super(make, model)\n        this.color assigned to color\n    getInfo() \n        return concatenateStrings(super.getInfo(), \", Color: \", this.color)\nconst CAR assigned to new Car(\"Toyota\", \"Camry\", \"Red\");\nsend to console CAR.getInfo()\n\nWhat is the output of the program?",
+        "options": ["Camry, Toyota Color: Red", "Color: Red, Camry, Toyota", "Color: Red, Toyota, Camry", "Toyota Camry, Color: Red"],
+        "correctAnswer": "Toyota Camry, Color: Red"
+    },
+    {
+        "id": 471,
+        "questionText": "Given the following lines of code:\n\nint a = 4;\nint b = 3;\na += 2 * b;\n\nDetermine the value of a",
+        "options": ["6", "10", "4", "18"],
+        "correctAnswer": "10"
+    },
+    
 ]
 
 def get_random_question():

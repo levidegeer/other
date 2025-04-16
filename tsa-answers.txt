@@ -4962,3 +4962,575 @@ Answer = As early as possible in the process
 
 
 Question 426
+What does the validation tools check for in HTML and CSS code?
+
+Aesthetics and design principles.
+Syntax errors and compliance with W3C standards.
+Browser compatibility.
+Website performance.
+
+Answer = Syntax errors and compliance with W3C standards.
+
+
+Question 427
+Which among the following variable names can not be used due to its status as a reserved word?
+
+x
+a2
+bool
+apple
+
+Answer = bool
+
+
+Question 428
+What should be considered when designing test cases for boundary testing
+
+Exclude combinations of boundary values
+Focus only on positive scenarios
+Include only the exact boundary values
+Consider both valid and invalid inputs
+
+Answer = Consider both valid and invalid inputs
+
+
+Question 429
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+    def setRadius(self, newRadius):
+        self.radius = newRadius
+    def getRadius(self):
+        return self.radius
+
+circle1 = Circle(5)
+circle1.setRadius(10)
+radius = circle1.getRadius()
+
+Which one of the following choices is a modifier methods in the Circle class?
+
+setRadius()
+There are no modifier methods in the code
+__init__()
+Circle(5)
+
+Answer = setRadius()
+
+
+Question 430
+How does a build system contribute to the reproducibility of software builds?
+
+By optimizing software performance through runtime profiling and analysis
+By automatically generating user manuals and technical documentation
+By providing code refactoring and code completion capabilities
+By recording and managing build configurations and dependencies
+
+Answer = By recording and managing build configurations and dependencies
+
+
+Question 431
+Which design pattern ensures that a class has only one instance and provides a global point of access to it?
+
+Decorator Pattern
+Singleton Pattern
+Observer Pattern
+Factory Method Pattern
+
+Answer = Singleton Pattern
+
+
+Question 432
+Which one of the following is the smallest unit of storage capacity?
+
+Terabyte
+Kilobyte
+Gigabyte
+Megabyte
+
+Answer = Kilobyte
+
+
+Question 433
+Which cloud computing model provides virtualized computing resources as a service?
+
+Software as a Service (SaaS)
+Remote Desktop Services (RDS)
+Infrastructure as a Service (IaaS)
+Platform as a Service (PaaS)
+
+Answer = Infrastructure as a Service (IaaS)
+
+
+Question 434
+Which of the following allows for a portion of a copyrighted material to be used in special situations such as educational purposes?
+
+Digital Millennium Copyright Act
+Fair Recording Standards Act
+Digital Licensing Act
+Fair Use Act
+
+Answer = Fair Use Act
+
+
+Question 435
+When analyzing the efficiency of an algorithm, which of the following factors should be considered?
+
+Memory usage only
+Scalability only
+Memory usage, execution speed, and scalability
+Execution speed only
+
+Answer = Memory usage, execution speed, and scalability
+
+
+Question 436
+What is the process of modifying the behavior of an existing class in object-oriented programming called?
+
+Abstraction
+Inheritance
+Encapsulation
+Polymorphism
+
+Answer = Polymorphism
+
+
+Question 437
+Which keyword is used to declare a variable that can hold a single character?
+
+char
+string
+integer
+boolean
+
+Answer = char
+
+
+Question 438
+What should you do if your work has been used without your permission online?
+
+Fill out the incident form on copyright.gov.
+Call the police and file a report
+Contact the website developer directly
+Send a DMCA takedown request to the service provider.
+
+Answer = Send a DMCA takedown request to the service provider.
+
+
+Question 439
+What is the base of the binary number system?
+
+16
+10
+8
+2
+
+Answer = 2
+
+
+Question 440
+let matrix = [[1, 2], [3, 4]];
+console.log(matrix[1][1]);
+
+What will be printed as the output of the above code?
+
+4
+3
+1
+2
+
+Answer = 4
+
+
+Question 441
+marks = 75
+if (marks >= 90):
+    print("Excellent")
+else if (marks >= 70):
+    print("Good")
+else:
+    print("Average")
+
+What is the output to the above code?
+
+Error: Missing closing bracket
+Average
+Excellent
+Good
+
+Answer = Good
+
+
+Question 442
+Which database application is known for its support of relational databases and SQL?
+
+Oracle Databases
+MongoDB
+Code.org's App Lab
+Google Sheets
+
+Answer = Oracle Databases
+
+
+Question 443
+Which project management tool visually represents tasks over time, often showing dependencies?
+
+Scrum Board
+Risk Register
+Kanban Board
+Gantt Chart
+
+Answer = Gantt Chart
+
+
+Question 444
+Why is understanding Big-O notation important in computer science and programming?
+
+It allows developers to compare and analyze the efficiency of algorithms.
+It quantifies the lower bound of an algorithm's performance.
+It provides a guarantee of the best-case scenario for algorithm performance.
+It helps write code more quickly.
+
+Answer = It allows developers to compare and analyze the efficiency of algorithms.
+
+
+Question 445
+Which of the following is a part of the CIA information protection concept that ensures that information is correct and has not been altered?
+
+Accounting
+Availability
+Integrity
+Confidentiality
+
+Answer = Integrity
+
+
+Question 446
+What does WCAG stand for?
+
+W3C Control and Accessibility Guidelines
+Web Content Accessibility Guidelines
+Web Compliance and Accessibility Group
+World Consortium for Accessibility and Guidelines
+
+Answer = Web Content Accessibility Guidelines
+
+
+Question 447
+Which of the following is an example of encapsulation in a user-defined class
+
+Creating multiple instances of the class
+Grouping related data and methods together
+Inheriting properties and behaviors from another class
+Keeping data private and providing access through methods
+
+Answer = Keeping data private and providing access through methods
+
+
+Question 448
+What is the purpose of a rendering context in graphics development?
+
+To define coordinate systems
+To create and control the display of graphical content
+To store image data
+To create vector graphics
+
+Answer = To create and control the display of graphical content
+
+
+Question 449
+Convert the decimal number 0110
+
+4
+5
+6
+9
+
+Answer = 6
+
+
+Question 450
+What is the purpose of overloading in programming?
+
+Creating new data types.
+Providing a specific implementation for a method inherited from a base class
+Customizing the behavior of inherited methods
+Defining multiple methods with the same name but different parameters.
+
+Answer = Defining multiple methods with the same name but different parameters.
+
+
+Question 451
+Which of the following is a set of established guidelines and best practices outlining specific requirements for data security, aligning with the CIA triad principles?
+
+Legal Compliance
+Risk Tolerance
+Adaptability
+Human Factor
+
+Answer = Legal Compliance
+
+
+Question 452
+What approach should be used to identify algorithmic errors in code?
+
+Analyzing error messages
+Ignoring the issue
+Examining Code Logic
+Conducting tests
+
+Answer = Examining Code Logic
+
+
+Question 453
+What does the term "freemium" refer to in app monetization?
+
+Offering users a free trial period, followed by a subscription
+Providing the app for free with optional in-app purchases
+Displaying advertisements in the app
+Charging users a one-time fee to download the app
+
+Answer = Providing the app for free with optional in-app purchases
+
+
+Question 454
+What is the main goal of responsive design?
+
+Optimizing website loading speed
+Enhancing search engine optimization
+Adapting to different screen sizes and devices
+Providing a consistent visual design
+
+Answer = Adapting to different screen sizes and devices
+
+
+Question 455
+What does the term "latency" refer to in the context of web performance?
+
+The responsiveness of a web server
+The size of images on a webpage
+The delay or lag in data transmission over a network
+The number of web pages on a website
+
+Answer = The delay or lag in data transmission over a network
+
+
+Question 456
+How can logging help in handling unexpected return values?
+
+By capturing information for analysis and troubleshooting
+By providing meaningful error messages to users
+By automatically fixing unexpected return values
+By generating stack traces for debugging
+
+Answer = By capturing information for analysis and troubleshooting
+
+
+Question 457
+What is the main advantage of compiled code?
+
+More interactive debugging
+Compilation guarantees security
+Easier development process
+Platform-specific optimizations
+
+Answer = Platform-specific optimizations
+
+
+Question 458
+In which data structure is the order of elements guaranteed?
+
+Set
+Array
+Graph
+Hash map
+
+Answer = Array
+
+
+Question 459
+Which of the following expressions is evaluated first in this expression, 4 + 8 / 2 * 3 - 5, according to the precedence of operations?
+
+Division
+Addition
+Subtraction
+Multiplication
+
+Answer = Division
+
+
+Question 460
+What is the purpose of a program editor?
+
+To format and modify code
+To debug and fix code errors
+To collaborate with team members 
+To compile and execute code
+
+Answer = To format and modify code
+
+
+Question 461
+What is the purpose of boundary checks when accessing elements in a two-dimensional array?
+
+To improve array performance.
+To ensure the array is completely filled.
+To verify that the indices fall within the defined dimensions
+To prevent accidental modification of elements.
+
+Answer = To verify that the indices fall within the defined dimensions
+
+
+Question 462
+let result = 1;
+for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+        result *= i - j + 1;
+    }
+}
+console.log(result);
+
+What will be the output of the above code?
+
+4896
+21
+288
+61
+
+Answer = 288
+
+
+Question 463
+How can parallel processing be beneficial when working with large two-dimensional arrays?
+
+It allows for manual manipulation of data.
+It enables data compression
+It simplifies data visualization.
+It distributes tasks across multiple processing units for faster computation.
+
+Answer = It distributes tasks across multiple processing units for faster computation.
+
+
+Question 464
+let arr = [3, 5, 2, 1, 4];
+arr.reverse();
+console.log(arr);
+
+What will be the output of the code snippet above?
+
+[4, 1, 2, 5, 3]
+[5, 4, 3, 2, 1]
+[3, 5, 2, 1, 4]
+[1, 2, 3, 4, 5]
+
+Answer = [4, 1, 2, 5, 3]
+
+
+Question 465
+Which data structure is indexed by numerical indices starting from 0?
+
+Tree
+Stack
+Array
+Hash Map
+
+Answer = Array
+
+
+Question 466
+What does it mean when a function returns None?
+
+The function returns a value of zero
+The function returns a value of false
+The function encountered an error during execution
+The function is not designed to return any value
+
+Answer = The function is not designed to return any value
+
+
+Question 467
+Which project management role is responsible for overseeing the project from start to finish, ensuring it stays on schedule and within budget?
+
+Quality Assurance Specialist
+Scrum Master
+Project Manager
+Developer
+
+Answer = Project Manager
+
+
+Question 468
+initialize sum at 0
+For each number i from 1 to 10
+    If i is odd
+        Add i to sum
+    Else
+        Exit the loop
+    End If
+End For
+Output to console(sum)
+
+What will be the output of the above code?
+
+25
+0
+1
+55
+
+Answer = 1
+
+
+Question 469
+How do software defects relate to security vulnerabilities?
+
+Software defects are security vulnerabilities
+Software defects can lead to security vulnerabilities
+Security vulnerabilities cause software defects
+Software defects and security vulnerabilities are unrelated
+
+Answer = Software defects can lead to security vulnerabilities
+
+
+Question 470
+class Vehicle 
+    constructor(this, make, model) 
+        this.make  assigned to make
+        this.model assigned to model
+    method:  getInfo() 
+        return concatenateStrings(this.make, " ", this.model)
+class Car extends Vehicle 
+    constructor(this, make, model, color) 
+        super(make, model)
+        this.color assigned to color
+    getInfo() 
+        return concatenateStrings(super.getInfo(), ", Color: ", this.color)
+const CAR assigned to new Car("Toyota", "Camry", "Red");
+send to console CAR.getInfo()
+
+What is the output of the program?
+
+Camry, Toyota Color: Red
+Color: Red, Camry, Toyota
+Color: Red, Toyota, Camry
+Toyota Camry, Color: Red
+
+Answer = Toyota Camry, Color: Red
+
+
+Question 471
+Given the following lines of code:
+
+int a = 4;
+int b = 3;
+a += 2 * b;
+
+Determine the value of a
+
+6
+10
+4
+18
+
+Answer = 10
+
+
+Question 572
