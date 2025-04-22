@@ -1,7 +1,3 @@
-result = 1;
-for (let i = 1; i <= 4; i++) {
-    for (let j = 1; j <= i; j++) {
-        result *= i - j + 1;
-    }
-}
-console.log(result);
+for i in range(3):
+    for j in range(2):
+        print(i * j, end=" ")
