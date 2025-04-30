@@ -246,7 +246,7 @@ Answer =
 The characters // are used to mark a single line as a comment.     
 YES
 totalscore is in the correct format according to standard naming conventions for JavaScript.     
-YES
+NO
 ~score can be used as a variable name.     
 NO
 switch can be used as a variable name.     
@@ -466,10 +466,7 @@ You have created the following code. Line numbers are included for reference onl
 Which code segment should you use at line 08?
 
 Answer = 
-document.getElementById("tester").title = randomQuote();
-document.getElementById("tester").script = randomQuote();
 document.getElementById("tester").innerHTML = randomQuote();
-document.getElementById("tester").value = randomQuote();
 
 
 Question 24
@@ -666,10 +663,10 @@ Answer =
 01  function getDiscount(day) {
 02     var discount = 0;
 03     switch (day) {
-04         switch "Wednesday"
+04         case "Wednesday"
 05               discount = 0.1;
 06               break;
-07         case default:
+07         default:
 08               discount = 0;
 09               break;
 10   }
