@@ -1,1 +1,3 @@
-#This is a quiz I created for the TSA Exam.
+# This is a quiz I created for the TSA Exam.
+# In order to use the quiz, run tsa-quiz.py then open a browser and go to http://127.0.0.1:5000.
+# Make sure the tsa-quiz.html file is in a folder called templates and that all paths in both files are correct.
